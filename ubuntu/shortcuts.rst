@@ -7,6 +7,16 @@ Ubuntu Budgie Keyboard Shortcuts
 Shortcuts
 =========
 
+Desktop
+-------
+
+* ``ALT + F1`` - Toggle applications menu (also ``SUPER``)
+* ``ALT + F2`` - Open applications console
+* ``ALT + SHIFT + TAB`` - Switch between active windows backwards by ``TAB``
+* ``ALT + TAB`` - Switch between active windows forwards by ``TAB``
+* ``CTRL + ALT + T`` - Open terminal
+* ``SUPER + D`` - Toggle all windows
+
 Raven
 -----
 

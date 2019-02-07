@@ -33,6 +33,16 @@ Universal
 * ``F1`` - Open help
 * ``F11`` - Toggle fullscreen mode
 
+Window
+------
+
+* ``ALT + F4`` - Close active window
+* ``SUPER + DOWN`` - Return active window to default or resized size
+* ``SUPER + H`` - Minimize active window
+* ``SUPER + LEFT`` - Toggle active window on left side of screen
+* ``SUPER + RIGHT`` - Toggle active window on right side of screen
+* ``SUPER + UP`` - Maximize active window
+
 Workspace
 ---------
 

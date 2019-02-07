@@ -13,13 +13,33 @@ Raven
 * ``SUPER + A`` - Toggle Applets section
 * ``SUPER + N`` - Toggle Notifications section
 
+Universal
+---------
+
+* ``CTRL + A`` - Select all text
+* ``CTRL + B`` - Make selected text bold
+* ``CTRL + C`` - Copy selected text
+* ``CTRL + F`` - Find text
+* ``CTRL + I`` - Make selected text italic
+* ``CTRL + N`` - Open new document
+* ``CTRL + O`` - Open another document
+* ``CTRL + P`` - Print document
+* ``CTRL + SHIFT + Z`` - Redo last undo
+* ``CTRL + S`` - Save document
+* ``CTRL + U`` - Underline selected text
+* ``CTRL + V`` - Paste copied text
+* ``CTRL + X`` - Cut selected text
+* ``CTRL + Z`` - Undo last change
+* ``F1`` - Open help
+* ``F11`` - Toggle fullscreen mode
+
 Workspace
 ---------
 
 * ``CTRL + ALT + LEFT`` - Switch to previous workspace
 * ``CTRL + ALT + RIGHT`` - Switch to next workspace
-* ``CTRL + ALT + SHIFT + LEFT`` - Move window to previous workspace
-* ``CTRL + ALT + SHIFT + RIGHT`` - Move window to next workspace
+* ``CTRL + ALT + SHIFT + LEFT`` - Move active window to previous workspace
+* ``CTRL + ALT + SHIFT + RIGHT`` - Move active window to next workspace
 
 ----
 

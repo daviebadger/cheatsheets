@@ -2,6 +2,12 @@
 Ubuntu Budgie Keyboard Shortcuts
 ********************************
 
+:Author: Davie Badger
+:Contact: davie.badger@gmail.com
+:Copyright: `Creative Commons Attribution 4.0 International License`_
+
+.. _Creative Commons Attribution 4.0 International License: https://creativecommons.org/licenses/by/4.0/
+
 .. contents:: Table of Contents
 
 Shortcuts

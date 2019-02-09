@@ -2,7 +2,7 @@
 Ubuntu Budgie Keyboard Shortcuts
 ********************************
 
-.. contents::
+.. contents:: Table of Contents
 
 Shortcuts
 =========

@@ -29,6 +29,12 @@ System
 * ``CTRL + ALT + DELETE`` - Logout
 * ``SUPER + L`` - Lock screen
 
+Custom system shortcuts set in Keyboard settings:
+
+* ``SUPER + SHIFT + P`` - ``gnome-session-quit --power-off`` - Shutdown system (power off)
+* ``SUPER + SHIFT + R`` - ``gnome-session-quit --reboot`` - Restart system
+* ``SUPER + SHIFT + S`` - ``systemctl suspend`` - Suspend system (sleep)
+
 Universal
 ---------
 
@@ -79,8 +85,11 @@ Workspace
 References
 ==========
 
+* `GNOME Wiki`_ - Keyboard Shortcuts
 * `Ubuntu Budgie`_ - Settings application, Devices > Keyboard
 * `Ubuntu Budgie Welcome`_ - Welcome application, Getting Started > Keyboard Shortcuts
+* `/usr/share/budgie-desktop/applications` - System desktop applications, Exec commands
 
+.. _GNOME WIki: https://wiki.gnome.org/Design/OS/KeyboardShortcuts
 .. _Ubuntu Budgie: https://ubuntubudgie.org/
 .. _Ubuntu Budgie Welcome: https://snapcraft.io/ubuntu-budgie-welcome

@@ -23,6 +23,12 @@ Raven
 * ``SUPER + A`` - Toggle Applets section
 * ``SUPER + N`` - Toggle Notifications section
 
+System
+------
+
+* ``CTRL + ALT + DELETE`` - Logout
+* ``SUPER + L`` - Lock screen
+
 Universal
 ---------
 

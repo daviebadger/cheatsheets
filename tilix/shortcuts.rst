@@ -52,6 +52,22 @@ Terminal
 * ``CTRL + ALT + R`` - Open new terminal window right
 * ``CTRL + SHIFT + W`` - Close current terminal window
 
+Universal
+---------
+
+* ``CTRL + SHIFT + C`` - Copy selected text
+* ``CTRL + SHIFT + F`` - Find text
+* ``CTRL + SHIFT + G`` - Find next text occurrence
+* ``CTRL + SHIFT + H`` - Find previous text occurrence
+* ``CTRL + SHIFT + N`` - Open new Tilix (also ``CTRL + ALT + T``)
+* ``CTRL + SHIFT + V`` - Paste copied text
+* ``CTRL + SHIFT + DOWN`` - Scroll down
+* ``CTRL + SHIFT + UP`` - Scroll up
+* ``SHIFT + HOME`` - Scroll to beginning
+* ``SHIFT + END`` - Scroll to end
+* ``SHIFT + PAGE DOWN`` - Page down
+* ``SHIFT + PAGE UP`` - Page up
+
 ----
 
 References

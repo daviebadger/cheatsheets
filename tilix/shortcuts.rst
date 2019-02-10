@@ -44,6 +44,7 @@ Terminal
 * ``ALT + LEFT`` - Switch to terminal window left
 * ``ALT + RIGHT`` - Switch to terminal window right
 * ``ALT + UP`` - Switch to terminal window up
+- ``CTRL + SHIFT + X`` - Toggle current terminal window size
 * ``ALT + SHIFT + DOWN`` - Resize current terminal window down
 * ``ALT + SHIFT + LEFT`` - Resize current terminal window left
 * ``ALT + SHIFT + RIGHT`` - Resize current terminal window right

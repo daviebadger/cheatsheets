@@ -37,6 +37,21 @@ Session
 * ``CTRL + SHIFT + PAGE UP`` - Move current session backwards
 * ``F12`` - Toggle session sidebar
 
+Terminal
+--------
+
+* ``ALT + DOWN`` - Switch to terminal window down
+* ``ALT + LEFT`` - Switch to terminal window left
+* ``ALT + RIGHT`` - Switch to terminal window right
+* ``ALT + UP`` - Switch to terminal window up
+* ``ALT + SHIFT + DOWN`` - Resize current terminal window down
+* ``ALT + SHIFT + LEFT`` - Resize current terminal window left
+* ``ALT + SHIFT + RIGHT`` - Resize current terminal window right
+* ``ALT + SHIFT + UP`` - Resize current terminal window up
+* ``CTRL + ALT + D`` - Open new terminal window down
+* ``CTRL + ALT + R`` - Open new terminal window right
+* ``CTRL + SHIFT + W`` - Close current terminal window
+
 ----
 
 References

@@ -74,6 +74,6 @@ Universal
 References
 ==========
 
-* `Tilix`_ - Terminal application, Shortcuts
+* `Tilix`_ - Terminal application > Menu > Shortcuts
 
 .. _Tilix: https://gnunn1.github.io/tilix-web/

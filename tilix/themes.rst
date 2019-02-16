@@ -70,7 +70,7 @@ JSON file with hexadecimal colors stored in ``~/.config/tilix/schemes``:
 
 .. note::
 
-   If ``use-theme-colors`` is ``true``, then ``background-color`` and
+   If ``use-theme-colors`` is ``true``, then ``background-color`` with
    ``foreground-color`` are ignored and instead of them are used colors from
    system theme.
 

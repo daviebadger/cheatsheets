@@ -17,7 +17,7 @@ Themes
 Default
 -------
 
-::
+.. code-block:: console
 
    $ ls -1 /usr/share/tilix/schemes
    base16-twilight-dark.json
@@ -32,6 +32,6 @@ Default
 References
 ==========
 
-* `Tilix`_ - Tilix Themes
+* `Tilix Documentation`_ - Tilix Themes
 
 .. _Tilix: https://gnunn1.github.io/tilix-web/manual/themes/

@@ -71,12 +71,35 @@ JSON file with hexadecimal colors stored in ``~/.config/tilix/schemes``:
 .. note::
 
    If ``use-theme-colors`` is ``true``, then ``background-color`` and
-   ``foreground-color`` are ignored. Instead of them are used colors from
+   ``foreground-color`` are ignored and instead of them are used colors from
    system theme.
+
+Testing themes
+==============
+
+.. code-block:: console
+
+   $ cat preview.sh
+   #!/usr/bin/env bash
+
+   echo
+   echo -e '  \e[0;30m████ \e[0;31m████ \e[0;32m████ \e[0;33m████ \e[0;34m████ \e[0;35m████ \e[0;36m████ \e[0;37m████'
+   echo -e '  \e[0;30m████ \e[0;31m████ \e[0;32m████ \e[0;33m████ \e[0;34m████ \e[0;35m████ \e[0;36m████ \e[0;37m████'
+   echo -e '  \e[0;90m████ \e[0;91m████ \e[0;92m████ \e[0;93m████ \e[0;94m████ \e[0;95m████ \e[0;96m████ \e[0;97m████'
+   echo -e '  \e[0;90m████ \e[0;91m████ \e[0;92m████ \e[0;93m████ \e[0;94m████ \e[0;95m████ \e[0;96m████ \e[0;97m████'
+   echo
+   $ ./preview.sh
+
+     ████ ████ ████ ████ ████ ████ ████ ████
+     ████ ████ ████ ████ ████ ████ ████ ████
+     ████ ████ ████ ████ ████ ████ ████ ████
+     ████ ████ ████ ████ ████ ████ ████ ████
 
 References
 ==========
 
+* `Gogh.sh`_ - Print colored Unicode Full Block characters
 * `Tilix Documentation`_ - Tilix Themes
 
+.. _Gogh.sh: https://github.com/Mayccoll/Gogh/blob/f1f51de1d6f1e809135e8b1dde78ecc7787e75b4/gogh.sh
 .. _Tilix Documentation: https://gnunn1.github.io/tilix-web/manual/themes/

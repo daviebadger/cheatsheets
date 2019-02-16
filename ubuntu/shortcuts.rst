@@ -93,9 +93,9 @@ References
 ==========
 
 * `GNOME Wiki`_ - Keyboard Shortcuts
-* `Ubuntu Budgie`_ - Settings application, Devices > Keyboard
-* `Ubuntu Budgie Welcome`_ - Welcome application, Getting Started > Keyboard Shortcuts
-* `/usr/share/budgie-desktop/applications` - System desktop applications, Exec commands
+* `Ubuntu Budgie`_ - Settings application > Devices > Keyboard
+* `Ubuntu Budgie Welcome`_ - Welcome application > Getting Started > Keyboard Shortcuts
+* ``/usr/share/budgie-desktop/applications`` - System desktop applications > Exec commands
 
 .. _GNOME Wiki: https://wiki.gnome.org/Design/OS/KeyboardShortcuts
 .. _Ubuntu Budgie: https://ubuntubudgie.org/

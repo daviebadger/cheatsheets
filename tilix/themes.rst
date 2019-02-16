@@ -29,9 +29,15 @@ Default
    solarized-light.json
    tango.json
 
+External
+--------
+
+* https://github.com/storm119/Tilix-Themes
+* https://github.com/isacikgoz/gogh-to-tilix
+
 References
 ==========
 
 * `Tilix Documentation`_ - Tilix Themes
 
-.. _Tilix: https://gnunn1.github.io/tilix-web/manual/themes/
+.. _Tilix Documentation: https://gnunn1.github.io/tilix-web/manual/themes/

@@ -37,6 +37,11 @@ Session
 * ``CTRL + SHIFT + PAGE UP`` - Move current session backwards
 * ``F12`` - Toggle session sidebar
 
+.. note::
+
+   To save current session as a new JSON file is possible to do only manually
+   in menu (next to the search icon).
+
 Terminal
 --------
 

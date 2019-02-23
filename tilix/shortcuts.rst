@@ -42,6 +42,11 @@ Session
    To save current session as a new JSON file is possible to do only manually
    in menu (next to the search icon).
 
+.. tip::
+
+   Saved sessions may be stored for example in ``~/Templates`` directory in
+   order to be quickly accessible when opening a saved session.
+
 Terminal
 --------
 

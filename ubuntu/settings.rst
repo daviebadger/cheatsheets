@@ -20,19 +20,28 @@ Export
 .. code-block:: console
 
    $ # Budgie panel
-   $ dconf dump /com/solus-project/ > panel.dconf
+   $ dconf dump /com/solus-project/budgie-panel/ > panel.dconf
+   $ # GNOME desktop
+   $ dconf dump /org/gnome/desktop/ > desktop.dconf
+   $ # Keyboard shortcuts and other GNOME plugins
+   $ dconf dump /org/gnome/settings-daemon/plugins/ > plugins.dconf
+   $ # Mutter (window manager)
+   $ dconf dump /org/gnome/mutter/ > mutter.dconf
 
 Import
 ------
 
 .. code-block:: console
 
-   $ # Budgie panel
-   $ dconf load /com/solus-project/ < panel.dconf
+   $ dconf load /com/solus-project/budgie-panel/ < panel.dconf
+   $ dconf load /org/gnome/desktop/ < desktop.dconf
+   $ dconf load /org/gnome/settings-daemon/plugins/ < plugins.dconf
+   $ dconf load /org/gnome/mutter/ < mutter.dconf
 
 .. note::
 
-   Reboot is needed after loading settings in order to see changes.
+   Some settings (e.g. Budgie panel) require reboot in order to see changes
+   while others not (e.g. GNOME desktop).
 
 ----
 

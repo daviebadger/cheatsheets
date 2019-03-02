@@ -28,6 +28,17 @@ Export
    $ # Mutter (window manager)
    $ dconf dump /org/gnome/mutter/ > mutter.dconf
 
+.. note::
+
+   Not all settings are stored in dconf. Others may be stored in ``~/.config/``
+   or ``/etc/`` or ``/usr/`` or somewhere else.
+
+.. tip::
+
+   Watch changes in dconf if something has changed in settings::
+
+      $ dconf watch /
+
 Import
 ------
 

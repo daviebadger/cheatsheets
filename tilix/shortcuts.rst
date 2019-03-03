@@ -44,7 +44,7 @@ Session
 
 .. tip::
 
-   Saved sessions may be stored for example in ``~/Templates`` directory in
+   Saved sessions may be stored for example in ``~/tilix`` directory in
    order to be quickly accessible when opening a saved session.
 
 Terminal

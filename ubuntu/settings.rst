@@ -1,6 +1,6 @@
-***************
-Ubuntu Settings
-***************
+**********************
+Ubuntu Budgie Settings
+**********************
 
 :Author: `Davie Badger`_
 :Contact: davie.badger@gmail.com

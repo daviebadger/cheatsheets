@@ -29,6 +29,6 @@ Movement
 References
 ==========
 
-* `Bash Reference Manual` - Command Line Editing
+* `Bash Reference Manual`_ - Command Line Editing
 
 .. _Bash Reference Manual: https://www.gnu.org/software/bash/manual/bash.html

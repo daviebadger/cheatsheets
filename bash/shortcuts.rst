@@ -14,6 +14,16 @@ Bash Command Line Keyboard Shortcuts
 Shortcuts
 =========
 
+Editing
+-------
+
+* ``ALT + C`` - Capitalize the current or following word
+* ``ALT + L`` - Lowercase the current or following word
+* ``ALT + T`` - Transpose two words
+* ``ALT + U`` - Uppcase the current or following word
+* ``CTRL + T`` - Trasponse two characters
+* ``CTRL + _`` - Undo the last change
+
 History
 -------
 

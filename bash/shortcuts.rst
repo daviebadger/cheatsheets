@@ -70,6 +70,11 @@ Movement
 * ``CTRL + E`` - Move to the end of the line
 * ``CTRL + F`` - Move forward one character (also ``RIGHT``)
 
+Pasting
+-------
+
+* ``CTRL + Y`` - Paste the deleted text
+
 ----
 
 References

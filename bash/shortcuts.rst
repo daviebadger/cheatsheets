@@ -60,6 +60,17 @@ History
 
       $ [[ $- == *i* ]] && stty -ixon
 
+Miscellaneous
+-------------
+
+* ``CTRL + L`` - Clear the screen
+* ``CTRL + X, CTRL + E`` - Open the current command in an editor
+
+.. tip::
+
+   Single ``TAB`` for autocompliting commands, files or variables and double
+   ``TAB`` for showing possible completions if there is no auto completion.
+
 Movement
 --------
 

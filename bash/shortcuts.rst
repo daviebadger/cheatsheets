@@ -17,10 +17,11 @@ Shortcuts
 Editing
 -------
 
-* ``ALT + C`` - Capitalize the current or following word
-* ``ALT + L`` - Lowercase the current or following word
+* ``ALT + C`` - Capitalize to the end of the current or following word
+* ``ALT + L`` - Lowercase to the end the current or following word
+* ``ALT + R`` - Undo all changes
 * ``ALT + T`` - Transpose two words
-* ``ALT + U`` - Uppcase the current or following word
+* ``ALT + U`` - Uppcase to the end of the current or following word
 * ``CTRL + T`` - Trasponse two characters
 * ``CTRL + _`` - Undo the last change
 

@@ -14,6 +14,25 @@ Bash Command Line Keyboard Shortcuts
 Shortcuts
 =========
 
+History
+-------
+
+* ``ALT + >`` - Move to the end of history (empty line)
+* ``CTRL + N`` - Show the next command (also ``DOWN``)
+* ``CTRL + P`` - Show the previous command (also ``UP``)
+* ``CTRL + R`` - Search backward for a command by ``CTRL + R``
+* ``CTRL + S`` - Search forward for a command by ``CTRL + S`` (also ``CTRL + SHIFT + R``)
+
+.. note::
+
+   ``CTRL + S`` is reserved for freezing the terminal by default, unless
+   ``CTRL + Q`` is pressed for unfreezing the terminal. This behaviour may be
+   disabled via:
+
+   .. code-block:: console
+
+      $ [[ $- == *i* ]] && stty -ixon
+
 Movement
 --------
 
@@ -30,5 +49,8 @@ References
 ==========
 
 * `Bash Reference Manual`_ - Command Line Editing
+* `Unix & Linux Stack Exchange`_ - How to cycle through reverse-i-search in BASH?
+* `Unix & Linux Stack Exchange`_ - How to unfreeze after accidentally pressing Ctrl-S in a terminal?
 
 .. _Bash Reference Manual: https://www.gnu.org/software/bash/manual/bash.html
+.. _Unix & Linux Stack Exchange: https://unix.stackexchange.com

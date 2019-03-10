@@ -14,6 +14,22 @@ Bash Command Line Keyboard Shortcuts
 Shortcuts
 =========
 
+Deleting
+--------
+
+* ``ALT + D`` - Delete to the end of current or following word
+* ``ALT + W`` - Delete to the start of current or previous word
+* ``CTRL + D`` - Delete the character at point (also ``DELETE``)
+* ``CTRL + K`` - Delete text to the end of line
+* ``CTRL + U`` - Delete text to the start of line
+* ``CTRL + W`` - Delete to the start of current or previous word (until first space)
+
+.. note::
+
+   If there is no character in the command line, then ``CTRL + D`` means to
+   exit from the shell, e.g. Bash, Python3, Psql or any other shell using
+   Readline library.
+
 Editing
 -------
 

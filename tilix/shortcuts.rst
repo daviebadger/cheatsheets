@@ -84,6 +84,4 @@ Universal
 References
 ==========
 
-* `Tilix`_ - Terminal application > Menu > Shortcuts
-
-.. _Tilix: https://gnunn1.github.io/tilix-web/
+* `Tilix - Terminal application > Menu > Shortcuts <https://gnunn1.github.io/tilix-web/>`_

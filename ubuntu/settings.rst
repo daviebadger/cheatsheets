@@ -59,6 +59,4 @@ Import
 References
 ==========
 
-* `AddictiveTips`_ - How To Back Up The Budgie Desktop Settings On Linux
-
-.. _AddictiveTips: https://www.addictivetips.com/ubuntu-linux-tips/back-up-the-budgie-desktop-linux/
+* `AddictiveTips - How To Back Up The Budgie Desktop Settings On Linux <https://www.addictivetips.com/ubuntu-linux-tips/back-up-the-budgie-desktop-linux/>`_

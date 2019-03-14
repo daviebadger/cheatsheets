@@ -92,11 +92,7 @@ Workspace
 References
 ==========
 
-* `GNOME Wiki`_ - Keyboard Shortcuts
-* `Ubuntu Budgie`_ - Settings application > Devices > Keyboard
-* `Ubuntu Budgie Welcome`_ - Welcome application > Getting Started > Keyboard Shortcuts
+* `GNOME Wiki - Keyboard Shortcuts <https://wiki.gnome.org/Design/OS/KeyboardShortcuts>`_
+* `Ubuntu Budgie - Settings application > Devices > Keyboard <https://ubuntubudgie.org/>`_
+* `Ubuntu Budgie Welcome - Welcome application > Getting Started > Keyboard Shortcuts <https://snapcraft.io/ubuntu-budgie-welcome>`_
 * ``/usr/share/budgie-desktop/applications`` - System desktop applications > Exec commands
-
-.. _GNOME Wiki: https://wiki.gnome.org/Design/OS/KeyboardShortcuts
-.. _Ubuntu Budgie: https://ubuntubudgie.org/
-.. _Ubuntu Budgie Welcome: https://snapcraft.io/ubuntu-budgie-welcome

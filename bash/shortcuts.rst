@@ -48,13 +48,12 @@ History
 * ``CTRL + N`` - Show the next command (also ``DOWN``)
 * ``CTRL + P`` - Show the previous command (also ``UP``)
 * ``CTRL + R`` - Search backward for a command by ``CTRL + R``
-* ``CTRL + S`` - Search forward for a command by ``CTRL + S`` (also ``CTRL + SHIFT + R``)
+* ``CTRL + S`` - Search forward for a command by ``CTRL + S`` (not working by default)
 
 .. note::
 
-   ``CTRL + S`` is reserved for freezing the terminal by default, unless
-   ``CTRL + Q`` is pressed for unfreezing the terminal. This behaviour may be
-   disabled via:
+   ``CTRL + S`` is reserved for freezing the terminal, unless ``CTRL + Q`` is
+   pressed for unfreezing the terminal. This behaviour may be disabled via:
 
    .. code-block:: console
 

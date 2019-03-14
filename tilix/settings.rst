@@ -37,6 +37,4 @@ Import
 References
 ==========
 
-* `Tilix News`_ - Release notes for 1.5.4 version
-
-.. _Tilix News: https://gnunn1.github.io/tilix-web/2017/03/18/release-1-5-4
+* `Tilix News - 1.5.4 release <https://gnunn1.github.io/tilix-web/2017/03/18/release-1-5-4>`_

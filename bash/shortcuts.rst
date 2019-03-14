@@ -90,9 +90,6 @@ Pasting
 References
 ==========
 
-* `Bash Reference Manual`_ - Command Line Editing
-* `Unix & Linux Stack Exchange`_ - How to cycle through reverse-i-search in BASH?
-* `Unix & Linux Stack Exchange`_ - How to unfreeze after accidentally pressing Ctrl-S in a terminal?
-
-.. _Bash Reference Manual: https://www.gnu.org/software/bash/manual/bash.html
-.. _Unix & Linux Stack Exchange: https://unix.stackexchange.com
+* `Bash Reference Manual - Command Line Editing <https://www.gnu.org/software/bash/manual/bash.html#Command-Line-Editing>`_
+* `Unix & Linux Stack Exchange - How to cycle through reverse-i-search in BASH? <https://unix.stackexchange.com/questions/73498/how-to-cycle-through-reverse-i-search-in-bash>`_
+* `Unix & Linux Stack Exchange - How to unfreeze after accidentally pressing Ctrl-S in a terminal? <https://unix.stackexchange.com/questions/12107/how-to-unfreeze-after-accidentally-pressing-ctrl-s-in-a-terminal>`_

@@ -99,8 +99,5 @@ Testing themes
 References
 ==========
 
-* `Gogh.sh`_ - Print colored Unicode Full Block characters
-* `Tilix Documentation`_ - Tilix Themes
-
-.. _Gogh.sh: https://github.com/Mayccoll/Gogh/blob/f1f51de1d6f1e809135e8b1dde78ecc7787e75b4/gogh.sh
-.. _Tilix Documentation: https://gnunn1.github.io/tilix-web/manual/themes/
+* `Gogh.sh - Print colored Unicode Full Block characters <https://github.com/Mayccoll/Gogh/blob/f1f51de1d6f1e809135e8b1dde78ecc7787e75b4/gogh.sh#L218>`_
+* `Tilix Documentation - Themes <https://gnunn1.github.io/tilix-web/manual/themes/>`_

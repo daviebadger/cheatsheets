@@ -24,4 +24,4 @@ Variables
 References
 ==========
 
-* `Bash Reference Manual - Shell Variables <https://www.gnu.org/software/bash/manual/bash.html#Bourne-Shell-Variables>`_
+* `Bash Reference Manual - Bourne Shell Variables <https://www.gnu.org/software/bash/manual/bash.html#Bourne-Shell-Variables>`_

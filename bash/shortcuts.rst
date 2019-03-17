@@ -33,20 +33,20 @@ Deleting
 Editing
 -------
 
-* ``ALT + C`` - Capitalize to the end of the current or following word
-* ``ALT + L`` - Lowercase to the end the current or following word
+* ``ALT + C`` - Capitalize to the end of current or following word
+* ``ALT + L`` - Lowercase to the end current or following word
 * ``ALT + R`` - Undo all changes
 * ``ALT + T`` - Transpose two words
-* ``ALT + U`` - Uppcase to the end of the current or following word
+* ``ALT + U`` - Uppcase to the end of current or following word
 * ``CTRL + T`` - Trasponse two characters
-* ``CTRL + _`` - Undo the last change
+* ``CTRL + _`` - Undo last change
 
 History
 -------
 
 * ``ALT + >`` - Move to the end of history (empty line)
-* ``CTRL + N`` - Show the next command (also ``DOWN``)
-* ``CTRL + P`` - Show the previous command (also ``UP``)
+* ``CTRL + N`` - Show next command (also ``DOWN``)
+* ``CTRL + P`` - Show previous command (also ``UP``)
 * ``CTRL + R`` - Search backward for a command by ``CTRL + R``
 * ``CTRL + S`` - Search forward for a command by ``CTRL + S`` (not working by default)
 
@@ -62,8 +62,8 @@ History
 Miscellaneous
 -------------
 
-* ``CTRL + L`` - Clear the screen
-* ``CTRL + X, CTRL + E`` - Open the current command in an editor
+* ``CTRL + L`` - Clear screen
+* ``CTRL + X, CTRL + E`` - Open current command in an editor
 
 .. tip::
 

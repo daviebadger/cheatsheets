@@ -14,12 +14,19 @@ Bash Variables
 Variables
 =========
 
+* ``BASH`` - Absolute path to the executable file of current Bash instance
+* ``BASHOPTS`` - List of enabled shell options separated by ``:``
+* ``BASHPID`` - Current Bash process ID
+* ``BASH_VERSINFO`` - Array with version information (major, minor, patch, etc.)
 * ``BASH_VERSION`` - Current Bash version
 * ``COLUMNS`` - Terminal width
-* ``HISTFILE`` - Path to history file
-* ``HISTFILESIZE`` - Number of lines to keep in history file
+* ``HISTCMD`` - Current command index in history
+* ``HISTCONTROL`` - List of rules for saving commands in history separated by ``:``
+* ``HISTFILE`` - Absolute path to the history file
+* ``HISTFILESIZE`` - Number of lines to keep in the history file
 * ``HISTSIZE`` - Number of commands to remember in history
 * ``HOSTNAME`` - Current hostname
+* ``LANG`` - Default locale language with charset for other ``LC_`` variables (time, numbers)
 * ``LINES`` - Terminal height
 * ``OLDPWD`` - Previous working directory
 * ``PPID`` - Shell's parent process ID
@@ -29,8 +36,8 @@ Variables
 * ``PWD`` - Current working directory
 * ``RANDOM`` - Random number between 0 and 32767
 * ``SECONDS`` - Number of seconds since shell was started
-* ``SHELL`` - Absolute path to shell
-* ``SHLVL`` - Current shell level in nested shells
+* ``SHELL`` - Absolute path to user's shell
+* ``SHLVL`` - Current shell level (in nested shells)
 * ``UID`` - Currents user's ID
 
 .. note::
@@ -52,7 +59,8 @@ Variables
    * ``LOGNAME`` - current user's username
    * ``TERM`` - terminal type
 
-   Current user's username may be also set in ``USER`` variable.
+   Current user's username may be also set in ``USER`` variable and language in
+   ``LANGUAGE`` variable.
 
 ----
 

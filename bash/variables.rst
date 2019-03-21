@@ -26,7 +26,7 @@ Variables
 * ``HISTFILESIZE`` - Number of lines to keep in the history file
 * ``HISTSIZE`` - Number of commands to remember in history
 * ``HOSTNAME`` - Current hostname
-* ``LANG`` - Default locale language with charset for other ``LC_`` variables (time, numbers)
+* ``LANG`` - Default locale language with charset for other ``LC_`` variables (time, numbers, etc.)
 * ``LINES`` - Terminal height
 * ``OLDPWD`` - Previous working directory
 * ``PPID`` - Shell's parent process ID

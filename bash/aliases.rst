@@ -31,6 +31,18 @@ Aliases
 
       shopt -s expand_aliases
 
+.. tip::
+
+   Persistent aliases are commonly stored in the ``~/.bash_aliases`` file,
+   where each alias is on a new line. These aliases are usually automatically
+   sourced from ``~/.bashrc`` via:
+
+   .. code-block:: sh
+
+      if [ -f ~/.bash_aliases ]; then
+          . ~/.bash_aliases
+      fi
+
 ----
 
 References

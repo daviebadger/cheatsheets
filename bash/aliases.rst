@@ -19,6 +19,18 @@ Aliases
 * ``unalias <alias_name>`` - Unalias one or more aliases
 * ``unalias -a`` - Unalias all aliases
 
+.. note::
+
+   Aliases work only within the interactive shell, not in a script, unless
+   a shell option ``expand_aliases`` is explicitly enabled (not recommended,
+   functions should be used instead):
+
+   .. code-block: sh
+
+      #!/bin/bash
+
+      shopt -s expand_aliases
+
 ----
 
 References

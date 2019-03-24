@@ -25,7 +25,7 @@ Aliases
    a shell option ``expand_aliases`` is explicitly enabled (not recommended,
    functions should be used instead):
 
-   .. code-block: sh
+   .. code-block:: sh
 
       #!/bin/bash
 

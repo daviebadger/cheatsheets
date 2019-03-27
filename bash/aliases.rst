@@ -23,7 +23,7 @@ Aliases
 
    Aliases work only within the interactive shell, not in a script, unless
    a shell option ``expand_aliases`` is explicitly enabled (not recommended,
-   functions should be used instead):
+   functions should be used instead, they are commands too):
 
    .. code-block:: sh
 

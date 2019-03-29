@@ -18,6 +18,7 @@ Commands
 --------
 
 * ``alias`` - Show all aliases created via ``alias`` command
+* ``alias <alias_name>`` - Show the given alias
 * ``alias alias_name='<command>'`` - Create one or more aliases
 * ``unalias <alias_name>`` - Unalias one or more aliases
 * ``unalias -a`` - Unalias all aliases
@@ -33,6 +34,17 @@ Commands
       #!/bin/bash
 
       shopt -s expand_aliases
+
+.. tip::
+
+   Aliases may be bypassed (functions not) if they are escaped:
+
+   .. code-block:: console
+
+      $ alias ls
+      alias ls='ls --color=auto'
+      $ ls  # with colors
+      $ \ls  # without colors
 
 Storing aliases
 ---------------
@@ -56,3 +68,4 @@ References
 ==========
 
 * `Bash Reference Manual - Aliases <https://www.gnu.org/software/bash/manual/bash.html#Aliases>`_
+* `nixCraft - Bash Shell: Ignore Aliases and Functions When Running A Command <https://www.cyberciti.biz/faq/ignore-shell-aliases-functions-when-running-command/>`_

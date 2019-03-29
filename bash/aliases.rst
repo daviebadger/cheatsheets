@@ -14,6 +14,9 @@ Bash Aliases
 Aliases
 =======
 
+Commands
+--------
+
 * ``alias`` - Show all aliases created via ``alias`` command
 * ``alias alias_name='<command>'`` - Create one or more aliases
 * ``unalias <alias_name>`` - Unalias one or more aliases
@@ -31,11 +34,15 @@ Aliases
 
       shopt -s expand_aliases
 
-.. tip::
+Storing aliases
+---------------
 
-   Persistent aliases are commonly stored in the ``~/.bash_aliases`` file,
-   where each alias is on a new line. These aliases are usually automatically
-   sourced from ``~/.bashrc`` via:
+* ``~/.bash_aliases`` - Aliases and functions as commands
+
+.. note::
+
+   On Ubuntu Budgie, ``~/.bash_aliases`` is automatically sourced from
+   ``~/.bashrc`` via:
 
    .. code-block:: sh
 

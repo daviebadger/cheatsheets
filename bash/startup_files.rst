@@ -19,6 +19,7 @@ Login shell
 
 Both interactive and non-interactive shells after login:
 
+#. ``/etc/profile.d/*.sh``
 #. ``/etc/profile``
 #. ``~/.bash_profile`` or ``~/.bash_login`` or ``~/.profile`` (first matched in that order)
 
@@ -66,3 +67,4 @@ References
 ==========
 
 * `Bash Reference Manual - Bash Startup Files <https://www.gnu.org/software/bash/manual/bash.html#Bash-Startup-Files>`_
+* ``/etc/`` - System configuration files

@@ -54,6 +54,10 @@ Interactive shell:
 1. ``/etc/bash.bashrc``
 2. ``~/.bashrc``
 
+Non-interactive shell:
+
+1. no startup files
+
 .. note::
 
    ``/etc/bash.bashrc`` is also sourced in a login shell from ``/etc/profile``.

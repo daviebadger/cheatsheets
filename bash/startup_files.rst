@@ -19,12 +19,12 @@ Login shell
 
 Both interactive and non-interactive shells after login:
 
-1. ``/etc/profile``
-2. ``~/.bash_profile`` or ``~/.bash_login`` or ``~/.profile`` (first matched in that order)
+#. ``/etc/profile``
+#. ``~/.bash_profile`` or ``~/.bash_login`` or ``~/.profile`` (first matched in that order)
 
 Both interactive and non-interactive shells after logout (exit):
 
-1. ``~/.bash_logout``
+#. ``~/.bash_logout``
 
 .. note::
 
@@ -51,12 +51,12 @@ Non-login shell
 
 Interactive shell:
 
-1. ``/etc/bash.bashrc``
-2. ``~/.bashrc``
+#. ``/etc/bash.bashrc``
+#. ``~/.bashrc``
 
 Non-interactive shell:
 
-1. no startup files
+#. no startup files
 
 .. note::
 

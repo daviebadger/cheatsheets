@@ -30,7 +30,7 @@ Variables
 * ``LINES`` - Terminal height
 * ``OLDPWD`` - Previous working directory
 * ``PPID`` - Shell's parent process ID
-* ``PROMPT_COMMAND`` - Command to be executed before printing ``PS1`` (may be already set by system)
+* ``PROMPT_COMMAND`` - Command to be executed before printing ``PS1``
 * ``PROMPT_DIRTRIM`` - Number of trailling directories to show after ``\w`` expansion
 * ``PS4`` - Prompt string displayed before commands when using ``set -x`` for debugging
 * ``PWD`` - Current working directory

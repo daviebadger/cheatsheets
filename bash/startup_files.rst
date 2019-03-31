@@ -54,6 +54,10 @@ Interactive shell:
 1. ``/etc/bash.bashrc``
 2. ``~/.bashrc``
 
+.. note::
+
+   ``/etc/bash.bashrc`` is also sourced in a login shell from ``/etc/profile``.
+
 References
 ==========
 

@@ -52,7 +52,7 @@ Reset
 .. note::
 
    ``0`` can be used also as normal text for colored text, if the first code
-   is right ``0``, otherwise it will reset all attributes (text formatting
+   is just ``0``, otherwise it will reset all attributes (text formatting
    and colors):
 
    .. code-block:: console

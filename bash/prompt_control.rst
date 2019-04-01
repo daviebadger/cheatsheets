@@ -17,21 +17,21 @@ Prompt
 Special characters
 ------------------
 
-* ``\@`` - time in 12-hour HH:MM format
-* ``\A`` - time in 24-hour HH:MM format
-* ``\D{format}`` - formatted date using format controls from ``date`` command
-* ``\h`` - hostname up to the first ``.``
-* ``\H`` - hostname
-* ``\e`` - escape character for ANSI colors
-* ``\n`` - newline
-* ``\t`` - time in 24-hour HH:MM:SS format
-* ``\T`` - time in 12-hour HH:MM:SS format
-* ``\u`` - current user's username
-* ``\w`` - current working directory, with ``$HOME`` as ``~``
-* ``\W`` - basename of ``$PWD``, with ``$HOME`` as ``~``
+* ``\@`` - Time in 12-hour HH:MM format
+* ``\A`` - Time in 24-hour HH:MM format
+* ``\D{format}`` - Formatted date using format controls from ``date`` command
+* ``\h`` - Hostname up to the first ``.``
+* ``\H`` - Hostname
+* ``\e`` - Escape character for ANSI colors
+* ``\n`` - Newline
+* ``\t`` - Time in 24-hour HH:MM:SS format
+* ``\T`` - Time in 12-hour HH:MM:SS format
+* ``\u`` - Current user's username
+* ``\w`` - Current working directory, with ``$HOME`` as ``~``
+* ``\W`` - Basename of ``$PWD``, with ``$HOME`` as ``~``
 * ``\$`` - ``#`` for the root user, otherwise ``$`` for other users
-* ``\[`` - begin a sequence of non-printing characters
-* ``\]`` - end a sequence of non-printing characters
+* ``\[`` - Begin a sequence of non-printing characters
+* ``\]`` - End a sequence of non-printing characters
 
 .. note::
 

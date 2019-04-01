@@ -17,13 +17,13 @@ Modes
 Types of modes
 --------------
 
-* ``interactive shell`` - user can directly interact with a shell (the shell is connected to user's terminal)
-* ``non-interactive shell`` - user cannot directly interact with a shell
+* ``interactive shell`` - User can directly interact with a shell (the shell is connected to user's terminal)
+* ``non-interactive shell`` - User cannot directly interact with a shell
 
 Furthermore, these types of shells can be also:
 
-* ``login shell`` - shell run after successful user's login
-* ``non-login shell`` - subshell from the login shell or other subshell
+* ``login shell`` - Shell run after successful user's login
+* ``non-login shell`` - Subshell from the login shell or other subshell
 
 .. note::
 

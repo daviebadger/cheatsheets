@@ -56,8 +56,8 @@ Variables
    Another variables may be set by various programs, for example the ``login``
    program sets:
 
-   * ``LOGNAME`` - current user's username
-   * ``TERM`` - terminal type
+   * ``LOGNAME`` - Current user's username
+   * ``TERM`` - Terminal type
 
    Current user's username may be also set in ``USER`` variable and language in
    ``LANGUAGE`` variable.

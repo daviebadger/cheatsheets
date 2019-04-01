@@ -48,7 +48,9 @@ Foreground
    .. code-block:: console
 
       $ echo '\e[31mRed color\e[0m'  # sh
+      Red color
       $ echo -e '\e[31mRed color\e[0m'  # bash
+      Red color
 
 Background
 ----------
@@ -79,6 +81,7 @@ Background
    .. code-block:: console
 
       $ python3 -c 'print("\033[31mRed text\033[0m")'
+      Red text
 
 .. tip::
 
@@ -87,14 +90,18 @@ Background
    .. code-block:: console
 
       $ echo '\e[30;42mBlack foreground, green background\e[0m'  # sh
+      Black foreground, green background
       $ echo -e '\e[30;42mBlack foreground, green background\e[0m'  # bash
+      Black foreground, green background
 
    The same goes for text formatting:
 
    .. code-block:: console
 
       $ echo '\e[1;30;42mBold black foreground, green background\e[0m'  # sh
+      Bold black foreground, green background
       $ echo -e '\e[1;30;42mBold black foreground, green background\e[0m'  # bash
+      Bold black foreground, green background
 
 ----
 

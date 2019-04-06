@@ -37,8 +37,9 @@ Invocation
    for running a script, then ``set`` command should be used for modifying
    shell options instead of specifying options in a shebang or Bash command:
 
-   .. code-block:: bash
+   .. code-block:: console
 
+      $ cat script.sh
       #!/bin/bash
 
       set -eux

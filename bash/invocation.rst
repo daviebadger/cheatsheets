@@ -54,5 +54,5 @@ References
 * `Bash Reference Manual - Bash POSIX Mode <https://www.gnu.org/software/bash/manual/bash.html#Bash-POSIX-Mode>`_
 * `Bash Reference Manual - Invoking Bash <https://www.gnu.org/software/bash/manual/bash.html#Invoking-Bash>`_
 * `Bash Reference Manual - The Restricted Shell <https://www.gnu.org/software/bash/manual/bash.html#The-Restricted-Shell>`_
-* `Google - Shell Style Guide <https://google.github.io/styleguide/shell.xml>`_
+* `Google Shell Style Guide <https://google.github.io/styleguide/shell.xml>`_
 * `nixCraft - Linux: What is Dash ( /bin/dash ) Shell? <https://www.cyberciti.biz/faq/debian-ubuntu-linux-binbash-vs-bindash-vs-binshshell/>`_

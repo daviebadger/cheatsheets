@@ -16,7 +16,7 @@ Variables
 
 * ``BASH`` - Absolute path to the executable file of current Bash instance
 * ``BASHOPTS`` - List of enabled shell options separated by ``:``
-* ``BASHPID`` - Current Bash process ID
+* ``BASHPID`` - Current Bash process ID (different in a shell and in subshells)
 * ``BASH_VERSINFO`` - Array with version information (major, minor, patch, etc.)
 * ``BASH_VERSION`` - Current Bash version
 * ``COLUMNS`` - Terminal width

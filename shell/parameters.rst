@@ -25,7 +25,7 @@ Special
 * ``$$`` - Expand process ID of the shell (same in current shell and in subshells)
 * ``$!`` - Expand process ID of the job most recently placed into background
 * ``$0`` - Expand name of the shell or shell script (if starts with ``-``, it is a login shell)
-* ``$_`` - Expand the last argument of the last foreground command after expansion or command name
+* ``$_`` - Expand the last argument of the last foreground command after expansion or command name or variable name
 
 .. note::
 

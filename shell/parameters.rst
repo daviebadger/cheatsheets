@@ -14,6 +14,24 @@ Shell Parameters
 Parameters
 ==========
 
+Positional
+----------
+
+* ``$N`` - Parameter at the nth position (from ``$1`` to ``$9``)
+* ``${N}`` - Parameter at the nth position (from ``${1}`` to ``${N}``)
+
+.. tip::
+
+   Single digit positional parameters should not be braced:
+
+   .. code-block:: console
+
+      $ set -- one two three four five six seven eight nine ten
+      $ echo $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10}
+      one two three four five six seven eight nine ten
+      $ echo $10
+      one0
+
 Special
 -------
 
@@ -80,5 +98,6 @@ References
 ==========
 
 * `Bash Reference Manual - Special Parameters <https://www.gnu.org/software/bash/manual/bash.html#Special-Parameters>`_
+* `Google Shell Style Guide - Variable expansion <https://google.github.io/styleguide/shell.xml>`_
 * `Unix & Linux Stack Exchange - $BASHPID And $$ differ in some cases <https://unix.stackexchange.com/questions/62231/bashpid-and-differ-in-some-cases>`_
 * `Unix & Linux Stack Exchange - What's the difference between $@ and $* <https://unix.stackexchange.com/questions/129072/whats-the-difference-between-and>`_

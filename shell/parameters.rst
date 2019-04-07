@@ -59,49 +59,17 @@ Special
 
    .. code-block:: console
 
-      $ cat tesh.sh
-      #!/bin/bash
-
-      echo '"$*"'
-
-      for arg in "$*"; do
-        echo $arg
-      done
-
-      echo
-      echo '$*'
-
-      for arg in $*; do
-        echo $arg
-      done
-
-      echo
-      echo '"$@"'
-
-      for arg in "$@"; do
-        echo $arg
-      done
-
-      echo
-      echo '$@'
-
-      for arg in $@; do
-        echo $arg
-      done
-      $ ./test.sh one 'two three'
-      "$*"
+      $ set -- one 'two three'
+      $ for arg in "$*"; do echo $arg; done
       one two three
-
-      $*
+      $ for arg in $*; do echo $arg; done
       one
       two
       three
-
-      "$@"
+      $ for arg in "$@"; do echo $arg; done
       one
       two three
-
-      $@
+      $ for arg in $@; do echo $arg; done
       one
       two
       three

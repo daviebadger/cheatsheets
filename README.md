@@ -10,7 +10,7 @@ Beside these cheatsheets, there are complementary projects:
 * [Books][books] - books as sources for the notes
 
 [notes]: https://github.com/daviebadger/notes
-[cheatsheets]: https://github.com/daviebadger/cheatsheets
+[books]: https://github.com/daviebadger/books
 
 ## Cheatsheets
 

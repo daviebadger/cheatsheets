@@ -14,7 +14,7 @@ Beside these cheatsheets, there are complementary projects:
 
 ## Cheatsheets
 
-*
+* [reStructuredText](restructuredtext/restructuredtext.rst)
 
 ## License
 

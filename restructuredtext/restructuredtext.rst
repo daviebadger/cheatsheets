@@ -14,16 +14,6 @@
 
 
 
-Markup
-======
-
-
-
-Directives
-==========
-
-
-
 Roles
 =====
 

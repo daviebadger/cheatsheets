@@ -27,7 +27,8 @@ Directives
 Roles
 =====
 
-Interpreted text roles with spaces around, either hard-typed or escaped:
+Interpreted text roles used as inline markup in text with spaces around, either
+hard-typed or escaped:
 
 * ``:literal:`\```` - Inline code sample with escaped backslashes
 * ``:math:`f(x) = x^2``` - Inline mathematical formula

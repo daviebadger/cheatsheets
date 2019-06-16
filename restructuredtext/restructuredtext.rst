@@ -21,7 +21,7 @@ Interpreted text roles used as inline markup in text with spaces around, either
 hard-typed or escaped:
 
 * ``:literal:`\```` - Inline code sample with escaped backslashes
-* ``:math:`f(x) = x^2``` - Inline mathematical formula
+* ``:math:`f(x) = x^2``` - Inline mathematical formula in LaTeX format
 * ``:sub:`2``` - Subscript
 * ``:sup:`2``` - Superscript
 * ``:title:`How to Title My Book``` - Title of a work

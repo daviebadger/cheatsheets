@@ -20,6 +20,16 @@
 
 
 
+Directives
+==========
+
+Directives are used as block elements defined on a separate line:
+
+* ``.. default-role:: role-name`` - Set a new default role
+* ``.. role:: new-role-name`` - Create a new role by aliasing or overloading
+
+
+
 Roles
 =====
 

@@ -25,12 +25,15 @@ Directives
 
 Directives are used as block elements defined on a separate line:
 
+* ``.. attention:: text`` - Add attentive info
+* ``.. caution:: text`` - Add cautious info
 * ``.. default-role:: role-name`` - Set a new default role
-* ``.. important:: text`` - Add important info to text
-* ``.. note:: text`` - Add a note to text
+* ``.. hint:: text`` - Add a hint
+* ``.. important:: text`` - Add important info
+* ``.. note:: text`` - Add a note
 * ``.. role:: new-role-name`` - Create a new role by aliasing or overloading
-* ``.. tip:: text`` - Add a tip to text
-* ``.. warning:: text`` - Add a warning to text
+* ``.. tip:: text`` - Add a tip
+* ``.. warning:: text`` - Add a warning
 
 
 

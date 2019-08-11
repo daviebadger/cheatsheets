@@ -22,7 +22,7 @@
 Directives
 ==========
 
-Directives are used as block elements defined on a separate line:
+Directives are used as block markup defined on a separate line:
 
 * ``.. admonition:: title`` - Add a custom admonition with the given title
 * ``.. attention:: text`` - Add attentive info

@@ -27,13 +27,16 @@ Directives are used as block markup defined on a separate line:
 * ``.. admonition:: title`` - Add a custom admonition with the given title
 * ``.. attention:: text`` - Add attentive info
 * ``.. caution:: text`` - Add cautious info
+* ``.. class:: class-names`` - Add HTML classes to the following element
 * ``.. danger:: text`` - Add dangerous info
 * ``.. default-role:: role-name`` - Set a new default role
 * ``.. hint:: text`` - Add a hint
 * ``.. important:: text`` - Add important info
+* ``.. meta:: field-list`` - Add HTML meta tags
 * ``.. note:: text`` - Add a note
 * ``.. role:: new-role-name`` - Create a new role by aliasing or overloading
 * ``.. tip:: text`` - Add a tip
+* ``.. title:: title`` - Set a different HTML title for a browser tab
 * ``.. warning:: text`` - Add a warning
 
 

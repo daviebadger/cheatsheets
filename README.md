@@ -1,6 +1,6 @@
 # Davie's Technical Cheatsheets
 
-My personal technical cheatsheets of software I have been using.
+My personal technical cheatsheets of software I have been using a long time.
 
 ---
 

@@ -25,23 +25,23 @@ Directives
 Directives are used as block markup defined on a separate line:
 
 * ``.. admonition:: title`` - Add a custom admonition with the given title
-* ``.. attention:: text`` - Add attentive info
-* ``.. caution:: text`` - Add cautious info
+* ``.. attention::`` - Add attentive info
+* ``.. caution::`` - Add cautious info
 * ``.. class:: class-names`` - Add HTML classes to the following element
 * ``.. contents::`` - Generate a table of contents
-* ``.. danger:: text`` - Add dangerous info
+* ``.. danger::`` - Add dangerous info
 * ``.. default-role:: role-name`` - Set a new default role
-* ``.. hint:: text`` - Add a hint
-* ``.. important:: text`` - Add important info
+* ``.. hint::`` - Add a hint
+* ``.. important::`` - Add important info
 * ``.. include:: path/to/file`` - Load text from a file
-* ``.. meta:: field-list`` - Add HTML meta tags
-* ``.. note:: text`` - Add a note
+* ``.. meta::`` - Add HTML meta tags
+* ``.. note::`` - Add a note
 * ``.. raw:: output-formats`` - Bypass parsing text for the given output formats
 * ``.. role:: new-role-name`` - Create a new role by aliasing or overloading
 * ``.. sectnum::`` - Automatically number sections
-* ``.. tip:: text`` - Add a tip
+* ``.. tip::`` - Add a tip
 * ``.. title:: title`` - Set a different HTML title for a browser tab
-* ``.. warning:: text`` - Add a warning
+* ``.. warning::`` - Add a warning
 
 
 

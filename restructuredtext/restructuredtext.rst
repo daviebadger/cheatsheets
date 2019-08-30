@@ -30,7 +30,7 @@ Directives are used as block markup defined on a separate line:
 * ``.. class:: class-names`` - Add HTML classes to the following element
 * ``.. contents::`` - Generate a table of contents
 * ``.. danger::`` - Add dangerous info
-* ``.. |substitution| date:: optional-format`` - Substitute for a date
+* ``.. |substitution| date:: optional-format`` - Substitute for a date(time)
 * ``.. default-role:: role-name`` - Set a new default role
 * ``.. hint::`` - Add a hint
 * ``.. important::`` - Add important info

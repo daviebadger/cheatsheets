@@ -32,7 +32,9 @@ Directives are used as block markup defined on a separate line:
 * ``.. danger::`` - Add dangerous info
 * ``.. |substitution| date:: optional-format`` - Substitute for a date(time)
 * ``.. default-role:: role-name`` - Set a new default role
+* ``.. figure:: path/to/image`` - Add an image with a caption
 * ``.. hint::`` - Add a hint
+* ``.. image:: path/to/image`` - Add an image
 * ``.. important::`` - Add important info
 * ``.. include:: path/to/file`` - Load text from a file
 * ``.. meta::`` - Add HTML meta tags

@@ -28,23 +28,28 @@ Directives are used as block markup defined on a separate line:
 * ``.. attention::`` - Add attentive info
 * ``.. caution::`` - Add cautious info
 * ``.. class:: class-names`` - Add HTML classes to the following element
+* ``.. code:: language`` - Add code with syntax highlighting
 * ``.. contents::`` - Generate a table of contents
 * ``.. danger::`` - Add dangerous info
 * ``.. |substitution| date:: optional-format`` - Substitute for a date(time)
 * ``.. default-role:: role-name`` - Set a new default role
 * ``.. figure:: path/to/image`` - Add an image with a caption
+* ``.. highlights`` - Add a summary
 * ``.. hint::`` - Add a hint
 * ``.. image:: path/to/image`` - Add an image
 * ``.. important::`` - Add important info
 * ``.. include:: path/to/file`` - Load text from a file
+* ``.. math::`` - Add a mathematical formula in LaTeX format
 * ``.. meta::`` - Add HTML meta tags
 * ``.. note::`` - Add a note
 * ``.. raw:: output-formats`` - Bypass parsing text for the given output formats
 * ``.. |substitution| replace:: text`` - Substitute for a text
 * ``.. role:: new-role-name`` - Create a new role by aliasing or overloading
+* ``.. rubric:: text`` - Add an informal heading
 * ``.. sectnum::`` - Automatically number sections
 * ``.. tip::`` - Add a tip
 * ``.. title:: title`` - Set a different HTML title for a browser tab
+* ``.. topic:: title`` - Add a topic container
 * ``.. |substitution| unicode:: code`` - Substitute for a Unicode character
 * ``.. warning::`` - Add a warning
 

@@ -17,8 +17,6 @@
 .. _Creative Commons Attribution 4.0 International Public License: https://creativecommons.org/licenses/by/4.0/
 .. _Davie Badger: https://github.com/daviebadger
 
-
-
 Directives
 ==========
 
@@ -52,8 +50,6 @@ Directives are used as block markup defined on a separate line:
 * ``.. topic:: title`` - Add a topic container
 * ``.. |substitution| unicode:: code`` - Substitute for a Unicode character
 * ``.. warning::`` - Add a warning
-
-
 
 Roles
 =====

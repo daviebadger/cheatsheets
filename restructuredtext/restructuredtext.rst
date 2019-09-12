@@ -28,6 +28,7 @@ Directives are used as block markup defined on a separate line:
 * ``.. class:: class-names`` - Add HTML classes to the following element
 * ``.. code:: language`` - Add code with syntax highlighting
 * ``.. contents::`` - Generate a table of contents
+* ``.. csv-table:: optional-title`` - Add a CSV table
 * ``.. danger::`` - Add dangerous info
 * ``.. |substitution| date:: optional-format`` - Substitute for a date(time)
 * ``.. default-role:: role-name`` - Set a new default role
@@ -37,14 +38,16 @@ Directives are used as block markup defined on a separate line:
 * ``.. image:: path/to/image`` - Add an image
 * ``.. important::`` - Add important info
 * ``.. include:: path/to/file`` - Load text from a file
+* ``.. list-table:: optional-title`` - Add a list-like table
 * ``.. math::`` - Add a mathematical formula in LaTeX format
 * ``.. meta::`` - Add HTML meta tags
 * ``.. note::`` - Add a note
 * ``.. raw:: output-formats`` - Bypass parsing text for the given output formats
 * ``.. |substitution| replace:: text`` - Substitute for a text
-* ``.. role:: new-role-name`` - Create a new role by aliasing or overloading
+* ``.. role:: role-name`` - Create a new role by aliasing or overloading
 * ``.. rubric:: text`` - Add an informal heading
 * ``.. sectnum::`` - Automatically number sections
+* ``.. table:: optional-title`` - Add a wrapped table
 * ``.. tip::`` - Add a tip
 * ``.. title:: title`` - Set a different HTML title for a browser tab
 * ``.. topic:: title`` - Add a topic container

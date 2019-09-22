@@ -17,6 +17,22 @@
 .. _Creative Commons Attribution 4.0 International Public License: https://creativecommons.org/licenses/by/4.0/
 .. _Davie Badger: https://github.com/daviebadger
 
+
+Markup
+======
+
+Inline Markup
+-------------
+
+* ``|substitution|`` - Substitution reference
+
+Block Markup
+------------
+
+* ``----`` - Horizontal line
+* ``.. comment`` - Comment
+
+
 Directives
 ==========
 

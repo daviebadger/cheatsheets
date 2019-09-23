@@ -36,8 +36,6 @@ Block Markup
 Directives
 ==========
 
-Directives are used as block markup defined on a separate line:
-
 * ``.. admonition:: title`` - Add a custom admonition with the given title
 * ``.. attention::`` - Add attentive info
 * ``.. caution::`` - Add cautious info
@@ -72,9 +70,6 @@ Directives are used as block markup defined on a separate line:
 
 Roles
 =====
-
-Interpreted text roles are used as inline markup in text with spaces around,
-either hard-typed or escaped, except for punctuation marks:
 
 * ``:literal:`\```` - Inline code sample with escaped backslashes
 * ``:math:`f(x) = x^2``` - Inline mathematical formula in LaTeX format

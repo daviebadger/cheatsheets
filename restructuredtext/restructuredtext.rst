@@ -21,16 +21,16 @@
 Markup
 ======
 
+Block Elements
+--------------
+
+* Comment - ``.. comment``
+* Horizontal line - ``----``
+
 Inline Markup
 -------------
 
-* ``|substitution|`` - Substitution reference
-
-Block Markup
-------------
-
-* ``----`` - Horizontal line
-* ``.. comment`` - Comment
+* Substitution reference - ``|substitution|``
 
 
 Directives

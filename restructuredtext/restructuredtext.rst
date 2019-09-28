@@ -26,6 +26,7 @@ Block Elements
 
 * Comment - ``.. comment``
 * Horizontal line - ``----``
+* Substitution definition - ``.. |substitution| directive-name:: substituted-text``
 
 Inline Markup
 -------------

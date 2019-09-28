@@ -24,6 +24,14 @@ Markup
 Block Elements
 --------------
 
+* Block quote:
+
+  .. code:: rst
+
+     ordinary-paragraph
+
+        block-quote
+
 * Comment - ``.. comment``
 * Horizontal line - ``----``
 * Substitution definition - ``.. |substitution| directive-name:: substituted-text``

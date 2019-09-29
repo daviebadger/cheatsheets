@@ -46,15 +46,9 @@ Block Elements
      term
         description
 
-* List (field)::
-
-     :field-name: field-value
-
+* List (field) - ``:field-name: field-value``
 * List (manually-numbered) - ``1. item``
-* List (option)::
-
-     -o, --option  option-text
-
+* List (option) - ``-o, --option  option-text``
 * Literal block::
 
      ::

@@ -33,12 +33,24 @@ Block Elements
         block-quote
 
 * Comment - ``.. comment``
-* Horizontal line - ``----``
+* Transition - ``----``
 * Substitution definition - ``.. |substitution| directive-name:: substituted-text``
 
 Inline Markup
 -------------
 
+* Citation reference - ``[label]_``
+* Emphasis - ``*italic*``
+* Footnote reference (auto-numbered) - ``[#]_``
+* Footnote reference (manual) - ``[number]_``
+* Hyperlink reference (anonymous phrase)- :literal:`\`phrase\`__`
+* Hyperlink reference (anonymous word)- ``word__``
+* Hyperlink reference (named phrase)- :literal:`\`phrase\`_`
+* Hyperlink reference (named word)- ``word_``
+* Inline literal - :literal:`\`\`code-snippet\`\``
+* Standalone hyperlink (email) - ``davie.badger@gmail.com``
+* Standalone hyperlink (URI) - ``http://github.com/daviebadger``
+* Strong emphasis - ``**bold**``
 * Substitution reference - ``|substitution|``
 
 

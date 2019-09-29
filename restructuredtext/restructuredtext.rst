@@ -24,17 +24,71 @@ Markup
 Block Elements
 --------------
 
-* Block quote:
-
-  .. code:: rst
+* Block quote::
 
      ordinary-paragraph
 
         block-quote
 
+* Citation - ``.. [citation-reference] text``
 * Comment - ``.. comment``
-* Transition - ``----``
+* Doctest block - ``>>> ...``
+* Footnote (auto-numbered) - ``.. [#] text``
+* Footnote (manual) - ``.. [footnote-reference] text``
+* Hyperlink target (both anonymous phrase and word) - ``.. __: URI``
+* Hyperlink target (both named phrase and word) - ``.. _hyperlink-reference: URI``
+* Internal hyperlink reference - ``.. _hyperlink-reference``
+* Line block - ``| text``
+* List (auto-numbered) - ``#. item``
+* List (bulleted) - ``* item``
+* List (definition)::
+
+     term
+        description
+
+* List (field)::
+
+     :field-name: field-value
+
+* List (manually-numbered) - ``1. item``
+* List (option)::
+
+     -o, --option  option-text
+
+* Literal block::
+
+     ::
+
+        code-snippet
+
+* Paragraph - ``text``
+* Section::
+
+     optional-adornment
+     section-title
+     adornment
+
 * Substitution definition - ``.. |substitution| directive-name:: substituted-text``
+* Table (grid)::
+
+     +---------+---------+
+     | header1 | header2 |
+     +=========+=========+
+     | a1      | a2      |
+     +---------+---------+
+     | b1      | b2      |
+     +---------+---------+
+
+* Table (simple)::
+
+     =======  =======
+     header1  header2
+     =======  =======
+     a1       a2
+     b1       b2
+     =======  =======
+
+* Transition - ``----``
 
 Inline Markup
 -------------

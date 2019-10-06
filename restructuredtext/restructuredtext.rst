@@ -21,8 +21,8 @@
 Markup
 ======
 
-Block Elements
---------------
+Block Markup
+------------
 
 * Block quote::
 

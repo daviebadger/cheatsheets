@@ -18,6 +18,7 @@
 .. _Davie Badger: https://github.com/daviebadger
 
 
+
 Markup
 ======
 
@@ -102,6 +103,7 @@ Inline Markup
 * Substitution reference - ``|substitution|``
 
 
+
 Directives
 ==========
 
@@ -136,6 +138,8 @@ Directives
 * ``.. topic:: title`` - Add a topic container
 * ``.. |substitution| unicode:: code`` - Substitute for a Unicode character
 * ``.. warning::`` - Add a warning
+
+
 
 Roles
 =====

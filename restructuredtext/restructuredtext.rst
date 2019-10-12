@@ -36,8 +36,9 @@ Block Markup
 * Doctest block - ``>>> ...``
 * Footnote (auto-numbered) - ``.. [#] text``
 * Footnote (manual) - ``.. [footnote-reference] text``
-* Hyperlink target (both anonymous phrase and word) - ``.. __: URI``
-* Hyperlink target (both named phrase and word) - ``.. _hyperlink-reference: URI``
+* Hyperlink target (anonymous phrase and word) - ``.. __: URI``
+* Hyperlink target (named phrase) - ``.. _`hyperlink reference`: URI``
+* Hyperlink target (named word) - ``.. _hyperlink-reference: URI``
 * Internal hyperlink target - ``.. _hyperlink-target:``
 * Line block - ``| text``
 * List (auto-numbered) - ``#. item``

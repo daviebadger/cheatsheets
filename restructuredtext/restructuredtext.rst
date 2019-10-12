@@ -38,7 +38,7 @@ Block Markup
 * Footnote (manual) - ``.. [footnote-reference] text``
 * Hyperlink target (both anonymous phrase and word) - ``.. __: URI``
 * Hyperlink target (both named phrase and word) - ``.. _hyperlink-reference: URI``
-* Internal hyperlink reference - ``.. _hyperlink-reference``
+* Internal hyperlink target - ``.. _hyperlink-target:``
 * Line block - ``| text``
 * List (auto-numbered) - ``#. item``
 * List (bulleted) - ``* item``

@@ -152,3 +152,14 @@ Roles
 * ``:title:`How to Title My Book``` - Title of a work
 * ``:PEP:`8``` - Link to a specific PEP
 * ``:RFC:`3339``` - Link to a specific RFC
+
+
+
+Document Converters
+===================
+
+* ``rst2html5.py file.rst output.html`` - To HTML5
+* ``rst2latex.py file.rst output.tex`` - To LaTeX
+* ``rst2odt.py file.rst output.odt`` - To ODT
+* ``rst2pseudoxml.py file.rst`` - To pseudo-XML (for debugging only)
+* ``rst2xml.py file.rst output.xml`` - To XML

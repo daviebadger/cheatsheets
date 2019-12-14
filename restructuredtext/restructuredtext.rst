@@ -158,8 +158,8 @@ Roles
 Document Converters
 ===================
 
-* ``rst2html5.py file.rst output.html`` - To HTML5
-* ``rst2latex.py file.rst output.tex`` - To LaTeX
-* ``rst2odt.py file.rst output.odt`` - To ODT
-* ``rst2pseudoxml.py file.rst`` - To pseudo-XML (for debugging only)
-* ``rst2xml.py file.rst output.xml`` - To XML
+* ``rst2html5.py document.rst document.html`` - From RST to HTML5
+* ``rst2latex.py document.rst document.tex`` - From RST to LaTeX
+* ``rst2odt.py document.rst document.odt`` - From RST to ODT
+* ``rst2pseudoxml.py document.rst`` - From RST to pseudo-XML (for debugging only)
+* ``rst2xml.py document.rst document.xml`` - From RST to XML

@@ -173,4 +173,4 @@ Configuration Files
 #. ``/etc/docutils.conf`` - System-wide configuration file
 #. ``./docutils.conf`` - Project-specific configuration file
 #. ``~/.docutils`` - User-specific configuration file
-#. ``document-converter --config=PATH`` - Explicit configuration file
+#. ``document-converter --config=path/to/config`` - Explicit configuration file

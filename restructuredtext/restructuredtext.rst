@@ -155,11 +155,22 @@ Roles
 
 
 
+Docutils
+========
+
 Document Converters
-===================
+-------------------
 
 * ``rst2html5.py document.rst document.html`` - To HTML5
 * ``rst2latex.py document.rst document.tex`` - To LaTeX
 * ``rst2odt.py document.rst document.odt`` - To ODT
 * ``rst2pseudoxml.py document.rst`` - To pseudo-XML (for debugging only)
 * ``rst2xml.py document.rst document.xml`` - To XML
+
+Configuration Files
+-------------------
+
+#. ``/etc/docutils.conf`` - System-wide configuration file
+#. ``./docutils.conf`` - Project-specific configuration file
+#. ``~/.docutils`` - User-specific configuration file
+#. ``document-converter --config=PATH`` - Explicit configuration file

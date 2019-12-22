@@ -1,8 +1,8 @@
 # Davie's Technical Cheatsheets
 
-My personal technical cheatsheets of software I have been using a long time.
+My personal technical cheatsheets of software I have been using for a long time:
 
----
+* [reStructuredText](restructuredtext/restructuredtext.rst)
 
 Beside these cheatsheets, there are complementary projects:
 
@@ -11,10 +11,6 @@ Beside these cheatsheets, there are complementary projects:
 
 [notes]: https://github.com/daviebadger/notes
 [books]: https://github.com/daviebadger/books
-
-## Cheatsheets
-
-* [reStructuredText](restructuredtext/restructuredtext.rst)
 
 ## License
 

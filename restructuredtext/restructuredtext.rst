@@ -170,7 +170,7 @@ Document Converters
 Configuration Files
 -------------------
 
-#. ``/etc/docutils.conf`` - System-wide configuration file
-#. ``./docutils.conf`` - Project-specific configuration file
-#. ``~/.docutils`` - User-specific configuration file
-#. ``document-converter --config=path/to/config`` - Explicit configuration file
+#. ``/etc/docutils.conf`` - System-wide configuration
+#. ``./docutils.conf`` - Project-specific configuration (next to a RST document)
+#. ``~/.docutils`` - User-specific configuration
+#. ``document-converter --config=path/to/config`` - Explicit configuration

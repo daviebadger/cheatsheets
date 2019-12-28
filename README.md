@@ -1,6 +1,6 @@
 # Davie's Technical Cheatsheets
 
-My personal technical cheatsheets of software I have been using for a long time:
+My technical cheatsheets of tools I have been using:
 
 * [reStructuredText](restructuredtext/restructuredtext.rst)
 

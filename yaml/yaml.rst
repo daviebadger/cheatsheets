@@ -2,7 +2,7 @@
  YAML
 ======
 ------------------------------------------
- Human-Readable Data-Serialization Format
+ Human-Readable Data Serialization Format
 ------------------------------------------
 
 :Author: `Davie Badger`_
@@ -18,3 +18,20 @@
 __ https://creativecommons.org/licenses/by-sa/4.0/
 
 .. _Davie Badger: https://github.com/daviebadger
+
+
+
+Mappings
+========
+
+* Block mapping - ``key: value``
+* Flow mapping (inline)::
+
+     {key1: value, key2: value}
+
+* Flow mapping (multine)::
+
+     {
+       key1: value,
+       key2: value,
+     }

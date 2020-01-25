@@ -24,6 +24,20 @@ __ https://creativecommons.org/licenses/by-sa/4.0/
 Syntax
 ======
 
+Scalars
+-------
+
+* Boolean (false) - ``false``
+* Boolean (true) - ``true``
+* Floating point (negative) - ``-1.0``
+* Floating point (negative infinity) - ``-.inf``
+* Floating point (positive) - ``1.0``
+* Floating point (positive infinity) - ``.inf``
+* Integer (negative) - ``-1``
+* Integer (positive) - ``1``
+* Null - ``null``
+* String - ``text``
+
 Mappings
 --------
 

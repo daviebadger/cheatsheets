@@ -67,6 +67,8 @@ Sequences
 Other
 -----
 
+* Alias - ``*name``
+* Anchor - ``&name``
 * Comment (block) - ``# comment``
 * Comment (inline) - ``value # comment``
 * Document end - ``...``

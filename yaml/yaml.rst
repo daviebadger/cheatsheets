@@ -69,3 +69,5 @@ Other
 
 * Comment (block) - ``# comment``
 * Comment (inline) - ``value # comment``
+* Document end - ``...``
+* Document start - ``---``

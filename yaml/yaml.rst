@@ -61,3 +61,11 @@ Sequences
        value,
        value,
      ]
+
+.. rename "Other" to something else?
+
+Other
+-----
+
+* Comment (block) - ``# comment``
+* Comment (inline) - ``value # comment``

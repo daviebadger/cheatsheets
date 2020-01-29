@@ -80,7 +80,7 @@ Mappings
 
 * Block mapping - ``key: value``
 * Flow mapping (inline) - ``{key1: value, key2: value}``
-* Flow mapping (multiline)::
+* Flow mapping (multi-line)::
 
      {
        key1: value,
@@ -92,7 +92,7 @@ Sequences
 
 * Block sequence - ``- value``
 * Flow sequence (inline) - ``[value, value]``
-* Flow sequence (multiline)::
+* Flow sequence (multi-line)::
 
      [
        value,
@@ -107,6 +107,7 @@ Other
 * Alias - ``*name``
 * Anchor - ``&name``
 * Comment (block) - ``# comment``
-* Comment (inline) - ``value # comment``
+* Comment (inline) - ``value  # comment``
 * Document end - ``...``
 * Document start - ``---``
+* YAML directive - ``%YAML 1.2``

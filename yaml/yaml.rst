@@ -34,6 +34,8 @@ Scalars
 * Integer (positive) - ``1``
 * Null - ``null``
 * String - ``text``
+* String (double-quoted) - ``"text"``
+* String (single-quoted) - ``'text'``
 
 Collections
 ===========

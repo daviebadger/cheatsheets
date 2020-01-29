@@ -32,6 +32,41 @@ Scalars
 * Floating point (positive infinity) - ``.inf``
 * Integer (negative) - ``-1``
 * Integer (positive) - ``1``
+* Multi-line string - folded style (clip)::
+
+     >
+       word1
+       word2
+
+* Multi-line string - folded style (keep)::
+
+     >+
+       word1
+       word2
+
+* Multi-line string - folded style (strip)::
+
+     >+
+       word1
+       word2
+
+* Multi-line string - literal style (clip)::
+
+     |
+       line1
+       line2
+
+* Multi-line string - literal style (keep)::
+
+     |+
+       line1
+       line2
+
+* Multi-line string - literal style (strip)::
+
+     |-
+       line1
+       line2
 * Null - ``null``
 * String - ``text``
 * String (double-quoted) - ``"text"``

@@ -21,11 +21,8 @@ __ https://creativecommons.org/licenses/by-sa/4.0/
 
 
 
-Syntax
-======
-
 Scalars
--------
+=======
 
 * Boolean (false) - ``false``
 * Boolean (true) - ``true``
@@ -37,6 +34,9 @@ Scalars
 * Integer (positive) - ``1``
 * Null - ``null``
 * String - ``text``
+
+Collections
+===========
 
 Mappings
 --------
@@ -65,7 +65,7 @@ Sequences
 .. rename "Other" to something else?
 
 Other
------
+=====
 
 * Alias - ``*name``
 * Anchor - ``&name``

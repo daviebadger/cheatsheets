@@ -110,4 +110,6 @@ Other
 * Comment (inline) - ``value  # comment``
 * Document end - ``...``
 * Document start - ``---``
+* Merge mapping keys (from multiple mappings) - ``<<: [*alias1, *alias2]``
+* Merge mapping keys (from one mapping) - ``<<: *alias``
 * YAML directive - ``%YAML 1.2``

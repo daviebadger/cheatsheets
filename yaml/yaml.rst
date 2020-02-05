@@ -46,7 +46,7 @@ Scalars
 
 * Multi-line string - folded style (strip)::
 
-     >+
+     >-
        word1
        word2
 

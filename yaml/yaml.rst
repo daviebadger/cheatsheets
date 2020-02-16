@@ -1,6 +1,6 @@
-======
- YAML
-======
+==========
+ YAML 1.2
+==========
 ------------------------------------------
  Human-Readable Data Serialization Format
 ------------------------------------------
@@ -24,53 +24,54 @@ __ https://creativecommons.org/licenses/by-sa/4.0/
 Scalars
 =======
 
+* Block string - folded style (clip)::
+
+     >
+       word1
+       word2
+
+* Block string - folded style (keep)::
+
+     >+
+       word1
+       word2
+
+* Block string - folded style (strip)::
+
+     >-
+       word1
+       word2
+
+* Block string - literal style (clip)::
+
+     |
+       line1
+       line2
+
+* Block string - literal style (keep)::
+
+     |+
+       line1
+       line2
+
+* Block string - literal style (strip)::
+
+     |-
+       line1
+       line2
+
 * Boolean (false) - ``false``
 * Boolean (true) - ``true``
 * Floating point (negative) - ``-1.0``
 * Floating point (negative infinity) - ``-.inf``
 * Floating point (positive) - ``1.0``
 * Floating point (positive infinity) - ``.inf``
+* Flow string (double-quoted) - ``"text"``
+* Flow string (plain)- ``text``
+* Flow string (single-quoted) - ``'text'``
 * Integer (negative) - ``-1``
 * Integer (positive) - ``1``
-* Multi-line string - folded style (clip)::
-
-     >
-       word1
-       word2
-
-* Multi-line string - folded style (keep)::
-
-     >+
-       word1
-       word2
-
-* Multi-line string - folded style (strip)::
-
-     >-
-       word1
-       word2
-
-* Multi-line string - literal style (clip)::
-
-     |
-       line1
-       line2
-
-* Multi-line string - literal style (keep)::
-
-     |+
-       line1
-       line2
-
-* Multi-line string - literal style (strip)::
-
-     |-
-       line1
-       line2
 * Null - ``null``
-* String - ``text``
-* String (double-quoted) - ``"text"``
-* String (single-quoted) - ``'text'``
 
 Collections
 ===========
@@ -113,3 +114,5 @@ Other
 * Merge mapping keys (from multiple mappings) - ``<<: [*alias1, *alias2]``
 * Merge mapping keys (from one mapping) - ``<<: *alias``
 * YAML directive - ``%YAML 1.2``
+
+.. !tag vs !!tag

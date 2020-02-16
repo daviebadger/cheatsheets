@@ -64,8 +64,10 @@ Scalars
 * Boolean (true) - ``true``
 * Floating point (negative) - ``-1.0``
 * Floating point (negative infinity) - ``-.inf``
+* Floating point (negative scientific notation) - ``-1e+0``
 * Floating point (positive) - ``1.0``
 * Floating point (positive infinity) - ``.inf``
+* Floating point (positive scientific notation) - ``1e+0``
 * Flow string (double-quoted) - ``"text"``
 * Flow string (plain)- ``text``
 * Flow string (single-quoted) - ``'text'``

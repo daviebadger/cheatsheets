@@ -27,38 +27,22 @@ Scalars
 * Block string - folded style (clip)::
 
      >
-       word1
-       word2
-
-* Block string - folded style (keep)::
-
-     >+
-       word1
-       word2
+       text
 
 * Block string - folded style (strip)::
 
      >-
-       word1
-       word2
+       text
 
 * Block string - literal style (clip)::
 
      |
-       line1
-       line2
-
-* Block string - literal style (keep)::
-
-     |+
-       line1
-       line2
+       text
 
 * Block string - literal style (strip)::
 
      |-
-       line1
-       line2
+       text
 
 * Boolean (false) - ``false``
 * Boolean (true) - ``true``

@@ -59,7 +59,7 @@ Scalars
 * Integer (positive) - ``1``
 * Null - ``null``
 * Timestamp (date) - ``2020-02-20``
-* Timestamp (datetime iso) - ``2020-02-20T00:00:00``
+* Timestamp (datetime ISO) - ``2020-02-20T00:00:00``
 * Timestamp (datetime spaced) - ``2020-02-20 00:00:00``
 
 Collections

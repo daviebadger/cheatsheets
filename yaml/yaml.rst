@@ -69,25 +69,13 @@ Mappings
 --------
 
 * Block mapping - ``key: value``
-* Flow mapping (inline) - ``{key1: value, key2: value}``
-* Flow mapping (multi-line)::
-
-     {
-       key1: value,
-       key2: value,
-     }
+* Flow mapping - ``{key1: value, key2: value}``
 
 Sequences
 ---------
 
 * Block sequence - ``- value``
-* Flow sequence (inline) - ``[value, value]``
-* Flow sequence (multi-line)::
-
-     [
-       value,
-       value,
-     ]
+* Flow sequence - ``[value, value]``
 
 .. rename "Other" to something else?
 

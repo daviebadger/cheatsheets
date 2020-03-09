@@ -77,10 +77,8 @@ Sequences
 * Block sequence - ``- value``
 * Flow sequence - ``[value, value]``
 
-.. rename "Other" to something else?
-
-Other
-=====
+Other Indicators
+================
 
 * Alias - ``*name``
 * Anchor - ``&name``
@@ -91,5 +89,3 @@ Other
 * Merge mapping keys (from multiple mappings) - ``<<: [*alias1, *alias2]``
 * Merge mapping keys (from one mapping) - ``<<: *alias``
 * YAML directive - ``%YAML 1.2``
-
-.. !tag vs !!tag

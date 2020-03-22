@@ -62,6 +62,8 @@ Scalars
 * Timestamp (datetime ISO) - ``2020-02-20T00:00:00``
 * Timestamp (datetime spaced) - ``2020-02-20 00:00:00``
 
+
+
 Collections
 ===========
 
@@ -76,6 +78,8 @@ Sequences
 
 * Block sequence - ``- value``
 * Flow sequence - ``[value, value]``
+
+
 
 Other Indicators
 ================

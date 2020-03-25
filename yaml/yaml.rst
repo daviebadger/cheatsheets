@@ -85,7 +85,7 @@ Other Indicators
 ================
 
 * Alias - ``*name``
-* Anchor - ``&name``
+* Anchor - ``&name value``
 * Comment (block) - ``# comment``
 * Comment (inline) - ``value  # comment``
 * Document end - ``...``

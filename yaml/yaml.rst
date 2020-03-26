@@ -67,16 +67,9 @@ Scalars
 Collections
 ===========
 
-Mappings
---------
-
 * Block mapping - ``key: value``
-* Flow mapping - ``{key1: value, key2: value}``
-
-Sequences
----------
-
 * Block sequence - ``- value``
+* Flow mapping - ``{key1: value, key2: value}``
 * Flow sequence - ``[value, value]``
 
 

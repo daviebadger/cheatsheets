@@ -1,6 +1,6 @@
 # Davie's Technical Cheatsheets
 
-My technical cheatsheets of tools I have been using:
+My technical cheatsheets of software I have been using:
 
 * [reStructuredText](restructuredtext/restructuredtext.rst)
 * [YAML](yaml/yaml.rst)

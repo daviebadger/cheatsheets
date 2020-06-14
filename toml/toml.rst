@@ -31,6 +31,10 @@ Values
 
 * Boolean (false) - ``false``
 * Boolean (true) - ``true``
+* Integer (negative) - ``-1``
+* Integer (negative with underscores) - ``-1_000_000``
+* Integer (positive) - ``1``
+* Integer (positive with underscores) - ``1_000_000``
 
 
 

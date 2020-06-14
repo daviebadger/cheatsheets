@@ -32,3 +32,6 @@ Values
 
 Other
 =====
+
+* Comment (full-line) - ``# comment``
+* Comment (inline) - ``key = "value"  # comment``

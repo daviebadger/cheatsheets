@@ -29,6 +29,10 @@ Keys
 Values
 ======
 
+* Boolean (false) - ``false``
+* Boolean (true) - ``true``
+
+
 
 Other
 =====

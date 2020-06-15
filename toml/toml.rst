@@ -47,6 +47,10 @@ Values
 * Local date-time (with T delimiter) - ``2020-01-31T12:30:00``
 * Local date-time (without T delimiter) - ``2020-01-31 12:30:00``
 * Local time - ``12:30:00``
+* Offset date-time (with T delimiter) - ``2020-01-31T12:30:00+01:30``
+* Offset date-time (without T delimiter) - ``2020-01-31 12:30:00+01:30``
+* Offset date-time UTC (with T delimiter) - ``2020-01-31T12:30:00Z``
+* Offset date-time UTC (without T delimiter) - ``2020-01-31 12:30:00Z``
 
 
 

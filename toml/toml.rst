@@ -43,6 +43,10 @@ Values
 * Integer (negative with underscores) - ``-1_000_000``
 * Integer (positive) - ``1``
 * Integer (positive with underscores) - ``1_000_000``
+* Local date - ``2020-01-31``
+* Local date-time (with T delimiter) - ``2020-01-31T12:30:00``
+* Local date-time (without T delimiter) - ``2020-01-31 12:30:00``
+* Local time - ``12:30:00``
 
 
 

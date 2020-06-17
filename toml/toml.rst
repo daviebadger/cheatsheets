@@ -29,6 +29,7 @@ Keys
 Values
 ======
 
+* Array - ``[ 1, 2, 3 ]``
 * Boolean (false) - ``false``
 * Boolean (true) - ``true``
 * Float (negative) - ``-1.0``

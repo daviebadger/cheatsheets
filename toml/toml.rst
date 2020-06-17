@@ -30,6 +30,12 @@ Values
 ======
 
 * Array - ``[ 1, 2, 3 ]``
+* Basic string (inline) - ``"text"``
+* Basic string (multi-line)::
+
+     """
+     text"""
+
 * Boolean (false) - ``false``
 * Boolean (true) - ``true``
 * Float (negative) - ``-1.0``
@@ -44,6 +50,12 @@ Values
 * Integer (negative with underscores) - ``-1_000_000``
 * Integer (positive) - ``1``
 * Integer (positive with underscores) - ``1_000_000``
+* Literal string (inline) - ``'text'``
+* Literal string (multi-line)::
+
+     '''
+     text'''
+
 * Local date - ``2020-01-31``
 * Local date-time (with T delimiter) - ``2020-01-31T12:30:00``
 * Local date-time (without T delimiter) - ``2020-01-31 12:30:00``

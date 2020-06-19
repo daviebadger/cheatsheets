@@ -46,6 +46,7 @@ Values
 * Float (positive infinity) - ``.inf``
 * Float (positive scientific notation) - ``1e+0``
 * Float (positive with underscores) - ``1.123_456_789``
+* Inline table - ``{ key1 = "value", key2 "value" }``
 * Integer (negative) - ``-1``
 * Integer (negative with underscores) - ``-1_000_000``
 * Integer (positive) - ``1``

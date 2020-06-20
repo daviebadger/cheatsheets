@@ -24,7 +24,16 @@ __ https://creativecommons.org/licenses/by-sa/4.0/
 Keys
 ====
 
+* Array of tables::
 
+     [[table-name]]
+     key-name = "value"
+
+* Key/value pair - ``key-name = "value"``
+* Table::
+
+     [table-name]
+     key-name = "value"
 
 Values
 ======
@@ -46,7 +55,7 @@ Values
 * Float (positive infinity) - ``.inf``
 * Float (positive scientific notation) - ``1e+0``
 * Float (positive with underscores) - ``1.123_456_789``
-* Inline table - ``{ key1 = "value", key2 "value" }``
+* Inline table - ``{ key1 = "value", key2 = "value" }``
 * Integer (negative) - ``-1``
 * Integer (negative with underscores) - ``-1_000_000``
 * Integer (positive) - ``1``

@@ -48,11 +48,11 @@ Values
 * Boolean (false) - ``false``
 * Boolean (true) - ``true``
 * Float (negative) - ``-1.0``
-* Float (negative infinity) - ``-.inf``
+* Float (negative infinity) - ``-inf``
 * Float (negative scientific notation) - ``-1e+0``
 * Float (negative with underscores) - ``-1.123_456_789``
 * Float (positive) - ``1.0``
-* Float (positive infinity) - ``.inf``
+* Float (positive infinity) - ``inf``
 * Float (positive scientific notation) - ``1e+0``
 * Float (positive with underscores) - ``1.123_456_789``
 * Inline table - ``{ key1 = "value", key2 = "value" }``

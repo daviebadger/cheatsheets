@@ -3,6 +3,7 @@
 My technical cheatsheets of software I have been using:
 
 * [reStructuredText](restructuredtext/restructuredtext.rst)
+* [TOML](toml/toml.rst)
 * [YAML](yaml/yaml.rst)
 
 ## License

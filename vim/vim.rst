@@ -21,17 +21,38 @@ __ https://creativecommons.org/licenses/by-sa/4.0/
 
 
 
+Left-Right Motions
+
+* ``$`` - go to the last character in a line
+* ``0`` - go to the first character in a line
+* ``F + {char}`` - go to the given character left in a line
+* ``f + {char}`` - go to the given character right in a line
+* ``g$`` - go to the last character in a screen line (wrap is on)
+* ``g0`` - go to the first character in a screen line (wrap is on)
+* ``g^`` - go to the first non-blank character in a screen line (wrap is on)
+* ``g_`` - go to the last non-blank character in a line
+* ``gM`` - go to the center of a line
+* ``gm`` - go to the center of a screen line
+* ``^`` - go to the first non-blank character in a line
+* ``h`` - go 1 character left
+* ``l`` - go 1 character right
+* ``{number} + |`` - go to the given column
+* ``,`` - repeat ``f``, ``F``, ``t``, ``T`` backwards
+* ``;`` - repeat ``f``, ``F``, ``t``, ``T`` forwards
+* ``T + {char}`` - go before to the given character left in a line
+* ``t + {char}`` - go before to the given character right in a line
+
 Up-Down Motions
 
-* ``+`` - go 1 line down to a non-blank character
-* ``-`` - go 1 line up to a non-blank character
 * ``gg`` - go to the first line
 * ``G`` - go to the last line
 * ``gj`` - go 1 screen line down (wrap is on)
 * ``gk`` - go 1 screen line up (wrap is on)
+* ``+`` - go 1 line down to a non-blank character
+* ``-`` - go 1 line up to a non-blank character
 * ``j`` - go 1 line down
 * ``k`` - go 1 line up
-* ``{number} + %`` - go to percentage line
+* ``{number} + %`` - go to the given percentage line
 
 Scrolling
 

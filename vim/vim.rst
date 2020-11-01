@@ -55,6 +55,13 @@ Up-Down Motions
 * ``{number} + G`` - go to the given line
 * ``{number} + %`` - go to the given percentage line
 
+Other Motions
+
+* ``%`` - go to matching brace, bracket, parenthesis
+* ``H`` - go to the top of a window
+* ``M`` - go to the center of a window
+* ``L`` - go to the bottom of a window
+
 Text Object Motions
 
 * ``b`` - go to the start of a current or previous "word"

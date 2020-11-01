@@ -52,7 +52,19 @@ Up-Down Motions
 * ``-`` - go 1 line up to a non-blank character
 * ``j`` - go 1 line down
 * ``k`` - go 1 line up
+* ``{number} + G`` - go to the given line
 * ``{number} + %`` - go to the given percentage line
+
+Text Object Motions
+
+* ``b`` - go to the start of a current or previous "word"
+* ``B`` - go to the start of a current or previous word
+* ``e`` - go to the end of a current or the next "word"
+* ``E`` - go to the end of a current or the next word
+* ``ge`` - go to the end of a previous "word"
+* ``gE`` - go to the end of a previous word
+* ``w`` - go to the start of the next "word"
+* ``W`` - go to the start of the next word
 
 Scrolling
 

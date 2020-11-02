@@ -103,3 +103,9 @@ Visual Mode Commands
 
 * ``o`` - go to the opposite edge of a highlighted text
 * ``gv`` - highlight a recently highlighted text
+
+Undo/Redo
+
+* ``u`` - undo the last change
+* ``U`` - undo a whole recently changed line
+* ``CTRL + r`` - redo the last change

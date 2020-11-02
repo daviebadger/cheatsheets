@@ -98,3 +98,8 @@ Scrolling
 * ``zl`` - scroll screen width 1 character to right (wrap is off)
 * ``zt`` - scroll current line to the top of a window
 * ``zz`` - scroll current line to the center of a window
+
+Visual Mode Commands
+
+* ``o`` - go to the opposite edge of a highlighted text
+* ``gv`` - highlight a recently highlighted text

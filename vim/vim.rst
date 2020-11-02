@@ -20,6 +20,18 @@ __ https://creativecommons.org/licenses/by-sa/4.0/
 .. _Davie Badger: https://github.com/daviebadger
 
 
+Modes
+
+* ``a`` - switch to Insert mode after the cursor
+* ``A`` - switch to Insert mode at the end of a line
+* ``CTRL + v`` - switch to Visual mode blockwise
+* ``ESC`` - switch to Normal mode
+* ``I`` - switch to Insert mode at the start of a line
+* ``i`` - switch to Insert mode in place of the cursor
+* ``o`` - switch to Insert mode in a new line below the cursor
+* ``O`` - switch to Insert mode in a new line above the cursor
+* ``v`` - switch to Visual mode characterwise
+* ``V`` - switch to Visual mode linewise
 
 Left-Right Motions
 
@@ -75,10 +87,10 @@ Text Object Motions
 
 Scrolling
 
-* ``CTRL + B`` - scroll 1 window backwards
-* ``CTRL + D`` - scroll 1/2 window forwards
-* ``CTRL + F`` - scroll 1 window forwards
-* ``CTRL + U`` - scroll 1/2 window backwards
+* ``CTRL + b`` - scroll 1 window backwards
+* ``CTRL + d`` - scroll 1/2 window forwards
+* ``CTRL + f`` - scroll 1 window forwards
+* ``CTRL + u`` - scroll 1/2 window backwards
 * ``zb`` - scroll current line to the bottom of a window
 * ``zH`` - scroll 1/2 screen width left (wrap is off)
 * ``zh`` - scroll screen width 1 character to left (wrap is off)

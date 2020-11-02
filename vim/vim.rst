@@ -99,6 +99,19 @@ Scrolling
 * ``zt`` - scroll current line to the top of a window
 * ``zz`` - scroll current line to the center of a window
 
+Deleting Text
+
+* ``dd`` - delete current line
+* ``D`` - delete to the end of a line
+* ``d + {motion}`` - delete to the given motion
+* ``gJ`` - join lines without space
+* ``J`` - join lines with space
+* ``{visual} + d`` - delete highlighted text
+* ``{visual} + gJ`` - join highlighted lines without space
+* ``{visual} + J`` - join highlighted lines with space
+* ``x`` - delete a chara
+* ``X`` - delete a character before the cursor
+
 Visual Mode Commands
 
 * ``o`` - go to the opposite edge of a highlighted text

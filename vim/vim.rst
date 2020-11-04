@@ -114,13 +114,22 @@ Deleting Text
 * ``x`` - delete a chara
 * ``X`` - delete a character before the cursor
 
-Visual Mode Commands
+Copying/Pasting Text
 
-* ``o`` - go to the opposite edge of a highlighted text
-* ``gv`` - highlight a recently highlighted text
+* ``p`` - put text after the cursor
+* ``P`` - put text before the cursor
+* ``{visual} + y`` - yank highlighted text
+* ``y + {motion}`` - yank to the given motion
+* ``Y`` - yank current line
+* ``yy`` - yank current line
 
-Undo/Redo
+Undo/Redo Changes
 
 * ``u`` - undo the last change
 * ``U`` - undo a whole recently changed line
 * ``CTRL + r`` - redo the last change
+
+Visual Mode Commands
+
+* ``o`` - go to the opposite edge of a highlighted text
+* ``gv`` - highlight a recently highlighted text

@@ -32,6 +32,8 @@ Modes
 * ``O`` - switch to Insert mode in a new line above the cursor
 * ``v`` - switch to Visual mode characterwise
 * ``V`` - switch to Visual mode linewise
+* ``{visual-block} + I`` - switch to Insert mode at the start of a highlighted block
+* ``{visual-block} + A`` - switch to Insert mode at the end of a highlighted block
 
 Left-Right Motions
 

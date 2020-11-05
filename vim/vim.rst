@@ -53,8 +53,8 @@ Left-Right Motions
 * ``{number} + |`` - go to the given column
 * ``,`` - repeat ``f``, ``F``, ``t``, ``T`` backwards
 * ``;`` - repeat ``f``, ``F``, ``t``, ``T`` forwards
-* ``T + {char}`` - go before to the given character left in a line
-* ``t + {char}`` - go before to the given character right in a line
+* ``T + {char}`` - go before the given character left in a line
+* ``t + {char}`` - go before the given character right in a line
 
 Up-Down Motions
 
@@ -71,7 +71,7 @@ Up-Down Motions
 
 Other Motions
 
-* ``%`` - go to matching brace, bracket, parenthesis
+* ``%`` - go to the matching brace / bracket / parenthesis
 * ``H`` - go to the top of a window
 * ``M`` - go to the center of a window
 * ``L`` - go to the bottom of a window
@@ -93,40 +93,73 @@ Scrolling
 * ``CTRL + d`` - scroll 1/2 window forwards
 * ``CTRL + f`` - scroll 1 window forwards
 * ``CTRL + u`` - scroll 1/2 window backwards
-* ``zb`` - scroll current line to the bottom of a window
+* ``zb`` - scroll the current line to the bottom of a window
 * ``zH`` - scroll 1/2 screen width left (wrap is off)
 * ``zh`` - scroll screen width 1 character to left (wrap is off)
 * ``zL`` - scroll 1/2 screen width right (wrap is off)
 * ``zl`` - scroll screen width 1 character to right (wrap is off)
-* ``zt`` - scroll current line to the top of a window
-* ``zz`` - scroll current line to the center of a window
+* ``zt`` - scroll the current line to the top of a window
+* ``zz`` - scroll the current line to the center of a window
 
 Deleting Text
 
-* ``dd`` - delete current line
+* ``dd`` - delete the current line
 * ``D`` - delete to the end of a line
 * ``d + {motion}`` - delete to the given motion
 * ``gJ`` - join lines without space
 * ``J`` - join lines with space
-* ``{visual} + d`` - delete highlighted text
+* ``{visual} + d`` - delete the highlighted text
 * ``{visual} + gJ`` - join highlighted lines without space
 * ``{visual} + J`` - join highlighted lines with space
-* ``x`` - delete a chara
+* ``x`` - delete a character under the cursor
 * ``X`` - delete a character before the cursor
 
 Copying/Pasting Text
 
-* ``p`` - put text after the cursor
-* ``P`` - put text before the cursor
-* ``{visual} + y`` - yank highlighted text
+* ``p`` - put a text after the cursor
+* ``P`` - put a text before the cursor
+* ``{visual} + y`` - yank a highlighted text
 * ``y + {motion}`` - yank to the given motion
-* ``Y`` - yank current line
-* ``yy`` - yank current line
+* ``Y`` - yank the current line
+* ``yy`` - yank the current line
+
+Changing Text
+
+* ``==`` - auto indent the current line
+* ``cc`` - change the current line
+* ``C`` - change to the end of a line
+* ``:ce[nter]`` - center align for the current line
+* ``c + {motion}`` - change to the given motion
+* ``CTRL + a`` - increase a number under the cursor
+* ``CTRL + x`` - decrease a number under the cursor
+* ``g~ + {motion}`` - switch case to the given motion
+* ``gu + {motion}`` - lower a text to the given motion
+* ``gU + {motion}`` - upper a text to the given motion
+* ``>>`` - indent the current line
+* ``:le[ft]`` - left align for the current line
+* ``= + {motion}`` - auto indent to the given motion
+* ``> + {motion}`` - indent to the given motion
+* ``< + {motion}`` - unindent to the given motion
+* ``r + {char}`` - replace a character under the cursor with the given character
+* ``:ri[ght]`` - right align for the current line
+* ``~`` - switch case under the cursor
+* ``<<`` - unindent the current line
+* ``{visual} + =`` - auto indent a highlighted text
+* ``{visual-block} + C`` - change to the end of a highlighted block
+* ``{visual} + c`` - change a highlighted text
+* ``{visual} + :ce[nter]`` - center align for the highlighted text
+* ``{visual} + >`` - indent the current line
+* ``{visual} + :le[ft]`` - left align for the highlighted text
+* ``{visual} + :ri[ght]`` - right align for the highlighted text
+* ``{visual} + ~`` - switch case of a highlighted text
+* ``{visual} + u`` - lower a highlighted text
+* ``{visual} + <`` - unindent the current line
+* ``{visual} + U`` - upper a highlighted text
 
 Undo/Redo Changes
 
 * ``u`` - undo the last change
-* ``U`` - undo a whole recently changed line
+* ``U`` - undo a recently changed line
 * ``CTRL + r`` - redo the last change
 
 Visual Mode Commands

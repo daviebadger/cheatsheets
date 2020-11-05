@@ -20,7 +20,9 @@ __ https://creativecommons.org/licenses/by-sa/4.0/
 .. _Davie Badger: https://github.com/daviebadger
 
 
+
 Modes
+=====
 
 * ``a`` - switch to Insert mode after the cursor
 * ``A`` - switch to Insert mode at the end of a line
@@ -35,7 +37,13 @@ Modes
 * ``{visual-block} + I`` - switch to Insert mode at the start of a highlighted block
 * ``{visual-block} + A`` - switch to Insert mode at the end of a highlighted block
 
+
+
+Motions
+=======
+
 Left-Right Motions
+------------------
 
 * ``$`` - go to the last character in a line
 * ``0`` - go to the first character in a line
@@ -57,6 +65,7 @@ Left-Right Motions
 * ``t + {char}`` - go before the given character right in a line
 
 Up-Down Motions
+---------------
 
 * ``gg`` - go to the first line
 * ``G`` - go to the last line
@@ -69,14 +78,8 @@ Up-Down Motions
 * ``{number} + G`` - go to the given line
 * ``{number} + %`` - go to the given percentage line
 
-Other Motions
-
-* ``%`` - go to the matching brace / bracket / parenthesis
-* ``H`` - go to the top of a window
-* ``M`` - go to the center of a window
-* ``L`` - go to the bottom of a window
-
 Text Object Motions
+-------------------
 
 * ``b`` - go to the start of a current or previous "word"
 * ``B`` - go to the start of a current or previous word
@@ -87,21 +90,30 @@ Text Object Motions
 * ``w`` - go to the start of the next "word"
 * ``W`` - go to the start of the next word
 
-Scrolling
+Other Motions
+-------------
 
-* ``CTRL + b`` - scroll 1 window backwards
-* ``CTRL + d`` - scroll 1/2 window forwards
-* ``CTRL + f`` - scroll 1 window forwards
-* ``CTRL + u`` - scroll 1/2 window backwards
-* ``zb`` - scroll the current line to the bottom of a window
-* ``zH`` - scroll 1/2 screen width left (wrap is off)
-* ``zh`` - scroll screen width 1 character to left (wrap is off)
-* ``zL`` - scroll 1/2 screen width right (wrap is off)
-* ``zl`` - scroll screen width 1 character to right (wrap is off)
-* ``zt`` - scroll the current line to the top of a window
-* ``zz`` - scroll the current line to the center of a window
+* ``%`` - go to the matching brace / bracket / parenthesis
+* ``H`` - go to the top of a window
+* ``M`` - go to the center of a window
+* ``L`` - go to the bottom of a window
+
+
+Operators
+=========
+
+Copying/Pasting Text
+--------------------
+
+* ``p`` - put a text after the cursor
+* ``P`` - put a text before the cursor
+* ``{visual} + y`` - yank a highlighted text
+* ``y + {motion}`` - yank to the given motion
+* ``Y`` - yank the current line
+* ``yy`` - yank the current line
 
 Deleting Text
+-------------
 
 * ``dd`` - delete the current line
 * ``D`` - delete to the end of a line
@@ -114,16 +126,8 @@ Deleting Text
 * ``x`` - delete a character under the cursor
 * ``X`` - delete a character before the cursor
 
-Copying/Pasting Text
-
-* ``p`` - put a text after the cursor
-* ``P`` - put a text before the cursor
-* ``{visual} + y`` - yank a highlighted text
-* ``y + {motion}`` - yank to the given motion
-* ``Y`` - yank the current line
-* ``yy`` - yank the current line
-
 Changing Text
+-------------
 
 * ``==`` - auto indent the current line
 * ``cc`` - change the current line
@@ -155,6 +159,20 @@ Changing Text
 * ``{visual} + u`` - lower a highlighted text
 * ``{visual} + <`` - unindent the current line
 * ``{visual} + U`` - upper a highlighted text
+
+Scrolling
+
+* ``CTRL + b`` - scroll 1 window backwards
+* ``CTRL + d`` - scroll 1/2 window forwards
+* ``CTRL + f`` - scroll 1 window forwards
+* ``CTRL + u`` - scroll 1/2 window backwards
+* ``zb`` - scroll the current line to the bottom of a window
+* ``zH`` - scroll 1/2 screen width left (wrap is off)
+* ``zh`` - scroll screen width 1 character to left (wrap is off)
+* ``zL`` - scroll 1/2 screen width right (wrap is off)
+* ``zl`` - scroll screen width 1 character to right (wrap is off)
+* ``zt`` - scroll the current line to the top of a window
+* ``zz`` - scroll the current line to the center of a window
 
 Undo/Redo Changes
 

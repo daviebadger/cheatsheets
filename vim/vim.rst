@@ -30,12 +30,12 @@ Modes
 * ``ESC`` - switch to Normal mode
 * ``I`` - switch to Insert mode at the start of a line
 * ``i`` - switch to Insert mode in place of the cursor
-* ``o`` - switch to Insert mode in a new line below the cursor
 * ``O`` - switch to Insert mode in a new line above the cursor
+* ``o`` - switch to Insert mode in a new line below the cursor
+* ``{visual-block} + A`` - switch to Insert mode at the end of a highlighted block
+* ``{visual-block} + I`` - switch to Insert mode at the start of a highlighted block
 * ``v`` - switch to Visual mode characterwise
 * ``V`` - switch to Visual mode linewise
-* ``{visual-block} + I`` - switch to Insert mode at the start of a highlighted block
-* ``{visual-block} + A`` - switch to Insert mode at the end of a highlighted block
 
 
 
@@ -95,8 +95,8 @@ Other Motions
 
 * ``%`` - go to the matching brace / bracket / parenthesis
 * ``H`` - go to the top of a window
-* ``M`` - go to the center of a window
 * ``L`` - go to the bottom of a window
+* ``M`` - go to the center of a window
 
 
 Operators
@@ -123,8 +123,8 @@ Deleting Text
 * ``{visual} + d`` - delete the highlighted text
 * ``{visual} + gJ`` - join highlighted lines without space
 * ``{visual} + J`` - join highlighted lines with space
-* ``x`` - delete a character under the cursor
 * ``X`` - delete a character before the cursor
+* ``x`` - delete a character under the cursor
 
 Changing Text
 -------------
@@ -176,11 +176,30 @@ Scrolling
 
 Undo/Redo Changes
 
-* ``u`` - undo the last change
-* ``U`` - undo a recently changed line
 * ``CTRL + r`` - redo the last change
+* ``U`` - undo a recently changed line
+* ``u`` - undo the last change
+
+Mode Specialities
 
 Visual Mode Commands
 
-* ``o`` - go to the opposite edge of a highlighted text
 * ``gv`` - highlight a recently highlighted text
+* ``o`` - go to the opposite edge of a highlighted text
+
+Visual Mode Text Objects
+
+* ``a + {bracket}`` - select a text inside a () / {} / [] / <> brackets inclusively
+* ``a + p`` - select a paragraph including a newline
+* ``a + {quote}`` - select a text inside quotes inclusively
+* ``a + s`` - select a sentence including space
+* ``a + t`` - select a text inside a HTML / XML tag inclusively
+* ``a + w`` - select a "word" including space
+* ``a + W`` - select a word including space
+* ``i + {bracket}`` - select a text inside a () / {} / [] / <> brackets
+* ``i + p`` - select a paragraph
+* ``i + {quote}`` - select a text inside quotes
+* ``i + s`` - select a sentence
+* ``i + t`` - select a text inside a HTML / XML tag
+* ``i + w`` - select a "word"
+* ``i + W`` - select a word

@@ -181,13 +181,29 @@ Undo/Redo Changes
 * ``u`` - undo the last change
 
 Mode Specialities
+-----------------
+
+Insert Mode Commands
+--------------------
+
+* ``0 + CTRL + d`` - delete indents in the current line
+* ``CTRL + a`` - insert a previously inserted text
+* ``CTRL + d`` - unindent the current line
+* ``CTRL + n`` - complete the word or choose the next match
+* ``CTRL + p`` - complete the word or choose the previous match
+* ``CTRL + r + {register}`` - insert a text from the given register
+* ``CTRL + t`` - indent the current line
+* ``CTRL + u`` - delete newly added characters in the current line
+* ``CTRL + w`` - delete the current or a previous "word"
 
 Visual Mode Commands
+--------------------
 
 * ``gv`` - highlight a recently highlighted text
 * ``o`` - go to the opposite edge of a highlighted text
 
 Visual Mode Text Objects
+------------------------
 
 * ``a + {bracket}`` - select a text inside a () / {} / [] / <> brackets inclusively
 * ``a + p`` - select a paragraph including a newline

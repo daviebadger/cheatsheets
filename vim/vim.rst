@@ -90,6 +90,22 @@ Text Object Motions
 * ``w`` - go to the start of the next "word"
 * ``W`` - go to the start of the next word
 
+Search Motions
+--------------
+
+* ``#`` - search the identifier under the cursor backwards
+* ``*`` - search the identifier under the cursor forwards
+* ``/ + ENTER`` - repeat the last search forwards
+* ``? + ENTER`` - repeat the last search backwards
+* ``g#`` - partially search the identifier under the cursor backwards
+* ``g*`` - partially search the identifier under the cursor forwards
+* ``gd`` - go to the local declaration of an identifier under the cursor
+* ``gD`` - go to the global declaration of an identifier under the cursor
+* ``n`` - repeat the last search
+* ``N`` - repeat the last search reversely
+* ``/ + {pattern}`` - search the given pattern forwards
+* ``? + {pattern}`` - search the given battern backwards
+
 Other Motions
 -------------
 

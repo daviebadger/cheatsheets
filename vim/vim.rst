@@ -182,6 +182,7 @@ Changing Text
 * ``g~ + {motion}`` - switch case to the given motion
 * ``gu + {motion}`` - lower a text to the given motion
 * ``gU + {motion}`` - upper a text to the given motion
+* ``g~~`` - switch case in the current line
 * ``guu`` - lower the current line
 * ``gUU`` - upper the current line
 * ``>>`` - indent the current line

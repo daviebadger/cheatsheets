@@ -125,10 +125,25 @@ Other Motions
 * ``L`` - go to the bottom of a window
 * ``M`` - go to the center of a window
 
+Scrolling
+---------
+
+* ``CTRL + b`` - scroll 1 window backwards
+* ``CTRL + d`` - scroll 1/2 window forwards
+* ``CTRL + f`` - scroll 1 window forwards
+* ``CTRL + u`` - scroll 1/2 window backwards
+* ``zb`` - scroll the current line to the bottom of a window
+* ``zH`` - scroll 1/2 screen width left (wrap is off)
+* ``zh`` - scroll screen width 1 character to left (wrap is off)
+* ``zL`` - scroll 1/2 screen width right (wrap is off)
+* ``zl`` - scroll screen width 1 character to right (wrap is off)
+* ``zt`` - scroll the current line to the top of a window
+* ``zz`` - scroll the current line to the center of a window
 
 
-Operators
-=========
+
+Operations
+==========
 
 Copying/Pasting Text
 --------------------
@@ -190,6 +205,14 @@ Changing Text
 * ``{visual} + <`` - unindent the current line
 * ``{visual} + U`` - upper a highlighted text
 
+Undo/Redo Changes
+-----------------
+
+* ``CTRL + r`` - redo the last change
+* ``U`` - undo a recently changed line
+* ``u`` - undo the last change
+
+
 
 Mode Specialities
 =================
@@ -230,25 +253,3 @@ Visual Mode Text Objects
 * ``i + t`` - select a text inside a HTML / XML tag
 * ``i + w`` - select a "word"
 * ``i + W`` - select a word
-
-----
-
-Scrolling
-
-* ``CTRL + b`` - scroll 1 window backwards
-* ``CTRL + d`` - scroll 1/2 window forwards
-* ``CTRL + f`` - scroll 1 window forwards
-* ``CTRL + u`` - scroll 1/2 window backwards
-* ``zb`` - scroll the current line to the bottom of a window
-* ``zH`` - scroll 1/2 screen width left (wrap is off)
-* ``zh`` - scroll screen width 1 character to left (wrap is off)
-* ``zL`` - scroll 1/2 screen width right (wrap is off)
-* ``zl`` - scroll screen width 1 character to right (wrap is off)
-* ``zt`` - scroll the current line to the top of a window
-* ``zz`` - scroll the current line to the center of a window
-
-Undo/Redo Changes
-
-* ``CTRL + r`` - redo the last change
-* ``U`` - undo a recently changed line
-* ``u`` - undo the last change

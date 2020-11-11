@@ -106,6 +106,17 @@ Search Motions
 * ``/ + {pattern}`` - search the given pattern forwards
 * ``? + {pattern}`` - search the given battern backwards
 
+Mark Motions
+------------
+
+* ```"`` - go to the position when last editing the file
+* ```<`` - go to the start of a previously highlighted text
+* ```>`` - go to the end of a previously highlighted text
+* ```[`` - go to the start of a previously inserted or pasted text else ``gg``
+* ```]`` - go to the end of a previously inserted or pasted text else ``G``
+* `````` - go to the previous position
+* ```.`` - go to the last change
+
 Other Motions
 -------------
 
@@ -113,6 +124,7 @@ Other Motions
 * ``H`` - go to the top of a window
 * ``L`` - go to the bottom of a window
 * ``M`` - go to the center of a window
+
 
 
 Operators

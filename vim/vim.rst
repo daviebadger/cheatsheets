@@ -167,6 +167,8 @@ Changing Text
 * ``g~ + {motion}`` - switch case to the given motion
 * ``gu + {motion}`` - lower a text to the given motion
 * ``gU + {motion}`` - upper a text to the given motion
+* ``guu`` - lower the current line
+* ``gUU`` - upper the current line
 * ``>>`` - indent the current line
 * ``:le[ft]`` - left align for the current line
 * ``= + {motion}`` - auto indent to the given motion

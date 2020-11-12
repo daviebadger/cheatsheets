@@ -180,9 +180,9 @@ Changing Text
 * ``CTRL + a`` - increase a number under the cursor
 * ``CTRL + x`` - decrease a number under the cursor
 * ``g~ + {motion}`` - switch case to the given motion
+* ``g~~`` - switch case in the current line
 * ``gu + {motion}`` - lower a text to the given motion
 * ``gU + {motion}`` - upper a text to the given motion
-* ``g~~`` - switch case in the current line
 * ``guu`` - lower the current line
 * ``gUU`` - upper the current line
 * ``>>`` - indent the current line
@@ -192,6 +192,8 @@ Changing Text
 * ``< + {motion}`` - unindent to the given motion
 * ``r + {char}`` - replace a character under the cursor with the given character
 * ``:ri[ght]`` - right align for the current line
+* ``s`` - change character under the cursor
+* ``S`` - change the current line
 * ``~`` - switch case under the cursor
 * ``<<`` - unindent the current line
 * ``{visual} + =`` - auto indent a highlighted text

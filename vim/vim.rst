@@ -215,6 +215,15 @@ Undo/Redo Changes
 * ``U`` - undo a recently changed line
 * ``u`` - undo the last change
 
+Repeating Commands
+------------------
+
+* ``@ + {a-z}`` - execute the content of the given register
+* ``q + {A-Z}`` - record typed characters and append to the given register
+* ``q + {a-z}`` - record typed characters into the given register
+* ``q`` - stop recording
+* ``.`` - repeat the last change
+* ``@@`` - repeat the previous execution
 
 
 Mode Specialities

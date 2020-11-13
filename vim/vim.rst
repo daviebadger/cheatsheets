@@ -118,6 +118,7 @@ Mark Motions
 * ```[`` - go to the start of a previously inserted or pasted text else ``gg``
 * ``:ju[mps]`` - show jump list
 * :literal:`\` + {a-z}` - go to the given mark
+* ``:marks {a-z}`` - show the given mark
 * ``:marks`` - show marks
 * ``m + {a-z}`` - create the given mark in the current position
 

@@ -109,13 +109,17 @@ Search Motions
 Mark Motions
 ------------
 
-* ```"`` - go to the position when last editing the file
-* ```<`` - go to the start of a previously highlighted text
 * ```>`` - go to the end of a previously highlighted text
-* ```[`` - go to the start of a previously inserted or pasted text else ``gg``
 * ```]`` - go to the end of a previously inserted or pasted text else ``G``
-* `````` - go to the previous position
 * ```.`` - go to the last change
+* ```"`` - go to the position when last editing the file
+* `````` - go to the previous position
+* ```<`` - go to the start of a previously highlighted text
+* ```[`` - go to the start of a previously inserted or pasted text else ``gg``
+* ``:ju[mps]`` - show jump list
+* :literal:`\` + {a-z}` - go to the given mark
+* ``:marks`` - show marks
+* ``m + {a-z}`` - create the given mark in the current position
 
 Other Motions
 -------------

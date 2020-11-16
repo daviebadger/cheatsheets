@@ -231,6 +231,7 @@ Repeating Commands
 * ``@@`` - repeat the previous execution
 
 
+
 Mode Specialities
 =================
 
@@ -270,3 +271,43 @@ Visual Mode Text Objects
 * ``i + t`` - select a text inside a HTML / XML tag
 * ``i + w`` - select a "word"
 * ``i + W`` - select a word
+
+
+
+Miscellaneous
+=============
+
+Windows
+-------
+
+* ``:clo[se][!]`` - close the window (keep changes with ``!``)
+* ``CTRL + _`` - make the window highest posible
+* ``CTRL + |`` - make the window widest posible
+* ``CTRL + w + b`` - go to the bottom window
+* ``CTRL + w + -`` - decrease the window height
+* ``CTRL + w + <`` - decrease the window width
+* ``CTRL + w + H`` - move the window to the most left
+* ``CTRL + w + h`` - on to the window left
+* ``CTRL + w + +`` - increase the window height
+* ``CTRL + w + >`` - increase the window width
+* ``CTRL + w + j`` - go to the window down
+* ``CTRL + w + J`` - move the window to the most down
+* ``CTRL + w + k`` - go to the window up
+* ``CTRL + w + K`` - move the window to the most up
+* ``CTRL + w + l`` - go to the window right
+* ``CTRL + w + L`` - move the window to the most right
+* ``CTRL + w + =`` - make all windows equal
+* ``CTRL + w + p`` - go to the previous window
+* ``CTRL + w + R`` - move the window backwards
+* ``CTRL + w + r`` - move the window forwards
+* ``CTRL + w + t`` - go to the top window
+* ``CTRL + w + T`` - move the window to a new tab
+* ``CTRL + w + x`` - swap the current window and the next window
+* ``{height} + CTRL + _`` - set the given height to the window
+* ``:new`` - create an empty window horizontally
+* ``:on[ly][!]`` - close all windows except for the current window
+* ``:q[uit][!]`` - close the window (discard changes with ``!``)
+* ``:sp[lit] [file]`` - split the current window or open the given file horizontally
+* ``:vnew`` - create an empty window vertically
+* ``:vs[plit] [file]`` - split the current window or open the given file vertically
+* ``{width} + CTRL + |`` - set the given width to the window

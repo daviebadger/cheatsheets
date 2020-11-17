@@ -277,6 +277,20 @@ Visual Mode Text Objects
 Miscellaneous
 =============
 
+Folding
+-------
+
+* ``{visual} + :fold`` - fold the given highlighted text
+* ``zC`` - close all folds under the cursor upwards
+* ``zc`` - close one fold under the cursor
+* ``zf + {motion}`` - fold to the given motion
+* ``zM`` - close all folds
+* ``zm`` - close all folds under the same level
+* ``zO`` - open all folds under the cursor downwards
+* ``zo`` - open one fold under the cursor
+* ``zr`` - open all folder uner the same level
+* ``zR`` - open all folds
+
 Windows
 -------
 

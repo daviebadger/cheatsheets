@@ -36,6 +36,7 @@ Modes
 * ``{visual-block} + I`` - switch to Insert mode at the start of a highlighted block
 * ``v`` - switch to Visual mode characterwise
 * ``V`` - switch to Visual mode linewise
+* ``:`` - switch to Command-line mode
 
 
 

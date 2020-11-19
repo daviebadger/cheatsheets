@@ -292,6 +292,18 @@ Folding
 * ``zr`` - open all folder uner the same level
 * ``zR`` - open all folds
 
+Help
+----
+
+* ``:h[elp]`` - open a window with Vim help
+* ``:h[help] {subject}`` - open a help for the given subject
+* ``:helpg[ep] {pattern}`` - open a quickfix window with grepped results for the given pattern
+* ``CTRL + ]`` - jump to a subject under the cursor
+* ``CTRL + o`` - jump to the subject back in history
+* ``CTRL + i`` - jump to the subject ahead in history
+
+
+
 Windows
 -------
 

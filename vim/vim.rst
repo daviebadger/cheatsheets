@@ -338,3 +338,14 @@ Windows
 * ``:vnew`` - create an empty window vertically
 * ``:vs[plit] [file]`` - split the current window or open the given file vertically
 * ``{width} + CTRL + |`` - set the given width to the window
+
+
+
+Technicalities
+==============
+
+Help Subjects
+-------------
+
+Search Patterns
+---------------

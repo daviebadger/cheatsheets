@@ -218,6 +218,20 @@ Undo/Redo Changes
 -----------------
 
 * ``CTRL + r`` - redo the last change
+* ``:ea[rlier] {number}d`` - go to a text state before the given days
+* ``:ea[rlier] {number}f`` - go to the oldest text state before the given file writes
+* ``:ea[rlier] {number}h`` - go to a test state before the given hours
+* ``:ea[rlier] {number}m`` - go to a test state before the given minutes
+* ``:ea[rlier] {number}s`` - go to a test state before the given seconds
+* ``g+`` - go to a newer text state
+* ``g-`` - go to an older text state
+* ``:lat[er] {number}d`` - go to a text state after the given days
+* ``:lat[er] {number}f`` - go to the newest text state after the given file writes
+* ``:lat[er] {number}h`` - go to a text state after the given hours
+* ``:lat[er] {number}m`` - go to a text state after the given minutes
+* ``:lat[er] {number}s`` - go to a text state after the given seconds
+* ``:undol[ist]`` - show a list of undo branches
+* ``:un[do] {number}`` - go to the given undo branch
 * ``U`` - undo a recently changed line
 * ``u`` - undo the last change
 

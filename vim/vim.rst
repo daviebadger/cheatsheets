@@ -281,10 +281,14 @@ Miscellaneous
 Folding
 -------
 
-* ``{visual} + :fold`` - fold the given highlighted text
+* ``{visual} + zf`` - fold the given highlighted text
 * ``zC`` - close all folds under the cursor upwards
 * ``zc`` - close one fold under the cursor
 * ``zf + {motion}`` - fold to the given motion
+* ``] + z`` - go to the end of an opened fold
+* ``[ + z`` - go to the start of an opened fold
+* ``zj`` - go to the start of a next fold area
+* ``zk`` - go to the end of a previous fold area
 * ``zM`` - close all folds
 * ``zm`` - close all folds under the same level
 * ``zO`` - open all folds under the cursor downwards
@@ -347,5 +351,9 @@ Technicalities
 Help Subjects
 -------------
 
+TODO
+
 Search Patterns
 ---------------
+
+TODO

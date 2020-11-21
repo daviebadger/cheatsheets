@@ -32,11 +32,11 @@ Modes
 * ``i`` - switch to Insert mode in place of the cursor
 * ``O`` - switch to Insert mode in a new line above the cursor
 * ``o`` - switch to Insert mode in a new line below the cursor
+* ``:`` - switch to Command-line mode
 * ``{visual-block} + A`` - switch to Insert mode at the end of a highlighted block
 * ``{visual-block} + I`` - switch to Insert mode at the start of a highlighted block
 * ``v`` - switch to Visual mode characterwise
 * ``V`` - switch to Visual mode linewise
-* ``:`` - switch to Command-line mode
 
 
 
@@ -94,18 +94,18 @@ Text Object Motions
 Search Motions
 --------------
 
-* ``#`` - search the identifier under the cursor backwards
-* ``*`` - search the identifier under the cursor forwards
-* ``/ + ENTER`` - repeat the last search forwards
 * ``? + ENTER`` - repeat the last search backwards
+* ``/ + ENTER`` - repeat the last search forwards
+* ``gD`` - go to the global declaration of an identifier under the cursor
+* ``gd`` - go to the local declaration of an identifier under the cursor
 * ``g#`` - partially search the identifier under the cursor backwards
 * ``g*`` - partially search the identifier under the cursor forwards
-* ``gd`` - go to the local declaration of an identifier under the cursor
-* ``gD`` - go to the global declaration of an identifier under the cursor
 * ``n`` - repeat the last search
 * ``N`` - repeat the last search reversely
-* ``/ + {pattern}`` - search the given pattern forwards
 * ``? + {pattern}`` - search the given battern backwards
+* ``/ + {pattern}`` - search the given pattern forwards
+* ``#`` - search the identifier under the cursor backwards
+* ``*`` - search the identifier under the cursor forwards
 
 Mark Motions
 ------------
@@ -313,12 +313,12 @@ Folding
 Help
 ----
 
-* ``:h[elp]`` - open a window with Vim help
-* ``:h[help] {subject}`` - open a help for the given subject
-* ``:helpg[ep] {pattern}`` - open a quickfix window with grepped results for the given pattern
+* ``CTRL + i`` - jump to the subject ahead in history
 * ``CTRL + ]`` - jump to a subject under the cursor
 * ``CTRL + o`` - jump to the subject back in history
-* ``CTRL + i`` - jump to the subject ahead in history
+* ``:helpg[ep] {pattern}`` - open a quickfix window with grepped results for the given pattern
+* ``:h[elp]`` - open a window with Vim help
+* ``:h[help] {subject}`` - open a help for the given subject
 
 Tabs
 ----
@@ -355,6 +355,8 @@ Windows
 * ``CTRL + w + b`` - go to the bottom window
 * ``CTRL + w + -`` - decrease the window height
 * ``CTRL + w + <`` - decrease the window width
+* ``CTRL + w + f`` - open the file under the cursor in a new window horizontally
+* ``CTRL + w + F`` - open the file under the cursor in a new window horizontally and jump to the line number following the file
 * ``CTRL + w + H`` - move the window to the most left
 * ``CTRL + w + h`` - on to the window left
 * ``CTRL + w + +`` - increase the window height

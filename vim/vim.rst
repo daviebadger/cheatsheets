@@ -117,10 +117,10 @@ Mark Motions
 * `````` - go to the previous position
 * ```<`` - go to the start of a previously highlighted text
 * ```[`` - go to the start of a previously inserted or pasted text else ``gg``
-* ``:ju[mps]`` - show jump list
+* ``:ju[mps]`` - show a jump list
 * :literal:`\` + {a-z}` - go to the given mark
 * ``:marks {a-z}`` - show the given mark
-* ``:marks`` - show marks
+* ``:marks`` - show a list of marks
 * ``m + {a-z}`` - create the given mark in the current position
 
 Other Motions
@@ -320,7 +320,28 @@ Help
 * ``CTRL + o`` - jump to the subject back in history
 * ``CTRL + i`` - jump to the subject ahead in history
 
+Tabs
+----
 
+* ``gt`` - go to the next tab
+* ``gT`` - go to the previous tab
+* ``{number} + gt`` - go to the given tab (starting since 1)
+* ``:tabc[lose][!]`` - close the tab (keep changes with ``!``)
+* ``:tabc[lose][!] {number}`` - close the given tab (starting since 1, keep changes with ``!``)
+* ``:tabc[lose][!] $`` - close the last tab (keep changes with ``!``)
+* ``:tabfir[st]`` - go to the first tab
+* ``:tabl[ast]`` - go to the last tab
+* ``:tabm[ove] 0`` - move the tab to the start of a tab line
+* ``:tabm[ove] $`` - move the tab to the end of a tab line
+* ``:tabm[ove] +{number}`` - move the tab the given tabs forwards
+* ``:tabm[ove] -{number}`` - move the tab the given tabs backwards
+* ``:tabnew [file]`` - create an empty tab or open the given file in a new tab
+* ``:tabn[ext] -{number}`` - go the given tabs backwards
+* ``:tabn[ext] +{number}`` - go the given tabs forwards
+* ``:tabon[only][!]`` - close all tabs except for the current tab (keep changes with ``!``)
+* ``:tabon[only][!] {number}`` - close all tabs except for the given tab (starting since 1, keep changes with ``!``)
+* ``:tabon[only][!] $`` - close all tabs except for the last tab (keep changes with ``!``)
+* ``:tabs`` - show a list of tabs and their windows
 
 Windows
 -------
@@ -350,7 +371,7 @@ Windows
 * ``CTRL + w + x`` - swap the current window and the next window
 * ``{height} + CTRL + _`` - set the given height to the window
 * ``:new`` - create an empty window horizontally
-* ``:on[ly][!]`` - close all windows except for the current window
+* ``:on[ly][!]`` - close all windows except for the current window (keep changes with ``!``)
 * ``:q[uit][!]`` - close the window (discard changes with ``!``)
 * ``:sp[lit] [file]`` - split the current window or open the given file horizontally
 * ``:vnew`` - create an empty window vertically

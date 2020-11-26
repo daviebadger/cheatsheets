@@ -350,9 +350,8 @@ Windows
 -------
 
 * ``:clo[se][!]`` - close the window (keep changes with ``!``)
-* ``CTRL + _`` - make the window highest posible
-* ``CTRL + |`` - make the window widest posible
-* ``CTRL + w + b`` - go to the bottom window
+* ``CTRL + w + b`` - go to the bottom-right window
+* ``CTRL + w + c`` - close the window (stay in Vim)
 * ``CTRL + w + -`` - decrease the window height
 * ``CTRL + w + <`` - decrease the window width
 * ``CTRL + w + f`` - open the file under the cursor in a new window horizontally
@@ -368,19 +367,31 @@ Windows
 * ``CTRL + w + l`` - go to the window right
 * ``CTRL + w + L`` - move the window to the most right
 * ``CTRL + w + =`` - make all windows equal
+* ``CTRL + w + _`` - make the window highest posible
+* ``CTRL + w + |`` - make the window widest posible
+* ``CTRL + w + o`` - close all windows except for the current window
 * ``CTRL + w + p`` - go to the previous window
-* ``CTRL + w + R`` - move the window backwards
-* ``CTRL + w + r`` - move the window forwards
-* ``CTRL + w + t`` - go to the top window
+* ``CTRL + w + q`` - close the window (may quit Vim)
+* ``CTRL + w + r`` - move the window downwards / rightwards
+* ``CTRL + w + R`` - move the window upwards / leftwards
+* ``CTRL + w + s`` - split the current window horizontally
+* ``CTRL + w + t`` - go to the top-left window
 * ``CTRL + w + T`` - move the window to a new tab
+* ``CTRL + w + v`` - split the current window vertically
+* ``CTRL + w + w`` - go to the next below / right window
+* ``CTRL + w + W`` - go to the previous above / left window
 * ``CTRL + w + x`` - swap the current window and the next window
 * ``{height} + CTRL + _`` - set the given height to the window
 * ``:new`` - create an empty window horizontally
 * ``:on[ly][!]`` - close all windows except for the current window (keep changes with ``!``)
 * ``:q[uit][!]`` - close the window (discard changes with ``!``)
 * ``:sp[lit] [file]`` - split the current window or open the given file horizontally
-* ``:vnew`` - create an empty window vertically
+* ``:sp[lit] #{number}`` - open the given buffer horizontally
+* ``:sp[lit] #`` - open the last buffer horizontally
+* ``:vne[w]`` - create an empty window vertically
 * ``:vs[plit] [file]`` - split the current window or open the given file vertically
+* ``:vs[plit] #{number}`` - open the given buffer vertically
+* ``:vs[plit] #`` - open the last buffer vertically
 * ``{width} + CTRL + |`` - set the given width to the window
 
 

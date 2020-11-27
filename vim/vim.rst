@@ -292,6 +292,20 @@ Visual Mode Text Objects
 Miscellaneous
 =============
 
+Buffers
+-------
+
+* ``:bd[elete][!]`` - delete the current buffer
+* ``:bd[elete][!] {number}`` - delete the given buffer or buffers (separated by space)
+* ``:bf[irst][!]`` - go to the first buffer (keep changes with ``!``)
+* ``:bl[ast][!]`` - go to the last buffer (keep changes with ``!``)
+* ``:bn[ext][!]`` - go to the next buffer (keep changes with ``!``)
+* ``:bn[ext][!] {number}`` - go to the given number forwards (keep changes with ``!``)
+* ``:bp[revious][!]`` - go to the previous buffer (keep changes with ``!``)
+* ``:bp[revious][!] {number}`` - go to the given number backwards (keep changes with ``!``)
+* ``:b[uffer][!]`` - go to the given buffer (keep changes with ``!``)
+* ``:ls`` - show a list of buffers
+
 Folding
 -------
 

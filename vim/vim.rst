@@ -296,15 +296,22 @@ Buffers
 -------
 
 * ``:bd[elete][!]`` - delete the current buffer
-* ``:bd[elete][!] {number}`` - delete the given buffer or buffers (separated by space)
+* ``:bd[elete][!] {number} [number]`` - delete the given buffer or buffers (discard changes with ``!``)
 * ``:bf[irst][!]`` - go to the first buffer (keep changes with ``!``)
 * ``:bl[ast][!]`` - go to the last buffer (keep changes with ``!``)
 * ``:bn[ext][!]`` - go to the next buffer (keep changes with ``!``)
 * ``:bn[ext][!] {number}`` - go to the given number forwards (keep changes with ``!``)
 * ``:bp[revious][!]`` - go to the previous buffer (keep changes with ``!``)
 * ``:bp[revious][!] {number}`` - go to the given number backwards (keep changes with ``!``)
-* ``:b[uffer][!]`` - go to the given buffer (keep changes with ``!``)
+* ``:b[uffer][!] {number}`` - go to the given buffer (keep changes with ``!``)
 * ``:ls`` - show a list of buffers
+* ``:sbf[irst][!]`` - split the window horizontally and go to the first buffer (keep changes with ``!``)
+* ``:sbl[ast][!]`` - split the window horizontally and go to the last buffer (keep changes with ``!``)
+* ``:sbn[ext][!] {number}`` - split the window horizontally and go to the given number forwards (keep changes with ``!``)
+* ``:sbn[ext][!]`` - split the window horizontally and go to the next buffer (keep changes with ``!``)
+* ``:sbp[revious][!] {number}`` - split the window horizontally and go to the given number backwards (keep changes with ``!``)
+* ``:sbp[revious][!]`` - split the window horizontally and go to the previous buffer (keep changes with ``!``)
+* ``:sb[uffer] {number}`` - split the window horizontally and go to the given buffer (keep changes with ``!``)
 
 Folding
 -------

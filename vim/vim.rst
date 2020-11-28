@@ -178,6 +178,7 @@ Deleting Text
 Changing Text
 -------------
 
+* ``! + {motion} + {command}`` - apply an external command to the given motion
 * ``==`` - auto indent the current line
 * ``cc`` - change the current line
 * ``C`` - change to the end of a line
@@ -207,8 +208,8 @@ Changing Text
 * ``{visual-block} + C`` - change to the end of a highlighted block
 * ``{visual} + c`` - change a highlighted text
 * ``{visual} + :ce[nter]`` - center align for the highlighted text
-* ``{visual}:{command}`` - apply a command-line command for the highlighted text
-* ``{visual}!{command}`` - apply an external command for the highlighted text
+* ``{visual} + :{command}`` - apply a command-line command for the highlighted text
+* ``{visual} + !{command}`` - apply an external command for the highlighted text
 * ``{visual} + gq`` - justify a highlighted text
 * ``{visual} + >`` - indent the current line
 * ``{visual} + :le[ft]`` - left align for the highlighted text

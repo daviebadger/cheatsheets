@@ -79,8 +79,8 @@ Up-Down Motions
 * ``{number} + G`` - go to the given line
 * ``{number} + %`` - go to the given percentage line
 
-Text Object Motions
--------------------
+Word Motions
+------------
 
 * ``b`` - go to the start of a current or previous "word"
 * ``B`` - go to the start of a current or previous word
@@ -90,6 +90,14 @@ Text Object Motions
 * ``gE`` - go to the end of a previous word
 * ``w`` - go to the start of the next "word"
 * ``W`` - go to the start of the next word
+
+Text Object Motions
+-------------------
+
+* ``}`` - go to the next paragraph including a newline
+* ``)`` - go to the next sentence
+* ``{`` - go to the previous paragraph including a newline
+* ``(`` - go to the previous sentence
 
 Search Motions
 --------------

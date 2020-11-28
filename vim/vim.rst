@@ -186,6 +186,7 @@ Changing Text
 * ``CTRL + a`` - increase a number under the cursor
 * ``CTRL + x`` - decrease a number under the cursor
 * ``g~ + {motion}`` - switch case to the given motion
+* ``gq + {motion}`` - justify text to the given motion
 * ``g~~`` - switch case in the current line
 * ``gu + {motion}`` - lower a text to the given motion
 * ``gU + {motion}`` - upper a text to the given motion
@@ -206,6 +207,9 @@ Changing Text
 * ``{visual-block} + C`` - change to the end of a highlighted block
 * ``{visual} + c`` - change a highlighted text
 * ``{visual} + :ce[nter]`` - center align for the highlighted text
+* ``{visual}:{command}`` - apply a command-line command for the highlighted text
+* ``{visual}!{command}`` - apply an external command for the highlighted text
+* ``{visual} + gq`` - justify a highlighted text
 * ``{visual} + >`` - indent the current line
 * ``{visual} + :le[ft]`` - left align for the highlighted text
 * ``{visual} + :ri[ght]`` - right align for the highlighted text
@@ -266,22 +270,25 @@ Insert Mode Commands
 Visual Mode Commands
 --------------------
 
+* ``gN`` - highlight a recently searched pattern backwards or up to the previous one
+* ``gn`` - highlight a recently searched pattern forwards or up to the next one
 * ``gv`` - highlight a recently highlighted text
 * ``o`` - go to the opposite edge of a highlighted text
+* ``O`` - go to the opposite line edge of a blockwise highlighted text
 
 Visual Mode Text Objects
 ------------------------
 
-* ``a + {bracket}`` - select a text inside a () / {} / [] / <> brackets inclusively
+* ``a + {bracket}`` - select a text inside () / {} / [] / <> brackets inclusively
 * ``a + p`` - select a paragraph including a newline
-* ``a + {quote}`` - select a text inside quotes inclusively
+* ``a + {quote}`` - select a text inside "" '' `` quotes inclusively
 * ``a + s`` - select a sentence including space
 * ``a + t`` - select a text inside a HTML / XML tag inclusively
 * ``a + w`` - select a "word" including space
 * ``a + W`` - select a word including space
-* ``i + {bracket}`` - select a text inside a () / {} / [] / <> brackets
+* ``i + {bracket}`` - select a text inside () / {} / [] / <> brackets
 * ``i + p`` - select a paragraph
-* ``i + {quote}`` - select a text inside quotes
+* ``i + {quote}`` - select a text inside "" '' `` quotes
 * ``i + s`` - select a sentence
 * ``i + t`` - select a text inside a HTML / XML tag
 * ``i + w`` - select a "word"

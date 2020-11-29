@@ -118,18 +118,23 @@ Search Motions
 Mark Motions
 ------------
 
+* ``:delm[arks]!`` - delete all local marks
+* ``:delm[arks] {mark} [mark]`` - delete the given mark or marks
 * ```>`` - go to the end of a previously highlighted text
 * ```]`` - go to the end of a previously inserted or pasted text else ``G``
 * ```.`` - go to the last change
-* ```"`` - go to the position when last editing the file
+* ```"`` - go to the position when last exiting the file
+* ```^`` - go to the position when last writing the file
 * `````` - go to the previous position
 * ```<`` - go to the start of a previously highlighted text
 * ```[`` - go to the start of a previously inserted or pasted text else ``gg``
 * ``:ju[mps]`` - show a jump list
-* :literal:`\` + {a-z}` - go to the given mark
-* ``:marks {a-z}`` - show the given mark
+* :literal:`\` + {a-z}` - go to the given mark in the current buffer
+* :literal:`\` + {A-Z}` - go to the given mark in the file where set
+* ``:marks {a-zA-Z}`` - show the given mark
 * ``:marks`` - show a list of marks
-* ``m + {a-z}`` - create the given mark in the current position
+* ``m + {A-Z}`` - create the given mark in the current position globally
+* ``m + {a-z}`` - create the given mark in the current position locally
 
 Other Motions
 -------------

@@ -136,9 +136,6 @@ Mark Motions
 * ``m + {A-Z}`` - create the given mark in the current position globally
 * ``m + {a-z}`` - create the given mark in the current position locally
 
-Jump Motions
-------------
-
 Other Motions
 -------------
 
@@ -146,6 +143,17 @@ Other Motions
 * ``H`` - go to the top of a window
 * ``L`` - go to the bottom of a window
 * ``M`` - go to the center of a window
+
+Jumps
+-----
+
+* ``:changes`` - show a list of changes
+* ``:cle[arjumps]`` - clear the current window jump list
+* ``CTRL + i`` - go to the newer cursor position in a jump list
+* ``CTRL + o`` - go to the older cursor position in a jump list
+* ``g,`` - go to the newer change position in a change list
+* ``g;`` - go to the older change position in a change list
+* ``:ju[mps]`` - show a list of jumps
 
 Scrolling
 ---------

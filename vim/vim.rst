@@ -136,6 +136,9 @@ Mark Motions
 * ``m + {A-Z}`` - create the given mark in the current position globally
 * ``m + {a-z}`` - create the given mark in the current position locally
 
+Jump Motions
+------------
+
 Other Motions
 -------------
 

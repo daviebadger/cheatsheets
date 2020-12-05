@@ -474,7 +474,18 @@ Help Subjects
 
 TODO
 
+Register Types
+--------------
+
+TODO
+
 Search Patterns
 ---------------
 
 TODO
+
+Substitution Flags
+------------------
+
+TODO
+

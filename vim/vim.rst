@@ -203,7 +203,6 @@ Deleting Text
 Changing Text
 -------------
 
-* ``! + {motion} + {command}`` - apply an external command to the given motion
 * ``==`` - auto indent the current line
 * ``cc`` - change the current line
 * ``C`` - change to the end of a line
@@ -211,16 +210,21 @@ Changing Text
 * ``c + {motion}`` - change to the given motion
 * ``CTRL + a`` - increase a number under the cursor
 * ``CTRL + x`` - decrease a number under the cursor
+* ``!! + {command}`` - apply an external command to the current line
 * ``g~ + {motion}`` - switch case to the given motion
 * ``gq + {motion}`` - justify text to the given motion
+* ``gw + {motion}`` - justify text to the given motion and keep the cursor position before change
+* ``gqq`` - justify text in the current line
 * ``g~~`` - switch case in the current line
 * ``gu + {motion}`` - lower a text to the given motion
 * ``gU + {motion}`` - upper a text to the given motion
 * ``guu`` - lower the current line
 * ``gUU`` - upper the current line
+* ``gww`` - justify text in the current line and keep the cursor position before change
 * ``>>`` - indent the current line
 * ``:le[ft]`` - left align for the current line
 * ``= + {motion}`` - auto indent to the given motion
+* ``! + {motion} + {command}`` - apply an external command to lines to the given motion
 * ``> + {motion}`` - indent to the given motion
 * ``< + {motion}`` - unindent to the given motion
 * ``r + {char}`` - replace a character under the cursor with the given character
@@ -234,15 +238,25 @@ Changing Text
 * ``{visual} + c`` - change a highlighted text
 * ``{visual} + :ce[nter]`` - center align for the highlighted text
 * ``{visual} + :{command}`` - apply a command-line command for the highlighted text
-* ``{visual} + !{command}`` - apply an external command for the highlighted text
+* ``{visual} + !{command}`` - apply an external command for the highlighted lines
 * ``{visual} + gq`` - justify a highlighted text
+* ``{visual} + gw`` - justify a highlighted text and keep the cursor position before change
+* ``{visual} + >`` - indent a highlighted text
 * ``{visual} + >`` - indent the current line
 * ``{visual} + :le[ft]`` - left align for the highlighted text
+* ``{visual-line} + CTRL + a`` - sequentially increase numbers in highlighted lines
+* ``{visual-line} + CTRL + x`` - sequentially decrease numbers in highlighted lines
+* ``{visual} + r + {char}`` - replace a highlighted text with the given character
 * ``{visual} + :ri[ght]`` - right align for the highlighted text
 * ``{visual} + ~`` - switch case of a highlighted text
 * ``{visual} + u`` - lower a highlighted text
+* ``{visual} + <`` - unindent a highlighted text
 * ``{visual} + <`` - unindent the current line
 * ``{visual} + U`` - upper a highlighted text
+
+1
+2
+3
 
 Undo/Redo Changes
 -----------------

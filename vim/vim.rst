@@ -128,7 +128,6 @@ Mark Motions
 * `````` - go to the previous position
 * ```<`` - go to the start of a previously highlighted text
 * ```[`` - go to the start of a previously inserted or pasted text else ``gg``
-* ``:ju[mps]`` - show a jump list
 * :literal:`\` + {a-z}` - go to the given mark in the current buffer
 * :literal:`\` + {A-Z}` - go to the given mark in the file where set
 * ``:marks {a-zA-Z}`` - show the given mark
@@ -178,8 +177,15 @@ Operations
 Copying/Pasting Text
 --------------------
 
+* ``gp`` - put a text after the cursor and move the cursor after it
+* ``gP`` - put a text before the cursor and move the cursor after it
 * ``p`` - put a text after the cursor
+* ``]p`` - put a text after the cursor and adjust the indent
 * ``P`` - put a text before the cursor
+* ``[P`` - put a text before the cursor and adjust the indent
+* ``:reg[isters] {register}`` - show content in the given register
+* ``:reg[isters]`` - show a list of content in registers
+* ``" + {register}`` - use the given register for the next copy / paste / delete operation
 * ``{visual} + y`` - yank a highlighted text
 * ``y + {motion}`` - yank to the given motion
 * ``Y`` - yank the current line
@@ -253,10 +259,6 @@ Changing Text
 * ``{visual} + <`` - unindent a highlighted text
 * ``{visual} + <`` - unindent the current line
 * ``{visual} + U`` - upper a highlighted text
-
-1
-2
-3
 
 Undo/Redo Changes
 -----------------

@@ -193,6 +193,7 @@ Deleting Text
 * ``d + {motion}`` - delete to the given motion
 * ``gJ`` - join lines without space
 * ``J`` - join lines with space
+* ``{visual-block} + D`` - delete to the end of a highlighted block
 * ``{visual} + d`` - delete the highlighted text
 * ``{visual} + gJ`` - join highlighted lines without space
 * ``{visual} + J`` - join highlighted lines with space

@@ -214,18 +214,23 @@ Changing Text
 * ``C`` - change to the end of a line
 * ``:ce[nter]`` - center align for the current line
 * ``c + {motion}`` - change to the given motion
+* ``!! + {command}`` - apply an external command to the current line
 * ``CTRL + a`` - increase a number under the cursor
 * ``CTRL + x`` - decrease a number under the cursor
-* ``!! + {command}`` - apply an external command to the current line
+* ``:&{flags}`` - repeat the last substitution in the current line with the given flags
+* ``:~{flags}`` - repeat the last substitution in the current line with the given flags for the last search
+* ``:&&[flags]`` - repeat the last substitution in the current line with the same or given flags
+* ``:~&[flags]`` - repeat the last substitution in the current line with the same or given flags for the last search
 * ``g~ + {motion}`` - switch case to the given motion
 * ``gq + {motion}`` - justify text to the given motion
-* ``gw + {motion}`` - justify text to the given motion and keep the cursor position before change
 * ``gqq`` - justify text in the current line
+* ``g&`` - repeat the last substitution in the whole file with the same flags for the last search
 * ``g~~`` - switch case in the current line
 * ``gu + {motion}`` - lower a text to the given motion
 * ``gU + {motion}`` - upper a text to the given motion
 * ``guu`` - lower the current line
 * ``gUU`` - upper the current line
+* ``gw + {motion}`` - justify text to the given motion and keep the cursor position before change
 * ``gww`` - justify text in the current line and keep the cursor position before change
 * ``>>`` - indent the current line
 * ``:le[ft]`` - left align for the current line
@@ -234,6 +239,8 @@ Changing Text
 * ``> + {motion}`` - indent to the given motion
 * ``< + {motion}`` - unindent to the given motion
 * ``r + {char}`` - replace a character under the cursor with the given character
+* ``&`` - repeat the last substitution in the current line without flags
+* ``:~`` - repeat the last substitution in the current line without flags for the last search
 * ``:ri[ght]`` - right align for the current line
 * ``s`` - change character under the cursor
 * ``S`` - change the current line
@@ -254,6 +261,7 @@ Changing Text
 * ``{visual-line} + CTRL + x`` - sequentially decrease numbers in highlighted lines
 * ``{visual} + r + {char}`` - replace a highlighted text with the given character
 * ``{visual} + :ri[ght]`` - right align for the highlighted text
+* ``{visual} + :s[ubstitute]/{pattern}/{string}/[flags]`` - substitute the given pattern with the given string in a highlighted text
 * ``{visual} + ~`` - switch case of a highlighted text
 * ``{visual} + u`` - lower a highlighted text
 * ``{visual} + <`` - unindent a highlighted text

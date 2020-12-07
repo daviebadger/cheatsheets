@@ -482,6 +482,23 @@ Help Subjects
 
 TODO
 
+Ranges
+------
+
+* ``$`` - the last line
+* ``\/`` - a line containing the previously searched pattern backwards
+* ``\?`` - a line containing the previously searched pattern backwards
+* ``\&`` - a line containing the previously substituted pattern forwards
+* ``,`` - a separator for a range from to
+* ``%`` - a shortcut for ``1,$``
+* ``'{mark}`` - a line of a mark
+* ``{number}`` - a concrete line (from 1 for most use cases, from 0 for searches)
+* ``-[number]`` - an offset backwards (default 1)
+* ``+[number]`` - an offset forwards (default 1)
+* ``?{pattern}?`` - a line containing the given pattern backwards
+* ``/{pattern}/`` - a line containing the given pattern forwards
+* ``.`` - the current line (default when no range set explicitly)
+
 Register Types
 --------------
 

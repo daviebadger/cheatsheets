@@ -120,6 +120,8 @@ Mark Motions
 
 * ``:delm[arks]!`` - delete all local marks
 * ``:delm[arks] {mark} [mark]`` - delete the given mark or marks
+* :literal:`\` + {mark}` - go to the given mark
+* ``' + {mark}'`` - go to the given mark to the first non-blank character
 * ``:marks {mark} [mark]`` - show the given mark or marks
 * ``:marks`` - show a list of marks
 * ``m + {mark}`` - set the given mark at the current position

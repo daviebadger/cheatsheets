@@ -491,6 +491,22 @@ Ranges
 * ``/{pattern}/`` - a line containing the given pattern forwards
 * ``.`` - the current line (default when no range set explicitly)
 
+Mark Types
+----------
+
+* ``{0-9}`` - automatically set marks from ``~/.viminfo`` (single number)
+* ``{A-Z}`` - global marks across buffers (single letter, overridable)
+* ``{a-z}`` - local marks per buffer (single letter, overridable)
+* :literal:``` - the previous position when using with :literal:`\``
+* ``>`` - the end of a previously highlighted text (overridable)
+* ``]`` - the end of a previously inserted or pasted text before writing (overridable)
+* ``.`` - the position when last changed
+* ``"`` - the position when last exiting the file
+* ``^`` - the position when last writing the file
+* ``'`` - the previous position when using with ``'``
+* ``<`` - the start of a previously highlighted text (overridable)
+* ``[`` - the start of a previously inserted or pasted text before writing (overridable)
+
 Register Types
 --------------
 

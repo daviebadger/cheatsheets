@@ -125,7 +125,7 @@ Mark Motions
 * ``:marks {mark} [mark]`` - show the given mark or marks
 * ``:marks`` - show a list of marks
 * ``m + {mark}`` - set the given mark at the current position
-* ``:[range]ma[rk] {mark}`` - set the given mark at the specific line
+* ``:[range]ma[rk] {mark}`` - set the given mark at a specific line
 
 Other Motions
 -------------
@@ -177,7 +177,7 @@ Copying/Pasting Text
 * ``[P`` - put a text before the cursor and adjust the indent
 * ``:reg[isters] {register}`` - show content in the given register
 * ``:reg[isters]`` - show a list of content in registers
-* ``" + {register}`` - use the given register for the next copy / paste / delete operation
+* ``" + {register}`` - use the given register for the next yank / put / delete operation
 * ``{visual} + y`` - yank a highlighted text
 * ``y + {motion}`` - yank to the given motion
 * ``Y`` - yank the current line
@@ -495,8 +495,8 @@ Mark Types
 ----------
 
 * ``{0-9}`` - automatically set marks from ``~/.viminfo`` (single number)
-* ``{A-Z}`` - global marks across buffers (single letter, overridable)
-* ``{a-z}`` - local marks per buffer (single letter, overridable)
+* ``{A-Z}`` - user-defined global marks across buffers (single letter, overridable)
+* ``{a-z}`` - user-defined local marks per buffer (single letter, overridable)
 * ``>`` - the end of a previously highlighted text (overridable)
 * ``]`` - the end of a previously inserted or pasted text before writing (overridable)
 * ``.`` - the position when last changed
@@ -510,7 +510,19 @@ Mark Types
 Register Types
 --------------
 
-TODO
+* ``"0`` - the last yank
+* ``"{1-9}`` - the last delete / change operations (single number, from recent to oldest)
+* ``"_`` - a black hole like ``/dev/null``
+* ``"{A-Z}`` - appending text to ``"{a-z}`` registers
+* ``"{a-z}`` - user-defined registers (single letter)
+* ``""`` - text from the last ``c`` / ``d`` / ``s`` / ``x`` / ``y`` operation
+* ``"%`` - the current filename
+* ``":`` - the last command in command-line mode
+* ``"-`` - the last deleted text inline
+* ``".`` - the last inserted text
+* ``"/`` - the last searched pattern
+* ``"+`` - the system clipboard
+* ``"*`` - the system selection in GUI
 
 Search Patterns
 ---------------

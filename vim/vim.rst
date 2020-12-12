@@ -151,13 +151,20 @@ Scrolling
 
 * ``CTRL + b`` - scroll 1 window backwards
 * ``CTRL + d`` - scroll 1/2 window forwards
+* ``CTRL + e`` - scroll 1 screen line forwards
 * ``CTRL + f`` - scroll 1 window forwards
 * ``CTRL + u`` - scroll 1/2 window backwards
+* ``CTRL + y`` - scroll 1 screen line backwards
+* ``:sync[bind]`` - synchronous scrolling for the same buffer (scrollbind is on)
 * ``zb`` - scroll the current line to the bottom of a window
+* ``ze`` - scroll the current character to the end of a screen line (wrap is off)
 * ``zH`` - scroll 1/2 screen width left (wrap is off)
 * ``zh`` - scroll screen width 1 character to left (wrap is off)
 * ``zL`` - scroll 1/2 screen width right (wrap is off)
 * ``zl`` - scroll screen width 1 character to right (wrap is off)
+* ``z+`` - scroll to the next screen
+* ``z^`` - scroll to the previous screen
+* ``zs`` - scroll the current character to the start of a screen line (wrap is off)
 * ``zt`` - scroll the current line to the top of a window
 * ``zz`` - scroll the current line to the center of a window
 
@@ -535,8 +542,8 @@ Substitution Flags
 * ``c`` - confirm each substitution
 
   * ``a`` - substitute all matches
-  * ``CTRL + e`` - scroll 1 screen line backwards
-  * ``CTRL + y`` - scroll 1 screen line forwards
+  * ``CTRL + e`` - scroll 1 screen line forwards
+  * ``CTRL + y`` - scroll 1 screen line backwards
   * ``l`` - substitute this match and quit
   * ``n`` - skip this match
   * ``q`` - quit

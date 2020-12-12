@@ -254,7 +254,6 @@ Changing Text
 * ``{visual} + gq`` - justify a highlighted text
 * ``{visual} + gw`` - justify a highlighted text and keep the cursor position before change
 * ``{visual} + >`` - indent a highlighted text
-* ``{visual} + >`` - indent the current line
 * ``{visual} + :le[ft]`` - left align for the highlighted text
 * ``{visual-line} + CTRL + a`` - sequentially increase numbers in highlighted lines
 * ``{visual-line} + CTRL + x`` - sequentially decrease numbers in highlighted lines
@@ -291,11 +290,11 @@ Undo/Redo Changes
 Repeating Commands
 ------------------
 
-* ``@ + {a-z}`` - execute the content of the given register
-* ``q + {A-Z}`` - record typed characters and append to the given register
-* ``q + {a-z}`` - record typed characters into the given register
+* ``q + {register}`` - record typed characters into the given register
 * ``q`` - stop recording
+* ``@ + {register}`` - execute the content of the given register
 * ``.`` - repeat the last change
+* ``@:`` - repeat the last command in command-line
 * ``@@`` - repeat the previous execution
 
 

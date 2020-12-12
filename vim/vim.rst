@@ -532,5 +532,19 @@ TODO
 Substitution Flags
 ------------------
 
-TODO
+* ``c`` - confirm each substitution
 
+  * ``a`` - substitute all matches
+  * ``CTRL + e`` - scroll 1 screen line backwards
+  * ``CTRL + y`` - scroll 1 screen line forwards
+  * ``l`` - substitute this match and quit
+  * ``n`` - skip this match
+  * ``q`` - quit
+  * ``y`` - substitute this match
+
+* ``e`` - do not show an error message when no match found
+* ``g`` - substitute all occurrences in a line
+* ``I`` - do not ignore case sensitivity (ignore Vim settings)
+* ``i`` - ignore case sensitivity (ignore Vim settings)
+* ``&`` - keep flags from the last substitution (must be the first flag in order)
+* ``n`` - show a report of potencial matches

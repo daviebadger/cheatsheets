@@ -355,6 +355,7 @@ Command-Line Commands
 * ``:redi[r] @{register}>>`` - start redirecting by appending to the given register
 * ``:redi[r] @{register}>`` - start redirecting to the given register
 * ``:!!`` - repeat the last ``:!{command}``
+* ``:=`` - show the last line number
 * ``:sil[ent][!] {command}`` - do not show the given command output (ignore errors with ``!``)
 * ``:sw[apname]`` - show a path to the swap file
 * ``:ve[rsion]`` - show a Vim version

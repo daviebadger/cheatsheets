@@ -249,7 +249,7 @@ Changing Text
 * ``{visual-block} + C`` - change to the end of a highlighted block
 * ``{visual} + c`` - change a highlighted text
 * ``{visual} + :ce[nter]`` - center align for the highlighted text
-* ``{visual} + :{command}`` - apply a command-line command for the highlighted text
+* ``{visual} + :{command}`` - apply a Command-line command for the highlighted text
 * ``{visual} + !{command}`` - apply an external command for the highlighted lines
 * ``{visual} + gq`` - justify a highlighted text
 * ``{visual} + gw`` - justify a highlighted text and keep the cursor position before change
@@ -294,7 +294,7 @@ Repeating Commands
 * ``q`` - stop recording
 * ``@ + {register}`` - execute the content of the given register
 * ``.`` - repeat the last change
-* ``@:`` - repeat the last command in command-line
+* ``@:`` - repeat the last command in Command-line
 * ``@@`` - repeat the previous execution
 
 
@@ -341,6 +341,23 @@ Visual Mode Text Objects
 * ``i + t`` - select a text inside a HTML / XML tag
 * ``i + w`` - select a "word"
 * ``i + W`` - select a word
+
+Command-Line Commands
+---------------------
+
+* ``:as[cii]`` - show the ASCII, hex, and octal number of the current character
+* ``|`` - a separator for executing more commands at once
+* ``:!{command}`` - execute the given command in a shell
+* ``:[range]norm[al][!] {commands}`` - execute Normal mode commands (mappins are ignored with ``!``)
+* ``:redi[r] END`` - end redirecting
+* ``:redi[r][!] > {file}`` -  start redirectig to the given file (override the file with ``!``)
+* ``:redi[r] >> {file}`` - start redirecting by appending to the given file
+* ``:redi[r] @{register}>>`` - start redirecting by appending to the given register
+* ``:redi[r] @{register}>`` - start redirecting to the given register
+* ``:!!`` - repeat the last ``:!{command}``
+* ``:sil[ent][!] {command}`` - do not show the given command output (ignore errors with ``!``)
+* ``:sw[apname]`` - show a path to the swap file
+* ``:ve[rsion]`` - show a Vim version
 
 
 
@@ -523,7 +540,7 @@ Register Types
 * ``"{a-z}`` - user-defined registers (single letter)
 * ``""`` - text from the last ``c`` / ``d`` / ``s`` / ``x`` / ``y`` operation
 * ``"%`` - the current filename
-* ``":`` - the last command in command-line mode
+* ``":`` - the last command in Command-line
 * ``"-`` - the last deleted text inline
 * ``".`` - the last inserted text
 * ``"/`` - the last searched pattern

@@ -196,8 +196,10 @@ Deleting Text
 * ``dd`` - delete the current line
 * ``D`` - delete to the end of a line
 * ``d + {motion}`` - delete to the given motion
-* ``gJ`` - join lines without space
-* ``J`` - join lines with space
+* ``gJ`` - join the current and the next line without space
+* ``J`` - join the current and the next line with space
+* ``:[range]d[elete] [register]`` - delete specific lines
+* ``:[range]j[oin][!]`` - join specific lines (without spaces with ``!``)
 * ``{visual-block} + D`` - delete to the end of a highlighted block
 * ``{visual} + d`` - delete the highlighted text
 * ``{visual} + gJ`` - join highlighted lines without space
@@ -508,7 +510,7 @@ Ranges
 * ``,`` - a separator for a range from to
 * ``%`` - a shortcut for ``1,$``
 * ``'{mark}`` - a line of a mark
-* ``{number}`` - a concrete line (from 1 for most use cases, from 0 for searches)
+* ``{number}`` - a specific line (from 1 for most use cases, from 0 for searches)
 * ``-[number]`` - an offset backwards (default 1)
 * ``+[number]`` - an offset forwards (default 1)
 * ``?{pattern}?`` - a line containing the given pattern backwards

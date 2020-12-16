@@ -239,6 +239,7 @@ Changing Text
 * ``! + {motion} + {command}`` - apply an external command to lines to the given motion
 * ``> + {motion}`` - indent to the given motion
 * ``< + {motion}`` - unindent to the given motion
+* ``:[range]c[hange][!]`` - change specific lines (respect indent with ``!``)
 * ``r + {char}`` - replace a character under the cursor with the given character
 * ``&`` - repeat the last substitution in the current line without flags
 * ``:~`` - repeat the last substitution in the current line without flags for the last search

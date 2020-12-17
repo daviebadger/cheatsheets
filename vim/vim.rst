@@ -215,7 +215,6 @@ Changing Text
 * ``==`` - auto indent the current line
 * ``cc`` - change the current line
 * ``C`` - change to the end of a line
-* ``:ce[nter]`` - center align for the current line
 * ``c + {motion}`` - change to the given motion
 * ``!! + {command}`` - apply an external command to the current line
 * ``CTRL + a`` - increase a number under the cursor
@@ -232,11 +231,11 @@ Changing Text
 * ``gw + {motion}`` - justify text in lines to the given motion and keep the cursor position before change
 * ``gww`` - justify text in the current line and keep the cursor position before change
 * ``>>`` - indent the current line
-* ``:le[ft]`` - left align for the current line
 * ``= + {motion}`` - auto indent lines to the given motion
 * ``! + {motion} + {command}`` - apply an external command to lines to the given motion
 * ``> + {motion}`` - indent lines to the given motion
 * ``< + {motion}`` - unindent lines to the given motion
+* ``:[range]ce[nter]`` - center align in lines
 * ``:[range]c[hange][!]`` - change specific lines (respect indent with ``!``)
 * ``:[range]!{filter}`` - apply an external command to lines
 * ``:[range]&{flags}`` - repeat the last substitution in lines with the given flags
@@ -244,12 +243,13 @@ Changing Text
 * ``:[range]&&[flags]`` - repeat the last substitution in lines with the same or given flags
 * ``:[range]~&[flags]`` - repeat the last substitution in lines with the same or given flags for the last search
 * ``:[range]>`` - indent lines as many ``>`` repeats
+* ``:[range]le[ft]`` - left align in lines
+* ``:[range]ri[ght]`` - right align in lines
 * ``:[range]s[ubstitute]/{pattern}/{string}/[flags]`` - substitute the given pattern with the given string in lines
 * ``:[range]<`` - unindent lines as many ``<`` repeats
 * ``r + {char}`` - replace a character under the cursor with the given character
 * ``&`` - repeat the last substitution in the current line without flags
 * ``:~`` - repeat the last substitution in the current line without flags for the last search
-* ``:ri[ght]`` - right align for the current line
 * ``s`` - change character under the cursor
 * ``S`` - change the current line
 * ``~`` - switch case under the cursor

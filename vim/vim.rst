@@ -318,12 +318,23 @@ Insert Mode Commands
 * ``0 + CTRL + d`` - delete indents in the current line
 * ``CTRL + a`` - insert a previously inserted text
 * ``CTRL + d`` - unindent the current line
+* ``CTRL + @`` - insert a previously inserted text and stop Insert mode
 * ``CTRL + n`` - complete the word or choose the next match
 * ``CTRL + p`` - complete the word or choose the previous match
 * ``CTRL + r + {register}`` - insert a text from the given register
 * ``CTRL + t`` - indent the current line
 * ``CTRL + u`` - delete newly added characters in the current line
 * ``CTRL + w`` - delete the current or a previous "word"
+
+Insert Mode Motions
+-------------------
+
+* ``END`` - go to the last character in a line
+* ``HOME`` - go to the first character in a line
+* ``SHIFT + DOWN`` - scroll 1 window backwards
+* ``SHIFT + LEFT`` - go to the start of the next "word"
+* ``SHIFT + RIGHT`` - go to the start of a current or previous "word"
+* ``SHIFT + UP`` - scroll 1 window forwards
 
 Visual Mode Commands
 --------------------

@@ -223,7 +223,7 @@ Changing Text
 * ``:&&[flags]`` - repeat the last substitution in the current line with the same or given flags
 * ``:~&[flags]`` - repeat the last substitution in the current line with the same or given flags for the last search
 * ``g~ + {motion}`` - switch case to the given motion
-* ``gq + {motion}`` - justify text to the given motion
+* ``gq + {motion}`` - justify text in lines to the given motion
 * ``gqq`` - justify text in the current line
 * ``g&`` - repeat the last substitution in the whole file with the same flags for the last search
 * ``g~~`` - switch case in the current line
@@ -231,14 +231,14 @@ Changing Text
 * ``gU + {motion}`` - upper a text to the given motion
 * ``guu`` - lower the current line
 * ``gUU`` - upper the current line
-* ``gw + {motion}`` - justify text to the given motion and keep the cursor position before change
+* ``gw + {motion}`` - justify text in lines to the given motion and keep the cursor position before change
 * ``gww`` - justify text in the current line and keep the cursor position before change
 * ``>>`` - indent the current line
 * ``:le[ft]`` - left align for the current line
-* ``= + {motion}`` - auto indent to the given motion
+* ``= + {motion}`` - auto indent lines to the given motion
 * ``! + {motion} + {command}`` - apply an external command to lines to the given motion
-* ``> + {motion}`` - indent to the given motion
-* ``< + {motion}`` - unindent to the given motion
+* ``> + {motion}`` - indent lines to the given motion
+* ``< + {motion}`` - unindent lines to the given motion
 * ``:[range]c[hange][!]`` - change specific lines (respect indent with ``!``)
 * ``:[range]>`` - indent lines as many ``>`` repeats
 * ``:[range]<`` - unindent lines as many ``<`` repeats

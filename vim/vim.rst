@@ -178,10 +178,12 @@ Copying/Pasting Text
 
 * ``gp`` - put a text after the cursor and move the cursor after it
 * ``gP`` - put a text before the cursor and move the cursor after it
+* ``:[line]pu[t][!] [register]`` - put a text after a line (with ``!`` before a line)
 * ``p`` - put a text after the cursor
 * ``]p`` - put a text after the cursor and adjust the indent
 * ``P`` - put a text before the cursor
 * ``[P`` - put a text before the cursor and adjust the indent
+* ``:[range]y[ank] [register]`` - yank text in lines
 * ``:reg[isters] {register}`` - show content in the given register
 * ``:reg[isters]`` - show a list of content in registers
 * ``" + {register}`` - use the given register for the next yank / put / delete operation

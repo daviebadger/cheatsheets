@@ -240,6 +240,8 @@ Changing Text
 * ``> + {motion}`` - indent to the given motion
 * ``< + {motion}`` - unindent to the given motion
 * ``:[range]c[hange][!]`` - change specific lines (respect indent with ``!``)
+* ``:[range]>`` - indent lines as many ``>`` repeats
+* ``:[range]<`` - unindent lines as many ``<`` repeats
 * ``r + {char}`` - replace a character under the cursor with the given character
 * ``&`` - repeat the last substitution in the current line without flags
 * ``:~`` - repeat the last substitution in the current line without flags for the last search
@@ -254,12 +256,14 @@ Changing Text
 * ``{visual} + :ce[nter]`` - center align for the highlighted text
 * ``{visual} + :{command}`` - apply a Command-line command for the highlighted text
 * ``{visual} + !{command}`` - apply an external command for the highlighted lines
+* ``{visual} + CTRL + a`` - increase numbers in highlighted text
+* ``{visual} + CTRL + x`` - decrease numbers in highlighted text
+* ``{visual} + g + CTRL + a`` - sequentially increase numbers in highlighted lines
+* ``{visual} + g + CTRL + x`` - sequentially decrease numbers in highlighted lines
 * ``{visual} + gq`` - justify a highlighted text
 * ``{visual} + gw`` - justify a highlighted text and keep the cursor position before change
 * ``{visual} + >`` - indent a highlighted text
 * ``{visual} + :le[ft]`` - left align for the highlighted text
-* ``{visual-line} + CTRL + a`` - sequentially increase numbers in highlighted lines
-* ``{visual-line} + CTRL + x`` - sequentially decrease numbers in highlighted lines
 * ``{visual} + r + {char}`` - replace a highlighted text with the given character
 * ``{visual} + :ri[ght]`` - right align for the highlighted text
 * ``{visual} + :s[ubstitute]/{pattern}/{string}/[flags]`` - substitute the given pattern with the given string in a highlighted text

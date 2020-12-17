@@ -325,6 +325,8 @@ Insert Mode Commands
 * ``CTRL + t`` - indent the current line
 * ``CTRL + u`` - delete newly added characters in the current line
 * ``CTRL + w`` - delete the current or a previous "word"
+* ``:[range]r !{command}`` - insert an external command output below the cursor
+* ``:r[ead] [file]`` - insert a file content below the cursor (default is the current file)
 
 Insert Mode Motions
 -------------------

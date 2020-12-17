@@ -218,10 +218,6 @@ Changing Text
 * ``!! + {command}`` - apply an external command to the current line
 * ``CTRL + a`` - increase a number under the cursor
 * ``CTRL + x`` - decrease a number under the cursor
-* ``:&{flags}`` - repeat the last substitution in the current line with the given flags
-* ``:~{flags}`` - repeat the last substitution in the current line with the given flags for the last search
-* ``:&&[flags]`` - repeat the last substitution in the current line with the same or given flags
-* ``:~&[flags]`` - repeat the last substitution in the current line with the same or given flags for the last search
 * ``g~ + {motion}`` - switch case to the given motion
 * ``gq + {motion}`` - justify text in lines to the given motion
 * ``gqq`` - justify text in the current line
@@ -240,7 +236,13 @@ Changing Text
 * ``> + {motion}`` - indent lines to the given motion
 * ``< + {motion}`` - unindent lines to the given motion
 * ``:[range]c[hange][!]`` - change specific lines (respect indent with ``!``)
+* ``:[range]!{filter}`` - apply an external command to lines
+* ``:[range]&{flags}`` - repeat the last substitution in lines with the given flags
+* ``:[range]~{flags}`` - repeat the last substitution in lines with the given flags for the last search
+* ``:[range]&&[flags]`` - repeat the last substitution in lines with the same or given flags
+* ``:[range]~&[flags]`` - repeat the last substitution in lines with the same or given flags for the last search
 * ``:[range]>`` - indent lines as many ``>`` repeats
+* ``:[range]s[ubstitute]/{pattern}/{string}/[flags]`` - substitute the given pattern with the given string in lines
 * ``:[range]<`` - unindent lines as many ``<`` repeats
 * ``r + {char}`` - replace a character under the cursor with the given character
 * ``&`` - repeat the last substitution in the current line without flags
@@ -266,7 +268,6 @@ Changing Text
 * ``{visual} + :le[ft]`` - left align for the highlighted text
 * ``{visual} + r + {char}`` - replace a highlighted text with the given character
 * ``{visual} + :ri[ght]`` - right align for the highlighted text
-* ``{visual} + :s[ubstitute]/{pattern}/{string}/[flags]`` - substitute the given pattern with the given string in a highlighted text
 * ``{visual} + ~`` - switch case of a highlighted text
 * ``{visual} + u`` - lower a highlighted text
 * ``{visual} + <`` - unindent a highlighted text

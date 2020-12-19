@@ -237,7 +237,7 @@ Changing Text
 * ``< + {motion}`` - unindent lines to the given motion
 * ``:[range]ce[nter]`` - center align in lines
 * ``:[range]c[hange][!]`` - change specific lines (respect indent with ``!``)
-* ``:[range]!{filter}`` - apply an external command to lines
+* ``:{range}!{filter}`` - apply an external command to lines
 * ``:[range]&{flags}`` - repeat the last substitution in lines with the given flags
 * ``:[range]~{flags}`` - repeat the last substitution in lines with the given flags for the last search
 * ``:[range]&&[flags]`` - repeat the last substitution in lines with the same or given flags
@@ -341,8 +341,8 @@ Insert Mode Commands
 * ``CTRL + t`` - indent the current line
 * ``CTRL + u`` - delete newly added characters in the current line
 * ``CTRL + w`` - delete the current or a previous "word"
-* ``:[range]r !{command}`` - insert an external command output below the cursor
-* ``:r[ead] [file]`` - insert a file content below the cursor (default is the current file)
+* ``:[range]r[ead] !{command}`` - insert an external command output below the cursor
+* ``:[range]r[ead] [file]`` - insert a file content below the cursor (default is the current file)
 
 Insert Mode Completition
 ------------------------
@@ -417,22 +417,25 @@ Buffers
 * ``:sbp[revious][!]`` - split the window horizontally and go to the previous buffer (keep changes with ``!``)
 * ``:sb[uffer] {number}`` - split the window horizontally and go to the given buffer (keep changes with ``!``)
 
-Folding
--------
+Folds
+-----
 
-* ``{visual} + zf`` - fold the given highlighted text
-* ``zC`` - close all folds under the cursor upwards
+* ``:[range]folddoc[losed] {command}`` - apply a Command-line command to folded lines
+* ``:[range]foldd[open] {command}`` - apply a Command-line command to not folded lines
+* ``:{range}fo[ld]`` - fold lines
+* ``{visual} + zf`` - fold the given highlighted lines
+* ``zC`` - close all folds under the cursor recursively upwards
 * ``zc`` - close one fold under the cursor
-* ``zf + {motion}`` - fold to the given motion
+* ``zf + {motion}`` - fold lines to the given motion
 * ``] + z`` - go to the end of an opened fold
 * ``[ + z`` - go to the start of an opened fold
 * ``zj`` - go to the start of a next fold area
 * ``zk`` - go to the end of a previous fold area
 * ``zM`` - close all folds
 * ``zm`` - close all folds under the same level
-* ``zO`` - open all folds under the cursor downwards
+* ``zO`` - open all folds under the cursor recursively downwards
 * ``zo`` - open one fold under the cursor
-* ``zr`` - open all folder uner the same level
+* ``zr`` - open all folder under the same level
 * ``zR`` - open all folds
 
 Help

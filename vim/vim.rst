@@ -409,6 +409,7 @@ Buffers
 * ``:bp[revious][!] {number}`` - go to the given number backwards (keep changes with ``!``)
 * ``:b[uffer][!] {number}`` - go to the given buffer (keep changes with ``!``)
 * ``:ls`` - show a list of buffers
+* ``:[range]bufdo[!] {command}`` - apply a Command-line command to all or specific buffers in the buffer list (leave changed buffers with ``!``)
 * ``:sbf[irst][!]`` - split the window horizontally and go to the first buffer (keep changes with ``!``)
 * ``:sbl[ast][!]`` - split the window horizontally and go to the last buffer (keep changes with ``!``)
 * ``:sbn[ext][!] {number}`` - split the window horizontally and go to the given number forwards (keep changes with ``!``)

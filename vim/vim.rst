@@ -312,6 +312,24 @@ Repeating Commands
 Mode Specialities
 =================
 
+Command-Line Commands
+---------------------
+
+* ``:as[cii]`` - show the ASCII, hex, and octal number of the current character
+* ``|`` - a separator for executing more commands at once
+* ``:!{command}`` - execute the given command in a shell
+* ``:[range]norm[al][!] {commands}`` - execute Normal mode commands (mappins are ignored with ``!``)
+* ``:redi[r] END`` - end redirecting
+* ``:redi[r] >> {file}`` - start redirecting commands output by appending to the given file
+* ``:redi[r][!] > {file}`` -  start redirecting commands output to the given file (override the file with ``!``)
+* ``:redi[r] @{register}>>`` - start redirecting commands output by appending to the given register
+* ``:redi[r] @{register}>`` - start redirecting commands output to the given register
+* ``:!!`` - repeat the last ``:!{command}``
+* ``:=`` - show the last line number
+* ``:sil[ent][!] {command}`` - do not show the given command output (ignore errors with ``!``)
+* ``:sw[apname]`` - show a path to the swap file
+* ``:ve[rsion]`` - show a Vim version
+
 Insert Mode Commands
 --------------------
 
@@ -372,24 +390,6 @@ Visual Mode Text Objects
 * ``i + t`` - select a text inside a HTML / XML tag
 * ``i + w`` - select a "word"
 * ``i + W`` - select a word
-
-Command-Line Commands
----------------------
-
-* ``:as[cii]`` - show the ASCII, hex, and octal number of the current character
-* ``|`` - a separator for executing more commands at once
-* ``:!{command}`` - execute the given command in a shell
-* ``:[range]norm[al][!] {commands}`` - execute Normal mode commands (mappins are ignored with ``!``)
-* ``:redi[r] END`` - end redirecting
-* ``:redi[r][!] > {file}`` -  start redirectig to the given file (override the file with ``!``)
-* ``:redi[r] >> {file}`` - start redirecting by appending to the given file
-* ``:redi[r] @{register}>>`` - start redirecting by appending to the given register
-* ``:redi[r] @{register}>`` - start redirecting to the given register
-* ``:!!`` - repeat the last ``:!{command}``
-* ``:=`` - show the last line number
-* ``:sil[ent][!] {command}`` - do not show the given command output (ignore errors with ``!``)
-* ``:sw[apname]`` - show a path to the swap file
-* ``:ve[rsion]`` - show a Vim version
 
 
 

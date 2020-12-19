@@ -457,7 +457,6 @@ Tabs
 * ``gT`` - go to the previous tab
 * ``{number} + gt`` - go to the given tab (starting since 1)
 * ``:[position]tab {command}`` - create a new tab with the given command output (must be long)
-* ``:[position]tabf[ind] {file}`` - find the given file and open it in a new tab
 * ``:[position]tabnew [file]`` - create an empty tab or open the given file in a new tab
 * ``:[range]tabd[o] {command}`` - apply a Command-line command to all or specific tabs and their first window
 * ``:tabc[lose][!] $`` - close the last tab (keep changes with ``!``)
@@ -479,6 +478,9 @@ Tabs
 Windows
 -------
 
+* ``:abo[veleft] {command}`` - create a new window above horizontally with the given command output (must be long)
+* ``:bel[owright] {command}`` - create a new window below horizontally with the given command output (must be long)
+* ``:bo[tright] {command}`` - create a new window at the bottom horizontally with the given command output (must be long)
 * ``:clo[se][!]`` - close the window (keep changes with ``!``)
 * ``CTRL + w + b`` - go to the bottom-right window
 * ``CTRL + w + c`` - close the window (stay in Vim)
@@ -515,9 +517,12 @@ Windows
 * ``:new`` - create an empty window horizontally
 * ``:on[ly][!]`` - close all windows except for the current window (keep changes with ``!``)
 * ``:q[uit][!]`` - close the window (discard changes with ``!``)
+* ``:[range]windo {command}`` - apply a Command-line command to all or specific windows in the current tab
 * ``:sp[lit] [file]`` - split the current window or open the given file horizontally
 * ``:sp[lit] #{number}`` - open the given buffer horizontally
 * ``:sp[lit] #`` - open the last buffer horizontally
+* ``:to[pleft] {command}`` - create a new window at the top horizontally with the given command output (must be long)
+* ``:vert[ical] {command}`` - create a new window vertically with the given command output (must be long)
 * ``:vne[w]`` - create an empty window vertically
 * ``:vs[plit] [file]`` - split the current window or open the given file vertically
 * ``:vs[plit] #{number}`` - open the given buffer vertically

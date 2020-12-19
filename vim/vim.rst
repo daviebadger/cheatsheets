@@ -319,14 +319,22 @@ Insert Mode Commands
 * ``CTRL + a`` - insert a previously inserted text
 * ``CTRL + d`` - unindent the current line
 * ``CTRL + @`` - insert a previously inserted text and stop Insert mode
-* ``CTRL + n`` - complete the word or choose the next match
-* ``CTRL + p`` - complete the word or choose the previous match
 * ``CTRL + r + {register}`` - insert a text from the given register
 * ``CTRL + t`` - indent the current line
 * ``CTRL + u`` - delete newly added characters in the current line
 * ``CTRL + w`` - delete the current or a previous "word"
 * ``:[range]r !{command}`` - insert an external command output below the cursor
 * ``:r[ead] [file]`` - insert a file content below the cursor (default is the current file)
+
+Insert Mode Completition
+------------------------
+
+* ``CTRL + e`` - exit a popup and remove the completed text
+* ``CTRL + n`` - complete the word or choose the next match from a popup
+* ``CTRL + p`` - complete the word or choose the previous match from a popup
+* ``CTRL + x + CTRL + f`` - complete the path from the current working directory
+* ``CTRL + x + CTRL + l`` - complete the line
+* ``CTRL + x + CTRL + n`` - complete the word from words in the current file
 
 Insert Mode Motions
 -------------------

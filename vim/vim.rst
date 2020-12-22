@@ -418,6 +418,11 @@ Buffers
 * ``:sbp[revious][!]`` - split the window horizontally and go to the previous buffer (keep changes with ``!``)
 * ``:sb[uffer] {number}`` - split the window horizontally and go to the given buffer (keep changes with ``!``)
 
+CLI Arguments/Options
+---------------------
+
+TODO
+
 Folds
 -----
 

@@ -421,7 +421,11 @@ Buffers
 CLI Arguments/Options
 ---------------------
 
-TODO
+* ``[files]`` - open Vim with an empty buffer or loaded buffers (1 active buffer, other hidden)
+* ``--help`` - show a CLI help
+* ``-h`` - show a CLI help
+* ``-`` - open Vim with text from stdin
+* ``--version`` - show a Vim version
 
 Folds
 -----

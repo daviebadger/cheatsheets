@@ -315,7 +315,7 @@ Mode Specialities
 Command-Line Commands
 ---------------------
 
-* ``:as[cii]`` - show the ASCII, hex, and octal number of the current character
+* ``:as[cii]`` - show the ASCII, hex and octal number of the current character
 * ``|`` - a separator for executing more commands at once
 * ``:!{command}`` - execute the given command in a shell
 * ``:[range]norm[al][!] {commands}`` - execute Normal mode commands (mappins are ignored with ``!``)
@@ -421,10 +421,29 @@ Buffers
 CLI Arguments/Options
 ---------------------
 
+* ``-C`` - open in a Vi-compatible mode (plugins or settings may break it)
+* ``-d`` - open in a diff mode
 * ``[files]`` - open Vim with an empty buffer or loaded buffers (1 active buffer, other hidden)
 * ``--help`` - show a CLI help
 * ``-h`` - show a CLI help
+* ``-m`` - open in a stricter read-only mode (changes allowed, writing disallowed)
+* ``-M`` - open in a strictest read-only mode (changes disallowed, writing disallowed)
+* ``-n`` - do not use a swap file
+* ``-N`` - open in a not Vi-compatible mode (plugins or settings may break it)
+* ``--noplugin`` - load the vimrc and defaults without plugins
+* ``+[number]`` - go to the given line number in the first active buffer (default is the last)
+* ``-o`` - open buffers in horizontal windows
+* ``-O`` - open buffers in vertical windows
 * ``-`` - open Vim with text from stdin
+* ``+/{pattern}`` - go to the first pattern occurrence in the first active buffer (quotes for words)
+* ``-p`` - open buffers in tab pages
+* ``-r {file}`` - recover the given file from the ``file name`` row
+* ``-R`` - open in a read-only mode (changes allowed, writing allowed with ``!``)
+* ``-r`` - show a list of files to recover
+* ``--startuptime {file}`` - log startup time to the given file
+* ``-u DEFAULTS`` - load defaults without the vimrc and plugins
+* ``-u {file.vim}`` - load the given file as the vimrc without plugins and defaults
+* ``-u NONE`` - load without the vimrc, plugins and defaults
 * ``--version`` - show a Vim version
 
 Folds

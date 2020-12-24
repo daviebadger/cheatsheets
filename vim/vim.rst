@@ -328,6 +328,7 @@ Command-Line Commands
 * ``:=`` - show the last line number
 * ``:sil[ent][!] {command}`` - do not show the given command output (ignore errors with ``!``)
 * ``:sw[apname]`` - show a path to the swap file
+* ``:verb[ose] {command}`` - execute the given command with verbose output (useful for settings)
 * ``:ve[rsion]`` - show a Vim version
 
 Insert Mode Commands

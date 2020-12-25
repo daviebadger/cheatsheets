@@ -505,6 +505,12 @@ Tabs
 * ``:tabon[only][!] {number}`` - close all tabs except for the given tab (starting since 1, keep changes with ``!``)
 * ``:tabs`` - show a list of tabs and their windows
 
+Vimrc Locations
+---------------
+
+* ``$HOME/.vimrc``
+* ``$HOME/.vim/vimrc``
+
 Windows
 -------
 

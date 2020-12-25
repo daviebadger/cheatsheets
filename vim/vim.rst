@@ -568,6 +568,17 @@ Windows
 * ``:vs[plit] #`` - open the last buffer vertically
 * ``{width} + CTRL + |`` - set the given width to the window
 
+Writing/Quitting
+----------------
+
+* ``:[range]up[date][!] [>>] [file]`` - write the buffer only if changed
+* ``:{range}w[rite][!] >> [file]`` - append specific files to the current or given file (create the file with ``!`` if not exists)
+* ``:{range}w[rite][!] [file]`` - write specific files to the current or given file (override with ``!``)
+* ``:sav[eas][!] {file}`` - write the whole buffer to the given file and go on with the new filename
+* ``:wa[ll][!]`` - write all changed buffers (force write with ``!`` for changed read-only buffers)
+* ``:w[rite][!] {file}`` - write the whole buffer to the given file (override with ``!``)
+* ``:w[rite][!]`` - write the whole buffer to the current file (force write with ``!`` in the read-only mode)
+
 
 
 Technicalities

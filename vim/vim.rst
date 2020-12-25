@@ -306,6 +306,7 @@ Repeating Commands
 * ``.`` - repeat the last change
 * ``@:`` - repeat the last command in Command-line
 * ``@@`` - repeat the previous execution
+* ``:so[urce] {file.vim}`` - read and execute Command-line commands from the given file
 
 
 
@@ -318,6 +319,7 @@ Command-Line Commands
 * ``:as[cii]`` - show the ASCII, hex and octal number of the current character
 * ``|`` - a separator for executing more commands at once
 * ``:!{command}`` - execute the given command in a shell
+* ``:mks[ession][!] [file.vim]`` - store the current session in a file (default ``Session.vim``, override with ``!``)
 * ``:[range]norm[al][!] {commands}`` - execute Normal mode commands (mappins are ignored with ``!``)
 * ``:redi[r] END`` - end redirecting
 * ``:redi[r] >> {file}`` - start redirecting commands output by appending to the given file
@@ -441,6 +443,7 @@ CLI Arguments/Options
 * ``-r {file}`` - recover the given file from the ``file name`` row
 * ``-R`` - open in a read-only mode (changes allowed, writing allowed with ``!``)
 * ``-r`` - show a list of files to recover
+* ``-S {file.vim}`` - open with the given stored session
 * ``--startuptime {file}`` - log startup time to the given file
 * ``-u DEFAULTS`` - load defaults without the vimrc and plugins
 * ``-u {file.vim}`` - load the given file as the vimrc without plugins and defaults

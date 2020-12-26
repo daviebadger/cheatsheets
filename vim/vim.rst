@@ -520,7 +520,7 @@ Windows
 * ``:abo[veleft] {command}`` - create a new window above horizontally with the given command output (must be long)
 * ``:bel[owright] {command}`` - create a new window below horizontally with the given command output (must be long)
 * ``:bo[tright] {command}`` - create a new window at the bottom horizontally with the given command output (must be long)
-* ``:clo[se][!]`` - close the window (keep changes with ``!``)
+* ``:clo[se][!]`` - close the window, do not quit Vim (keep changes with ``!``)
 * ``CTRL + w + b`` - go to the bottom-right window
 * ``CTRL + w + c`` - close the window (stay in Vim)
 * ``CTRL + w + -`` - decrease the window height
@@ -555,7 +555,7 @@ Windows
 * ``{height} + CTRL + _`` - set the given height to the window
 * ``:new`` - create an empty window horizontally
 * ``:on[ly][!]`` - close all windows except for the current window (keep changes with ``!``)
-* ``:q[uit][!]`` - close the window (discard changes with ``!``)
+* ``:q[uit][!]`` - close the window, may quit Vim (discard changes with ``!``)
 * ``:[range]windo {command}`` - apply a Command-line command to all or specific windows in the current tab
 * ``:sp[lit] [file]`` - split the current window or open the given file horizontally
 * ``:sp[lit] #{number}`` - open the given buffer horizontally
@@ -571,13 +571,27 @@ Windows
 Writing/Quitting
 ----------------
 
-* ``:[range]up[date][!] [>>] [file]`` - write the buffer only if changed
-* ``:{range}w[rite][!] >> [file]`` - append specific files to the current or given file (create the file with ``!`` if not exists)
-* ``:{range}w[rite][!] [file]`` - write specific files to the current or given file (override with ``!``)
-* ``:sav[eas][!] {file}`` - write the whole buffer to the given file and go on with the new filename
-* ``:wa[ll][!]`` - write all changed buffers (force write with ``!`` for changed read-only buffers)
-* ``:w[rite][!] {file}`` - write the whole buffer to the given file (override with ``!``)
-* ``:w[rite][!]`` - write the whole buffer to the current file (force write with ``!`` in the read-only mode)
+* ``:qa[ll][!]`` - quit all windows and Vim (discard changes with ``!``)
+* ``:q[uit][!]`` - quit the window, may quit Vim (discard changes with ``!``)
+* ``:{range}up[date][!] >> [file]`` - append specific lines if changed to the current or given file (create the file with ``!`` if not exists)
+* ``:{range}up[date][!] [file]`` - write specific lines if changed to the current or given file (override with ``!``)
+* ``:{range}wq[!] [file]`` - write specific lines to the current or given file and quit the window, may quit Vim (override with ``!`` or in the read-only mode)
+* ``:{range}w[rite][!] >> [file]`` - append specific lines to the current or given file (create the file with ``!`` if not exists)
+* ``:{range}w[rite][!] [file]`` - write specific lines to the current or given file (override with ``!``)
+* ``:{range}x[it][!] [file]`` - writhe specific lines to the current or given file and quit the window, may quit Vim (override with ``!`` or in the read-only mode)
+* ``:sav[eas][!] {file}`` - write the buffer to the given file and go on with the new filename (override with ``!``)
+* ``:up[date][!] {file}`` - write the buffer to the given file if changed (override with ``!``)
+* ``:up[date][!]`` - write the buffer to the current file if changed (with ``!`` in the read-only mode)
+* ``:wa[ll][!]`` - write all changed buffers (with ``!`` for changed read-only buffers)
+* ``:wq[!] {file}`` - write the buffer to the given file and quit the window, may quit Vim (override with ``!``)
+* ``:wq[!]`` - write the buffer to the current file and quit the window, may quit Vim (with ``!`` in the read-only mode)
+* ``:w[rite][!] {file}`` - write the buffer to the given file (override with ``!``)
+* ``:w[rite][!]`` - write the buffer to the current file (with ``!`` in the read-only mode)
+* ``:xa[ll][!]`` - write all changed buffers and quit all windows and Vim (with ``!`` in the read-only mode)
+* ``:x[it][!] {file}`` - write the buffer to the given file if changed and quit the window, may quit Vim (override with ``!``)
+* ``:x[it][!]`` - write the buffer to the current file if changed and quit the window, may quit Vim (with ``!`` in the read-only mode)
+* ``ZQ`` - quit the window and discard changes, may quit Vim
+* ``ZZ`` - write the buffer to the current file if changed and quit the window, may quit Vim
 
 
 

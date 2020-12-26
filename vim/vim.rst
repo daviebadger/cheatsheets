@@ -598,6 +598,14 @@ Writing/Quitting
 Technicalities
 ==============
 
+File Wildcards
+--------------
+
+* ``[{characters}]`` - match any one character from the given characters
+* ``?`` - match any one character
+* ``*`` - match any one or more characters or nothing
+* ``**`` - match any one or more characters or nothing, walk recursively directories
+
 Help Subjects
 -------------
 

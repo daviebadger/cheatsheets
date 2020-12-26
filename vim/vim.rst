@@ -619,6 +619,7 @@ Ranges
 * ``\?`` - a line containing the previously searched pattern backwards
 * ``\&`` - a line containing the previously substituted pattern forwards
 * ``,`` - a separator for a range from to
+* ``*`` - a shortcut for ``'<,'>``
 * ``%`` - a shortcut for ``1,$``
 * ``'{mark}`` - a line of a mark
 * ``-[number]`` - an offset backwards (default 1)

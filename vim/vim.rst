@@ -568,6 +568,20 @@ Windows
 * ``:vs[plit] #`` - open the last buffer vertically
 * ``{width} + CTRL + |`` - set the given width to the window
 
+Working Directory
+-----------------
+
+* ``:cd`` - change to the home directory globally
+* ``:cd -`` - change to the previous directory globally
+* ``:cd {path}`` - change to the given directory globally
+* ``:lcd`` - change to the home directory in the current window
+* ``:lcd -`` - change to the previous directory in the current window
+* ``:lcd {path}`` - change to the given directory in the current window
+* ``:pw[d]`` - show the current working directory
+* ``:tcd`` - change to the home directory in the current tab
+* ``:tcd -`` - change to the previous directory in the current tab
+* ``:tcd {path}`` - change to the given directory in the current tab
+
 Writing/Quitting
 ----------------
 

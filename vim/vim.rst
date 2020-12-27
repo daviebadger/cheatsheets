@@ -571,9 +571,9 @@ Windows
 Working Directory
 -----------------
 
-* ``:cd`` - change to the home directory globally
-* ``:cd -`` - change to the previous directory globally
-* ``:cd {path}`` - change to the given directory globally
+* ``:cd`` - change to the home directory globally where ``:lcd`` and ``:tcd`` are not used
+* ``:cd -`` - change to the previous directory globally where ``:lcd`` and ``:tcd`` are not used
+* ``:cd {path}`` - change to the given directory globally where ``:lcd`` and ``:tcd`` are not used
 * ``:lcd`` - change to the home directory in the current window
 * ``:lcd -`` - change to the previous directory in the current window
 * ``:lcd {path}`` - change to the given directory in the current window

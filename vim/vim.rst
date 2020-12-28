@@ -450,6 +450,11 @@ CLI Arguments/Options
 * ``-u NONE`` - load without the vimrc, plugins and defaults
 * ``--version`` - show a Vim version
 
+Editing
+-------
+
+TODO
+
 Folds
 -----
 

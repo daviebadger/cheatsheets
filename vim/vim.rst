@@ -453,7 +453,10 @@ CLI Arguments/Options
 Editing
 -------
 
-TODO
+* ``:e[dit][!] {file}`` - open the given file in the current window  (discard changes with ``!``)
+* ``:e[dit][!] #{number}`` - open the given buffer number in the current window (discard changes with ``!``)
+* ``:e[dit][!]`` - reload the current file (discard changes with ``!``)
+* ``:ene[w][!]`` - open a new empty buffer in the current window (discard changes with ``!``)
 
 Folds
 -----

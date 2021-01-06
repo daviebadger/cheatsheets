@@ -453,10 +453,13 @@ CLI Arguments/Options
 Editing
 -------
 
-* ``:e[dit][!] {file}`` - open the given file in the current window  (discard changes with ``!``)
+* ``:0f[ile][!]`` - remove the current file name (do not truncate Command-line output with ``!``)
+* ``:e[dit][!] {file}`` - open the given file in the current window (discard changes with ``!``)
 * ``:e[dit][!] #{number}`` - open the given buffer number in the current window (discard changes with ``!``)
 * ``:e[dit][!]`` - reload the current file (discard changes with ``!``)
 * ``:ene[w][!]`` - open a new empty buffer in the current window (discard changes with ``!``)
+* ``:f[ile][!] {name}`` - set the given name to the current file (do not truncate Command-line output with ``!``)
+* ``:f[ile][!]`` - show the current file name, status, number of lines and the position in % (do not truncate Command-line output with ``!``)
 
 Folds
 -----

@@ -658,7 +658,7 @@ Ranges
 Mark Types
 ----------
 
-* ``{0-9}`` - automatically set marks from ``~/.viminfo`` (single number)
+* ``{0-9}`` - automatically set marks from ``~/.viminfo`` (single number, may contain last used files)
 * ``{A-Z}`` - user-defined global marks across buffers (single letter, overridable)
 * ``{a-z}`` - user-defined local marks per buffer (single letter, overridable)
 * ``>`` - the end of a previously highlighted text (overridable)

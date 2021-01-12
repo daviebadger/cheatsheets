@@ -333,6 +333,14 @@ Command-Line Commands
 * ``:verb[ose] {command}`` - execute the given command with verbose output (useful for settings)
 * ``:ve[rsion]`` - show a Vim version
 
+Command-Line Window
+-------------------
+
+* ``CTRL + C`` - copy the command under the cursor to Command-Line
+* ``ENTER`` - execute the command under the cursor
+* ``q:`` - open a window with Command-Line command history
+* ``q/`` - open a window with Command-Line search history
+
 Insert Mode Commands
 --------------------
 

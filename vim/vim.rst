@@ -333,6 +333,14 @@ Command-Line Commands
 * ``:verb[ose] {command}`` - execute the given command with verbose output (useful for settings)
 * ``:ve[rsion]`` - show a Vim version
 
+Command-Line Motions
+--------------------
+
+* ``CTRL + b`` - go to the first character in a line
+* ``CTRL + e`` - go to the last character in a line
+* ``SHIFT + LEFT`` - go to the start of a current or previous "word"
+* ``SHIFT + RIGHT`` - go to the start of the next "word"
+
 Command-Line Window
 -------------------
 

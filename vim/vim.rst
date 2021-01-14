@@ -319,6 +319,15 @@ Command-Line Commands
 * ``:as[cii]`` - show the ASCII, hex and octal number of the current character
 * ``|`` - a separator for executing more Command-line commands at once
 * ``:!{command}`` - execute the given command in a shell
+* ``CTRL + r + CTRL + a`` - insert the word under the cursor
+* ``CTRL + r + CTRL + f`` - insert the filename under the cursor
+* ``CTRL + r + CTRL + l`` - insert the line under the cursor
+* ``CTRL + r + CTRL + p`` - insert the filename under the cursor (expanded path)
+* ``CTRL + r + CTRL + w`` - insert the "word" under the cursor
+* ``CTRL + r + {register}`` - insert a text from the given register
+* ``CTRL + u`` - delete to the start of a line
+* ``CTRL + w`` - delete the current or a previous "word"
+* ``DOWN`` - recall older command in history
 * ``:mks[ession][!] [file.vim]`` - store the current session in a file (default ``Session.vim``, override with ``!``)
 * ``:[range]norm[al][!] {commands}`` - execute Normal mode commands (mappins are ignored with ``!``)
 * ``:redi[r] END`` - end redirecting
@@ -330,6 +339,7 @@ Command-Line Commands
 * ``:=`` - show the last line number
 * ``:sil[ent][!] {command}`` - do not show the given command output (ignore errors with ``!``)
 * ``:sw[apname]`` - show a path to the swap file
+* ``UP`` - recall newer command in history
 * ``:verb[ose] {command}`` - execute the given command with verbose output (useful for settings)
 * ``:ve[rsion]`` - show a Vim version
 

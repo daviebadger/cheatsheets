@@ -371,8 +371,8 @@ Insert Mode Motions
 * ``END`` - go to the last character in a line
 * ``HOME`` - go to the first character in a line
 * ``SHIFT + DOWN`` - scroll 1 window backwards
-* ``SHIFT + LEFT`` - go to the start of the next "word"
-* ``SHIFT + RIGHT`` - go to the start of a current or previous "word"
+* ``SHIFT + LEFT`` - go to the start of a current or previous "word"
+* ``SHIFT + RIGHT`` - go to the start of the next "word"
 * ``SHIFT + UP`` - scroll 1 window forwards
 
 Visual Mode Commands

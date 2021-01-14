@@ -343,6 +343,11 @@ Command-Line Commands
 * ``:verb[ose] {command}`` - execute the given command with verbose output (useful for settings)
 * ``:ve[rsion]`` - show a Vim version
 
+Command-Line completion
+-----------------------
+
+TODO
+
 Command-Line Motions
 --------------------
 

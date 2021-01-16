@@ -328,6 +328,13 @@ Command-Line Commands
 * ``CTRL + u`` - delete to the start of a line
 * ``CTRL + w`` - delete the current or a previous "word"
 * ``DOWN`` - recall older command in history
+* ``:his[tory] :`` - show command history
+* ``:his[tory]`` - show command history
+* ``:his[tory] @`` - show input history
+* ``:his[tory] /`` - show search history
+* ``:his[tory] {type} {first},{last}`` - show the given range from the given history
+* ``:his[tory] {type} {number}`` - show a specific entry from the given history
+* ``:his[tory] {type} -{number},`` - show last entries from the given history
 * ``:mks[ession][!] [file.vim]`` - store the current session in a file (default ``Session.vim``, override with ``!``)
 * ``:[range]norm[al][!] {commands}`` - execute Normal mode commands (mappins are ignored with ``!``)
 * ``:redi[r] END`` - end redirecting
@@ -471,7 +478,7 @@ CLI Arguments/Options
 * ``-`` - open Vim with text from stdin
 * ``+/{pattern}`` - go to the first pattern occurrence in the first active buffer (quotes for words)
 * ``-p`` - open buffers in tab pages
-* ``-r {file}`` - recover the given file from the ``file name`` row
+* ``-r {file}`` - recover the given file (by the ``file name`` header)
 * ``-R`` - open in a read-only mode (changes allowed, writing allowed with ``!``)
 * ``-r`` - show a list of files to recover
 * ``-S {file.vim}`` - open with the given stored session

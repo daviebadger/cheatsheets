@@ -350,10 +350,15 @@ Command-Line Commands
 * ``:verb[ose] {command}`` - execute the given command with verbose output (useful for settings)
 * ``:ve[rsion]`` - show a Vim version
 
-Command-Line completion
+Command-Line Completion
 -----------------------
 
-TODO
+* ``CTRL + a`` - complete all possible completions
+* ``CTRL + d`` - show possible completions
+* ``CTRL + g`` - jump to the next search while staying in Command-Line (incsearch is on)
+* ``CTRL + t`` - jump to the previous search while staying in Command-Line (incsearch is on)
+* ``SHIFT + TAB`` - complete the last match or choose the previous match (wildchar is TAB)
+* ``TAB`` - complete the first match or choose the next match (wildchar is TAB)
 
 Command-Line Motions
 --------------------
@@ -385,8 +390,8 @@ Insert Mode Commands
 * ``:[range]r[ead] !{command}`` - insert an external command output below the cursor
 * ``:[range]r[ead] [file]`` - insert a file content below the cursor (default is the current file)
 
-Insert Mode Completition
-------------------------
+Insert Mode Completion
+----------------------
 
 * ``CTRL + e`` - exit a popup and remove the completed text
 * ``CTRL + n`` - complete the word or choose the next match from a popup

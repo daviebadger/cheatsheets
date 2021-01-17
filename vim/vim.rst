@@ -318,6 +318,7 @@ Command-Line Commands
 
 * ``:as[cii]`` - show the ASCII, hex and octal number of the current character
 * ``|`` - a separator for executing more Command-line commands at once
+* ``%`` - a shortcut for the current filename
 * ``:!{command}`` - execute the given command in a shell
 * ``CTRL + r + CTRL + a`` - insert the word under the cursor
 * ``CTRL + r + CTRL + f`` - insert the filename under the cursor
@@ -496,13 +497,13 @@ CLI Arguments/Options
 Editing
 -------
 
-* ``:0f[ile][!]`` - remove the current file name (do not truncate Command-line output with ``!``)
+* ``:0f[ile][!]`` - remove the current filename (do not truncate Command-line output with ``!``)
 * ``:e[dit][!] {file}`` - open the given file in the current window (discard changes with ``!``)
 * ``:e[dit][!] #{number}`` - open the given buffer number in the current window (discard changes with ``!``)
 * ``:e[dit][!]`` - reload the current file (discard changes with ``!``)
 * ``:ene[w][!]`` - open a new empty buffer in the current window (discard changes with ``!``)
 * ``:f[ile][!] {name}`` - set the given name to the current file (do not truncate Command-line output with ``!``)
-* ``:f[ile][!]`` - show the current file name, status, number of lines and the position in % (do not truncate Command-line output with ``!``)
+* ``:f[ile][!]`` - show the current filename, status, number of lines and the position in % (do not truncate Command-line output with ``!``)
 * ``g + CTRL + g`` - show the current column, line number, word number and byte number
 
 Folds

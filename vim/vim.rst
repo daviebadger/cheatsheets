@@ -537,6 +537,23 @@ Help
 * ``:h[elp]`` - open a window with Vim help
 * ``:h[help] {subject}`` - open a help for the given subject
 
+Options
+-------
+
+* ``:se[t] all&`` - reset all options to default values
+* ``:se[t][!] all`` - show all options (options on separate lines with ``!``)
+* ``:se[t] no{option}`` - set the given boolean option to off
+* ``:se[t] {option}!`` - invert the given boolean option
+* ``:se[t] {option} [options]`` - set or reset the given option or options
+* ``:se[t] {option}&`` - reset the given option to a default value
+* ``:se[t] {option}`` - set the given boolean option to on
+* ``:se[t] {option}?`` - show the given option value
+* ``:se[t] {option}+={value}`` - add the given value to the given number option or append the given string value to the given string option
+* ``:se[t] {option}^={value}`` - multiply the given value to the given number option or prepend the given string value to the given string option
+* ``:se[t] {option}={value}`` - set the given value to the given number option or string option
+* ``:se[t] {option}-={value}`` - substract the given value to the given number option or remove the given string value to the given string option
+* ``:se[t][!]`` - show all changed options (options on separate lines with ``!``)
+
 Tabs
 ----
 

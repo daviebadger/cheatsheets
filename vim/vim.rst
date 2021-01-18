@@ -540,6 +540,7 @@ Help
 Options
 -------
 
+* ``:opt[ions]`` - open a window with all options for viewing and editing
 * ``:se[t] all&`` - reset all options to default values
 * ``:se[t][!] all`` - show all options (options on separate lines with ``!``)
 * ``:se[t] no{option}`` - set the given boolean option to off

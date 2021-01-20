@@ -543,6 +543,7 @@ Options
 * ``:opt[ions]`` - open a window with all options for viewing and editing
 * ``:se[t] all&`` - reset all options to default values
 * ``:se[t][!] all`` - show all options (options on separate lines with ``!``)
+* ``:setl[ocal][!] ...``` - like ``:set``, but for the current buffer or window (works only for local options)
 * ``:se[t] no{option}`` - set the given boolean option to off
 * ``:se[t] {option}!`` - invert the given boolean option
 * ``:se[t] {option} [options]`` - set or reset the given option or options

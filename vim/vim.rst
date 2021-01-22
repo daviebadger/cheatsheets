@@ -556,6 +556,43 @@ Options
 * ``:se[t] {option}-={value}`` - substract the given value to the given number option or remove the given string value to the given string option
 * ``:se[t][!]`` - show all changed options (options on separate lines with ``!``)
 
+Options List
+------------
+
+* ``autoindent``, ``ai`` - whether to copy indent from the current line when starting a new line (boolean, default off, local to buffer)
+* ``background``, ``bg`` - which color theme to use, ``dark`` or ``white`` (string, dark or white, global)
+* ``clipboard``, ``cb`` - which register to use for the system clipboard, ``unnamedplus`` for Linux (string, global)
+* ``colorcolumn``, ``cc`` - which columns should be colored (string, default "", local to window)
+* ``directory``, ``dir`` - which directory to use for swap files (string, global)
+* ``expandtab``, ``et`` - whether to insert spaces when pressing TAB (boolean, default off, local to buffer)
+* ``filetype``, ``ft`` - set a file type if not detected to trigger autocommands (string, local to buffer)
+* ``history``, ``hi`` - how many Command-line commands should be remembered (number, default 50, global)
+* ``hlsearch``, ``hls`` - whether to highlight all search matches, not only one (boolean, default off)
+* ``ignorecase``, ``ic`` - whether to ignore case in search patterns (boolean, default off, global)
+* ``incsearch``, ``is`` - whether to show the first search match while typing (boolean, default off, global)
+* ``joinspaces``, ``js`` - whether to join lines with two spaces after closing punctuation (boolean, default on, global)
+* ``laststatus``, ``ls`` - when to show a window status line (boolean, default 1, global)
+
+  * ``0`` for never
+  * ``1`` for at least two windows
+  * ``2`` for always
+
+* ``mouse`` - in which Vim mode can be the mouse enabled (string, global)
+
+  * ``a`` for all
+  * ``i`` for Insert
+  * ``n`` for Normal
+  * ``v`` for Visual
+
+* ``number``, ``nu`` - whether to show line numbers (boolean, default off, local to window)
+* ``numberwidth``, ``nuw`` - minimal number of columns to show (number, default 4, local to window)
+* ``relativenumber``, ``rnu`` - whether to show relative numbers instead of line numbers (boolean, default off, local to window)
+* ``ruler``, ``ru`` - whether to show the cursor position (boolean, default on)
+* ``selection``, ``sel`` - how to select text ending with whitespace (string, default inclusive)
+
+  * ``exclusive`` - exclude a new line for single line
+  * ``inclusive`` - include a new line for single line
+
 Tabs
 ----
 

@@ -48,8 +48,8 @@ Left-Right Motions
 
 * ``$`` - go to the last character in a line
 * ``0`` - go to the first character in a line
-* ``F + {char}`` - go to the given character left in a line
-* ``f + {char}`` - go to the given character right in a line
+* ``F + {characters}`` - go to the given character left in a line
+* ``f + {characters}`` - go to the given character right in a line
 * ``g$`` - go to the last character in a screen line (wrap is on)
 * ``g0`` - go to the first character in a screen line (wrap is on)
 * ``g^`` - go to the first non-blank character in a screen line (wrap is on)
@@ -62,8 +62,8 @@ Left-Right Motions
 * ``{number} + |`` - go to the given column
 * ``,`` - repeat ``f``, ``F``, ``t``, ``T`` backwards
 * ``;`` - repeat ``f``, ``F``, ``t``, ``T`` forwards
-* ``T + {char}`` - go before the given character left in a line
-* ``t + {char}`` - go before the given character right in a line
+* ``T + {characters}`` - go before the given character left in a line
+* ``t + {characters}`` - go before the given character right in a line
 
 Up-Down Motions
 ---------------
@@ -247,7 +247,7 @@ Changing Text
 * ``:[range]ri[ght]`` - right align in lines
 * ``:[range]s[ubstitute]/{pattern}/{string}/[flags]`` - substitute the given pattern with the given string in lines
 * ``:[range]<`` - unindent lines as many ``<`` repeats
-* ``r + {char}`` - replace a character under the cursor with the given character
+* ``r + {characters}`` - replace a character under the cursor with the given character
 * ``&`` - repeat the last substitution in the current line without flags
 * ``:~`` - repeat the last substitution in the current line without flags for the last search
 * ``s`` - change character under the cursor
@@ -268,7 +268,7 @@ Changing Text
 * ``{visual} + gw`` - justify a highlighted text and keep the cursor position before change
 * ``{visual} + >`` - indent a highlighted text
 * ``{visual} + :le[ft]`` - left align for the highlighted text
-* ``{visual} + r + {char}`` - replace a highlighted text with the given character
+* ``{visual} + r + {characters}`` - replace a highlighted text with the given character
 * ``{visual} + :ri[ght]`` - right align for the highlighted text
 * ``{visual} + ~`` - switch case of a highlighted text
 * ``{visual} + u`` - lower a highlighted text
@@ -387,6 +387,7 @@ Insert Mode Commands
 * ``CTRL + r + {register}`` - insert a text from the given register
 * ``CTRL + t`` - indent the current line
 * ``CTRL + u`` - delete newly added characters in the current line
+* ``CTRL + v + {character}`` - insert literally the character (e.g. TAB without spaces)
 * ``CTRL + w`` - delete the current or a previous "word"
 * ``:[range]r[ead] !{command}`` - insert an external command output below the cursor
 * ``:[range]r[ead] [file]`` - insert a file content below the cursor (default is the current file)

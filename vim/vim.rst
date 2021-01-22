@@ -48,8 +48,8 @@ Left-Right Motions
 
 * ``$`` - go to the last character in a line
 * ``0`` - go to the first character in a line
-* ``F + {characters}`` - go to the given character left in a line
-* ``f + {characters}`` - go to the given character right in a line
+* ``F + {character}`` - go to the character left in a line
+* ``f + {character}`` - go to the character right in a line
 * ``g$`` - go to the last character in a screen line (wrap is on)
 * ``g0`` - go to the first character in a screen line (wrap is on)
 * ``g^`` - go to the first non-blank character in a screen line (wrap is on)
@@ -59,11 +59,11 @@ Left-Right Motions
 * ``^`` - go to the first non-blank character in a line
 * ``h`` - go 1 character left
 * ``l`` - go 1 character right
-* ``{number} + |`` - go to the given column
+* ``{number} + |`` - go to the column
 * ``,`` - repeat ``f``, ``F``, ``t``, ``T`` backwards
 * ``;`` - repeat ``f``, ``F``, ``t``, ``T`` forwards
-* ``T + {characters}`` - go before the given character left in a line
-* ``t + {characters}`` - go before the given character right in a line
+* ``T + {character}`` - go before the character left in a line
+* ``t + {character}`` - go before the character right in a line
 
 Up-Down Motions
 ---------------
@@ -76,8 +76,8 @@ Up-Down Motions
 * ``-`` - go 1 line up to a non-blank character
 * ``j`` - go 1 line down
 * ``k`` - go 1 line up
-* ``{number} + G`` - go to the given line
-* ``{number} + %`` - go to the given percentage line
+* ``{number} + G`` - go to the line
+* ``{number} + %`` - go to the percentage line
 
 Word Motions
 ------------
@@ -110,8 +110,8 @@ Search Motions
 * ``g*`` - partially search the identifier under the cursor forwards
 * ``n`` - repeat the last search
 * ``N`` - repeat the last search reversely
-* ``? + {pattern}`` - search the given battern backwards
-* ``/ + {pattern}`` - search the given pattern forwards
+* ``? + {pattern}`` - search the battern backwards
+* ``/ + {pattern}`` - search the pattern forwards
 * ``#`` - search the identifier under the cursor backwards
 * ``*`` - search the identifier under the cursor forwards
 
@@ -119,13 +119,13 @@ Mark Motions
 ------------
 
 * ``:delm[arks]!`` - delete all local marks
-* ``:delm[arks] {mark} [mark]`` - delete the given mark or marks
-* :literal:`\` + {mark}` - go to the given mark
-* ``' + {mark}'`` - go to the given mark to the first non-blank character
-* ``:marks {mark} [mark]`` - show the given mark or marks
+* ``:delm[arks] {mark} [mark]`` - delete the mark or marks
+* :literal:`\` + {mark}` - go to the mark
+* ``' + {mark}'`` - go to the mark to the first non-blank character
+* ``:marks {mark} [mark]`` - show the mark or marks
 * ``:marks`` - show a list of marks
-* ``m + {mark}`` - set the given mark at the current position
-* ``:[range]ma[rk] {mark}`` - set the given mark at a specific line
+* ``m + {mark}`` - set the mark at the current position
+* ``:[range]ma[rk] {mark}`` - set the mark at a specific line
 
 Other Motions
 -------------
@@ -184,11 +184,11 @@ Copying/Pasting Text
 * ``P`` - put a text before the cursor
 * ``[P`` - put a text before the cursor and adjust the indent
 * ``:[range]y[ank] [register]`` - yank text in lines
-* ``:reg[isters] {register}`` - show content in the given register
+* ``:reg[isters] {register}`` - show content in the register
 * ``:reg[isters]`` - show a list of content in registers
-* ``" + {register}`` - use the given register for the next yank / put / delete operation
+* ``" + {register}`` - use the register for the next yank / put / delete operation
 * ``{visual} + y`` - yank a highlighted text
-* ``y + {motion}`` - yank to the given motion
+* ``y + {motion}`` - yank to the motion
 * ``Y`` - yank the current line
 * ``yy`` - yank the current line
 
@@ -197,7 +197,7 @@ Deleting Text
 
 * ``dd`` - delete the current line
 * ``D`` - delete to the end of a line
-* ``d + {motion}`` - delete to the given motion
+* ``d + {motion}`` - delete to the motion
 * ``gJ`` - join the current and the next line without space
 * ``J`` - join the current and the next line with space
 * ``:[range]d[elete] [register]`` - delete specific lines
@@ -215,39 +215,39 @@ Changing Text
 * ``==`` - auto indent the current line
 * ``cc`` - change the current line
 * ``C`` - change to the end of a line
-* ``c + {motion}`` - change to the given motion
+* ``c + {motion}`` - change to the motion
 * ``!! + {command}`` - apply an external command to the current line
 * ``CTRL + a`` - increase a number under the cursor
 * ``CTRL + x`` - decrease a number under the cursor
-* ``g~ + {motion}`` - switch case to the given motion
-* ``gq + {motion}`` - justify text in lines to the given motion
+* ``g~ + {motion}`` - switch case to the motion
+* ``gq + {motion}`` - justify text in lines to the motion
 * ``gqq`` - justify text in the current line
 * ``g&`` - repeat the last substitution in the whole file with the same flags for the last search
 * ``g~~`` - switch case in the current line
-* ``gu + {motion}`` - lower a text to the given motion
-* ``gU + {motion}`` - upper a text to the given motion
+* ``gu + {motion}`` - lower a text to the motion
+* ``gU + {motion}`` - upper a text to the motion
 * ``guu`` - lower the current line
 * ``gUU`` - upper the current line
-* ``gw + {motion}`` - justify text in lines to the given motion and keep the cursor position before change
+* ``gw + {motion}`` - justify text in lines to the motion and keep the cursor position before change
 * ``gww`` - justify text in the current line and keep the cursor position before change
 * ``>>`` - indent the current line
-* ``= + {motion}`` - auto indent lines to the given motion
-* ``! + {motion} + {command}`` - apply an external command to lines to the given motion
-* ``> + {motion}`` - indent lines to the given motion
-* ``< + {motion}`` - unindent lines to the given motion
+* ``= + {motion}`` - auto indent lines to the motion
+* ``! + {motion} + {command}`` - apply an external command to lines to the motion
+* ``> + {motion}`` - indent lines to the motion
+* ``< + {motion}`` - unindent lines to the motion
 * ``:[range]ce[nter]`` - center align in lines
 * ``:[range]c[hange][!]`` - change specific lines (respect indent with ``!``)
 * ``:{range}!{filter}`` - apply an external command to lines
-* ``:[range]&{flags}`` - repeat the last substitution in lines with the given flags
-* ``:[range]~{flags}`` - repeat the last substitution in lines with the given flags for the last search
-* ``:[range]&&[flags]`` - repeat the last substitution in lines with the same or given flags
-* ``:[range]~&[flags]`` - repeat the last substitution in lines with the same or given flags for the last search
+* ``:[range]&{flags}`` - repeat the last substitution in lines with the flags
+* ``:[range]~{flags}`` - repeat the last substitution in lines with the flags for the last search
+* ``:[range]&&[flags]`` - repeat the last substitution in lines with the same or flags
+* ``:[range]~&[flags]`` - repeat the last substitution in lines with the same or flags for the last search
 * ``:[range]>`` - indent lines as many ``>`` repeats
 * ``:[range]le[ft]`` - left align in lines
 * ``:[range]ri[ght]`` - right align in lines
-* ``:[range]s[ubstitute]/{pattern}/{string}/[flags]`` - substitute the given pattern with the given string in lines
+* ``:[range]s[ubstitute]/{pattern}/{string}/[flags]`` - substitute the pattern with the string in lines
 * ``:[range]<`` - unindent lines as many ``<`` repeats
-* ``r + {characters}`` - replace a character under the cursor with the given character
+* ``r + {character}`` - replace a character under the cursor with the character
 * ``&`` - repeat the last substitution in the current line without flags
 * ``:~`` - repeat the last substitution in the current line without flags for the last search
 * ``s`` - change character under the cursor
@@ -268,7 +268,7 @@ Changing Text
 * ``{visual} + gw`` - justify a highlighted text and keep the cursor position before change
 * ``{visual} + >`` - indent a highlighted text
 * ``{visual} + :le[ft]`` - left align for the highlighted text
-* ``{visual} + r + {characters}`` - replace a highlighted text with the given character
+* ``{visual} + r + {character}`` - replace a highlighted text with the character
 * ``{visual} + :ri[ght]`` - right align for the highlighted text
 * ``{visual} + ~`` - switch case of a highlighted text
 * ``{visual} + u`` - lower a highlighted text
@@ -280,33 +280,33 @@ Undo/Redo Changes
 -----------------
 
 * ``CTRL + r`` - redo the last change
-* ``:ea[rlier] {number}d`` - go to a text state before the given days
-* ``:ea[rlier] {number}f`` - go to the oldest text state before the given file writes
-* ``:ea[rlier] {number}h`` - go to a test state before the given hours
-* ``:ea[rlier] {number}m`` - go to a test state before the given minutes
-* ``:ea[rlier] {number}s`` - go to a test state before the given seconds
+* ``:ea[rlier] {number}d`` - go to a text state before the days
+* ``:ea[rlier] {number}f`` - go to the oldest text state before the file writes
+* ``:ea[rlier] {number}h`` - go to a test state before the hours
+* ``:ea[rlier] {number}m`` - go to a test state before the minutes
+* ``:ea[rlier] {number}s`` - go to a test state before the seconds
 * ``g+`` - go to a newer text state
 * ``g-`` - go to an older text state
-* ``:lat[er] {number}d`` - go to a text state after the given days
-* ``:lat[er] {number}f`` - go to the newest text state after the given file writes
-* ``:lat[er] {number}h`` - go to a text state after the given hours
-* ``:lat[er] {number}m`` - go to a text state after the given minutes
-* ``:lat[er] {number}s`` - go to a text state after the given seconds
+* ``:lat[er] {number}d`` - go to a text state after the days
+* ``:lat[er] {number}f`` - go to the newest text state after the file writes
+* ``:lat[er] {number}h`` - go to a text state after the hours
+* ``:lat[er] {number}m`` - go to a text state after the minutes
+* ``:lat[er] {number}s`` - go to a text state after the seconds
 * ``:undol[ist]`` - show a list of undo branches
-* ``:un[do] {number}`` - go to the given undo branch
+* ``:un[do] {number}`` - go to the undo branch
 * ``U`` - undo a recently changed line
 * ``u`` - undo the last change
 
 Repeating Commands
 ------------------
 
-* ``q + {register}`` - record typed characters into the given register
+* ``q + {register}`` - record typed characters into the register
 * ``q`` - stop recording
-* ``@ + {register}`` - execute the content of the given register
+* ``@ + {register}`` - execute the content of the register
 * ``.`` - repeat the last change
 * ``@:`` - repeat the last command in Command-line
 * ``@@`` - repeat the previous execution
-* ``:so[urce] {file.vim}`` - read and execute Command-line commands from the given file
+* ``:so[urce] {file.vim}`` - read and execute Command-line commands from the file
 
 
 
@@ -319,13 +319,13 @@ Command-Line Commands
 * ``:as[cii]`` - show the ASCII, hex and octal number of the current character
 * ``|`` - a separator for executing more Command-line commands at once
 * ``%`` - a shortcut for the current filename
-* ``:!{command}`` - execute the given command in a shell
+* ``:!{command}`` - execute the command in a shell
 * ``CTRL + r + CTRL + a`` - insert the word under the cursor
 * ``CTRL + r + CTRL + f`` - insert the filename under the cursor
 * ``CTRL + r + CTRL + l`` - insert the line under the cursor
 * ``CTRL + r + CTRL + p`` - insert the filename under the cursor (expanded path)
 * ``CTRL + r + CTRL + w`` - insert the "word" under the cursor
-* ``CTRL + r + {register}`` - insert a text from the given register
+* ``CTRL + r + {register}`` - insert a text from the register
 * ``CTRL + u`` - delete to the start of a line
 * ``CTRL + w`` - delete the current or a previous "word"
 * ``DOWN`` - recall older command in history
@@ -333,22 +333,22 @@ Command-Line Commands
 * ``:his[tory]`` - show command history
 * ``:his[tory] @`` - show input history
 * ``:his[tory] /`` - show search history
-* ``:his[tory] {type} {first},{last}`` - show the given range from the given history
-* ``:his[tory] {type} {number}`` - show a specific entry from the given history
-* ``:his[tory] {type} -{number},`` - show last entries from the given history
+* ``:his[tory] {type} {first},{last}`` - show the range from the history
+* ``:his[tory] {type} {number}`` - show a specific entry from the history
+* ``:his[tory] {type} -{number},`` - show last entries from the history
 * ``:mks[ession][!] [file.vim]`` - store the current session in a file (default ``Session.vim``, override with ``!``)
 * ``:[range]norm[al][!] {commands}`` - execute Normal mode commands (mappins are ignored with ``!``)
 * ``:redi[r] END`` - end redirecting
-* ``:redi[r] >> {file}`` - start redirecting commands output by appending to the given file
-* ``:redi[r][!] > {file}`` -  start redirecting commands output to the given file (override the file with ``!``)
-* ``:redi[r] @{register}>>`` - start redirecting commands output by appending to the given register
-* ``:redi[r] @{register}>`` - start redirecting commands output to the given register
+* ``:redi[r] >> {file}`` - start redirecting commands output by appending to the file
+* ``:redi[r][!] > {file}`` -  start redirecting commands output to the file (override the file with ``!``)
+* ``:redi[r] @{register}>>`` - start redirecting commands output by appending to the register
+* ``:redi[r] @{register}>`` - start redirecting commands output to the register
 * ``:!!`` - repeat the last ``:!{command}``
 * ``:=`` - show the last line number
-* ``:sil[ent][!] {command}`` - do not show the given command output (ignore errors with ``!``)
+* ``:sil[ent][!] {command}`` - do not show the command output (ignore errors with ``!``)
 * ``:sw[apname]`` - show a path to the swap file
 * ``UP`` - recall newer command in history
-* ``:verb[ose] {command}`` - execute the given command with verbose output (useful for settings)
+* ``:verb[ose] {command}`` - execute the command with verbose output (useful for settings)
 * ``:ve[rsion]`` - show a Vim version
 
 Command-Line Completion
@@ -384,7 +384,7 @@ Insert Mode Commands
 * ``CTRL + a`` - insert a previously inserted text
 * ``CTRL + d`` - unindent the current line
 * ``CTRL + @`` - insert a previously inserted text and stop Insert mode
-* ``CTRL + r + {register}`` - insert a text from the given register
+* ``CTRL + r + {register}`` - insert a text from the register
 * ``CTRL + t`` - indent the current line
 * ``CTRL + u`` - delete newly added characters in the current line
 * ``CTRL + v + {character}`` - insert literally the character (e.g. TAB without spaces)
@@ -448,23 +448,23 @@ Buffers
 -------
 
 * ``:bd[elete][!]`` - delete the current buffer
-* ``:bd[elete][!] {number} [number]`` - delete the given buffer or buffers (discard changes with ``!``)
+* ``:bd[elete][!] {number} [number]`` - delete the buffer or buffers (discard changes with ``!``)
 * ``:bf[irst][!]`` - go to the first buffer (keep changes with ``!``)
 * ``:bl[ast][!]`` - go to the last buffer (keep changes with ``!``)
 * ``:bn[ext][!]`` - go to the next buffer (keep changes with ``!``)
-* ``:bn[ext][!] {number}`` - go to the given number forwards (keep changes with ``!``)
+* ``:bn[ext][!] {number}`` - go to the number forwards (keep changes with ``!``)
 * ``:bp[revious][!]`` - go to the previous buffer (keep changes with ``!``)
-* ``:bp[revious][!] {number}`` - go to the given number backwards (keep changes with ``!``)
-* ``:b[uffer][!] {number}`` - go to the given buffer (keep changes with ``!``)
+* ``:bp[revious][!] {number}`` - go to the number backwards (keep changes with ``!``)
+* ``:b[uffer][!] {number}`` - go to the buffer (keep changes with ``!``)
 * ``:ls`` - show a list of buffers
 * ``:[range]bufdo[!] {command}`` - apply a Command-line command to all or specific buffers in the buffer list (leave changed buffers with ``!``)
 * ``:sbf[irst][!]`` - split the window horizontally and go to the first buffer (keep changes with ``!``)
 * ``:sbl[ast][!]`` - split the window horizontally and go to the last buffer (keep changes with ``!``)
-* ``:sbn[ext][!] {number}`` - split the window horizontally and go to the given number forwards (keep changes with ``!``)
+* ``:sbn[ext][!] {number}`` - split the window horizontally and go to the number forwards (keep changes with ``!``)
 * ``:sbn[ext][!]`` - split the window horizontally and go to the next buffer (keep changes with ``!``)
-* ``:sbp[revious][!] {number}`` - split the window horizontally and go to the given number backwards (keep changes with ``!``)
+* ``:sbp[revious][!] {number}`` - split the window horizontally and go to the number backwards (keep changes with ``!``)
 * ``:sbp[revious][!]`` - split the window horizontally and go to the previous buffer (keep changes with ``!``)
-* ``:sb[uffer] {number}`` - split the window horizontally and go to the given buffer (keep changes with ``!``)
+* ``:sb[uffer] {number}`` - split the window horizontally and go to the buffer (keep changes with ``!``)
 
 CLI Arguments/Options
 ---------------------
@@ -479,19 +479,19 @@ CLI Arguments/Options
 * ``-n`` - do not use a swap file
 * ``-N`` - open in a not Vi-compatible mode (plugins or settings may break it)
 * ``--noplugin`` - load the vimrc and defaults without plugins
-* ``+[number]`` - go to the given line number in the first active buffer (default is the last)
+* ``+[number]`` - go to the line number in the first active buffer (default is the last)
 * ``-o`` - open buffers in horizontal windows
 * ``-O`` - open buffers in vertical windows
 * ``-`` - open Vim with text from stdin
 * ``+/{pattern}`` - go to the first pattern occurrence in the first active buffer (quotes for words)
 * ``-p`` - open buffers in tab pages
-* ``-r {file}`` - recover the given file (by the ``file name`` header)
+* ``-r {file}`` - recover the file (by the ``file name`` header)
 * ``-R`` - open in a read-only mode (changes allowed, writing allowed with ``!``)
 * ``-r`` - show a list of files to recover
-* ``-S {file.vim}`` - open with the given stored session
-* ``--startuptime {file}`` - log startup time to the given file
+* ``-S {file.vim}`` - open with the stored session
+* ``--startuptime {file}`` - log startup time to the file
 * ``-u DEFAULTS`` - load defaults without the vimrc and plugins
-* ``-u {file.vim}`` - load the given file as the vimrc without plugins and defaults
+* ``-u {file.vim}`` - load the file as the vimrc without plugins and defaults
 * ``-u NONE`` - load without the vimrc, plugins and defaults
 * ``--version`` - show a Vim version
 
@@ -499,11 +499,11 @@ Editing
 -------
 
 * ``:0f[ile][!]`` - remove the current filename (do not truncate Command-line output with ``!``)
-* ``:e[dit][!] {file}`` - open the given file in the current window (discard changes with ``!``)
-* ``:e[dit][!] #{number}`` - open the given buffer number in the current window (discard changes with ``!``)
+* ``:e[dit][!] {file}`` - open the file in the current window (discard changes with ``!``)
+* ``:e[dit][!] #{number}`` - open the buffer number in the current window (discard changes with ``!``)
 * ``:e[dit][!]`` - reload the current file (discard changes with ``!``)
 * ``:ene[w][!]`` - open a new empty buffer in the current window (discard changes with ``!``)
-* ``:f[ile][!] {name}`` - set the given name to the current file (do not truncate Command-line output with ``!``)
+* ``:f[ile][!] {name}`` - set the name to the current file (do not truncate Command-line output with ``!``)
 * ``:f[ile][!]`` - show the current filename, status, number of lines and the position in % (do not truncate Command-line output with ``!``)
 * ``g + CTRL + g`` - show the current column, line number, word number and byte number
 
@@ -513,10 +513,10 @@ Folds
 * ``:[range]folddoc[losed] {command}`` - apply a Command-line command to folded lines
 * ``:[range]foldd[open] {command}`` - apply a Command-line command to not folded lines
 * ``:{range}fo[ld]`` - fold lines
-* ``{visual} + zf`` - fold the given highlighted lines
+* ``{visual} + zf`` - fold the highlighted lines
 * ``zC`` - close all folds under the cursor recursively upwards
 * ``zc`` - close one fold under the cursor
-* ``zf + {motion}`` - fold lines to the given motion
+* ``zf + {motion}`` - fold lines to the motion
 * ``] + z`` - go to the end of an opened fold
 * ``[ + z`` - go to the start of an opened fold
 * ``zj`` - go to the start of a next fold area
@@ -534,9 +534,9 @@ Help
 * ``CTRL + i`` - jump to the subject ahead in history
 * ``CTRL + ]`` - jump to a subject under the cursor
 * ``CTRL + o`` - jump to the subject back in history
-* ``:helpg[ep] {pattern}`` - open a quickfix window with grepped results for the given pattern
+* ``:helpg[ep] {pattern}`` - open a quickfix window with grepped results for the pattern
 * ``:h[elp]`` - open a window with Vim help
-* ``:h[help] {subject}`` - open a help for the given subject
+* ``:h[help] {subject}`` - open a help for the subject
 
 Options
 -------
@@ -545,16 +545,16 @@ Options
 * ``:se[t] all&`` - reset all options to default values
 * ``:se[t][!] all`` - show all options (options on separate lines with ``!``)
 * ``:setl[ocal][!] ...``` - like ``:set``, but for the current buffer or window (works only for local options)
-* ``:se[t] no{option}`` - set the given boolean option to off
-* ``:se[t] {option}!`` - invert the given boolean option
-* ``:se[t] {option} [options]`` - set or reset the given option or options
-* ``:se[t] {option}&`` - reset the given option to a default value
-* ``:se[t] {option}`` - set the given boolean option to on
-* ``:se[t] {option}?`` - show the given option value
-* ``:se[t] {option}+={value}`` - add the given value to the given number option or append the given string value to the given string option
-* ``:se[t] {option}^={value}`` - multiply the given value to the given number option or prepend the given string value to the given string option
-* ``:se[t] {option}={value}`` - set the given value to the given number option or string option
-* ``:se[t] {option}-={value}`` - substract the given value to the given number option or remove the given string value to the given string option
+* ``:se[t] no{option}`` - set the boolean option to off
+* ``:se[t] {option}!`` - invert the boolean option
+* ``:se[t] {option} [options]`` - set or reset the option or options
+* ``:se[t] {option}&`` - reset the option to a default value
+* ``:se[t] {option}`` - set the boolean option to on
+* ``:se[t] {option}?`` - show the option value
+* ``:se[t] {option}+={value}`` - add the value to the number option or append the string value to the string option
+* ``:se[t] {option}^={value}`` - multiply the value to the number option or prepend the string value to the string option
+* ``:se[t] {option}={value}`` - set the value to the number option or string option
+* ``:se[t] {option}-={value}`` - substract the value to the number option or remove the string value to the string option
 * ``:se[t][!]`` - show all changed options (options on separate lines with ``!``)
 
 Options List
@@ -601,24 +601,24 @@ Tabs
 * ``CTRL + w + gF`` - open the file under the cursor in a new tab and jump to the line number following the file
 * ``gt`` - go to the next tab
 * ``gT`` - go to the previous tab
-* ``{number} + gt`` - go to the given tab (starting since 1)
-* ``:[position]tab {command}`` - create a new tab with the given command output (must be long)
-* ``:[position]tabnew [file]`` - create an empty tab or open the given file in a new tab
+* ``{number} + gt`` - go to the tab (starting since 1)
+* ``:[position]tab {command}`` - create a new tab with the command output (must be long)
+* ``:[position]tabnew [file]`` - create an empty tab or open the file in a new tab
 * ``:[range]tabd[o] {command}`` - apply a Command-line command to all or specific tabs and their first window
 * ``:tabc[lose][!] $`` - close the last tab (keep changes with ``!``)
 * ``:tabc[lose][!]`` - close the tab (keep changes with ``!``)
-* ``:tabc[lose][!] {number}`` - close the given tab (starting since 1, keep changes with ``!``)
+* ``:tabc[lose][!] {number}`` - close the tab (starting since 1, keep changes with ``!``)
 * ``:tabfir[st]`` - go to the first tab
 * ``:tabl[ast]`` - go to the last tab
 * ``:tabm[ove] $`` - move the tab to the end of a tab line
 * ``:tabm[ove] 0`` - move the tab to the start of a tab line
-* ``:tabm[ove] -{number}`` - move the tab the given tabs backwards
-* ``:tabm[ove] +{number}`` - move the tab the given tabs forwards
-* ``:tabn[ext] -{number}`` - go the given tabs backwards
-* ``:tabn[ext] +{number}`` - go the given tabs forwards
+* ``:tabm[ove] -{number}`` - move the tab the tabs backwards
+* ``:tabm[ove] +{number}`` - move the tab the tabs forwards
+* ``:tabn[ext] -{number}`` - go the tabs backwards
+* ``:tabn[ext] +{number}`` - go the tabs forwards
 * ``:tabon[only][!] $`` - close all tabs except for the last tab (keep changes with ``!``)
 * ``:tabon[only][!]`` - close all tabs except for the current tab (keep changes with ``!``)
-* ``:tabon[only][!] {number}`` - close all tabs except for the given tab (starting since 1, keep changes with ``!``)
+* ``:tabon[only][!] {number}`` - close all tabs except for the tab (starting since 1, keep changes with ``!``)
 * ``:tabs`` - show a list of tabs and their windows
 
 Vimrc Locations
@@ -630,9 +630,9 @@ Vimrc Locations
 Windows
 -------
 
-* ``:abo[veleft] {command}`` - create a new window above horizontally with the given command output (must be long)
-* ``:bel[owright] {command}`` - create a new window below horizontally with the given command output (must be long)
-* ``:bo[tright] {command}`` - create a new window at the bottom horizontally with the given command output (must be long)
+* ``:abo[veleft] {command}`` - create a new window above horizontally with the command output (must be long)
+* ``:bel[owright] {command}`` - create a new window below horizontally with the command output (must be long)
+* ``:bo[tright] {command}`` - create a new window at the bottom horizontally with the command output (must be long)
 * ``:clo[se][!]`` - close the window, do not quit Vim (keep changes with ``!``)
 * ``CTRL + w + b`` - go to the bottom-right window
 * ``CTRL + w + c`` - close the window (stay in Vim)
@@ -665,57 +665,57 @@ Windows
 * ``CTRL + w + w`` - go to the next below / right window
 * ``CTRL + w + W`` - go to the previous above / left window
 * ``CTRL + w + x`` - swap the current window and the next window
-* ``{height} + CTRL + _`` - set the given height to the window
+* ``{height} + CTRL + _`` - set the height to the window
 * ``:new`` - create an empty window horizontally
 * ``:on[ly][!]`` - close all windows except for the current window (keep changes with ``!``)
 * ``:q[uit][!]`` - close the window, may quit Vim (discard changes with ``!``)
 * ``:[range]windo {command}`` - apply a Command-line command to all or specific windows in the current tab
-* ``:sp[lit] [file]`` - split the current window or open the given file horizontally
-* ``:sp[lit] #{number}`` - open the given buffer horizontally
+* ``:sp[lit] [file]`` - split the current window or open the file horizontally
+* ``:sp[lit] #{number}`` - open the buffer horizontally
 * ``:sp[lit] #`` - open the last buffer horizontally
-* ``:to[pleft] {command}`` - create a new window at the top horizontally with the given command output (must be long)
-* ``:vert[ical] {command}`` - create a new window vertically with the given command output (must be long)
+* ``:to[pleft] {command}`` - create a new window at the top horizontally with the command output (must be long)
+* ``:vert[ical] {command}`` - create a new window vertically with the command output (must be long)
 * ``:vne[w]`` - create an empty window vertically
-* ``:vs[plit] [file]`` - split the current window or open the given file vertically
-* ``:vs[plit] #{number}`` - open the given buffer vertically
+* ``:vs[plit] [file]`` - split the current window or open the file vertically
+* ``:vs[plit] #{number}`` - open the buffer vertically
 * ``:vs[plit] #`` - open the last buffer vertically
-* ``{width} + CTRL + |`` - set the given width to the window
+* ``{width} + CTRL + |`` - set the width to the window
 
 Working Directory
 -----------------
 
 * ``:cd`` - change to the home directory globally where ``:lcd`` and ``:tcd`` are not used
 * ``:cd -`` - change to the previous directory globally where ``:lcd`` and ``:tcd`` are not used
-* ``:cd {path}`` - change to the given directory globally where ``:lcd`` and ``:tcd`` are not used
+* ``:cd {path}`` - change to the directory globally where ``:lcd`` and ``:tcd`` are not used
 * ``:lcd`` - change to the home directory in the current window
 * ``:lcd -`` - change to the previous directory in the current window
-* ``:lcd {path}`` - change to the given directory in the current window
+* ``:lcd {path}`` - change to the directory in the current window
 * ``:pw[d]`` - show the current working directory
 * ``:tcd`` - change to the home directory in the current tab
 * ``:tcd -`` - change to the previous directory in the current tab
-* ``:tcd {path}`` - change to the given directory in the current tab
+* ``:tcd {path}`` - change to the directory in the current tab
 
 Writing/Quitting
 ----------------
 
 * ``:qa[ll][!]`` - quit all windows and Vim (discard changes with ``!``)
 * ``:q[uit][!]`` - quit the window, may quit Vim (discard changes with ``!``)
-* ``:{range}up[date][!] >> [file]`` - append specific lines if changed to the current or given file (create the file with ``!`` if not exists)
-* ``:{range}up[date][!] [file]`` - write specific lines if changed to the current or given file (override with ``!``)
-* ``:{range}wq[!] [file]`` - write specific lines to the current or given file and quit the window, may quit Vim (override with ``!`` or in the read-only mode)
-* ``:{range}w[rite][!] >> [file]`` - append specific lines to the current or given file (create the file with ``!`` if not exists)
-* ``:{range}w[rite][!] [file]`` - write specific lines to the current or given file (override with ``!``)
-* ``:{range}x[it][!] [file]`` - writhe specific lines to the current or given file and quit the window, may quit Vim (override with ``!`` or in the read-only mode)
-* ``:sav[eas][!] {file}`` - write the buffer to the given file and go on with the new filename (override with ``!``)
-* ``:up[date][!] {file}`` - write the buffer to the given file if changed (override with ``!``)
+* ``:{range}up[date][!] >> [file]`` - append specific lines if changed to the current or file (create the file with ``!`` if not exists)
+* ``:{range}up[date][!] [file]`` - write specific lines if changed to the current or file (override with ``!``)
+* ``:{range}wq[!] [file]`` - write specific lines to the current or file and quit the window, may quit Vim (override with ``!`` or in the read-only mode)
+* ``:{range}w[rite][!] >> [file]`` - append specific lines to the current or file (create the file with ``!`` if not exists)
+* ``:{range}w[rite][!] [file]`` - write specific lines to the current or file (override with ``!``)
+* ``:{range}x[it][!] [file]`` - writhe specific lines to the current or file and quit the window, may quit Vim (override with ``!`` or in the read-only mode)
+* ``:sav[eas][!] {file}`` - write the buffer to the file and go on with the new filename (override with ``!``)
+* ``:up[date][!] {file}`` - write the buffer to the file if changed (override with ``!``)
 * ``:up[date][!]`` - write the buffer to the current file if changed (with ``!`` in the read-only mode)
 * ``:wa[ll][!]`` - write all changed buffers (with ``!`` for read-only buffers)
-* ``:wq[!] {file}`` - write the buffer to the given file and quit the window, may quit Vim (override with ``!``)
+* ``:wq[!] {file}`` - write the buffer to the file and quit the window, may quit Vim (override with ``!``)
 * ``:wq[!]`` - write the buffer to the current file and quit the window, may quit Vim (with ``!`` in the read-only mode)
-* ``:w[rite][!] {file}`` - write the buffer to the given file (override with ``!``)
+* ``:w[rite][!] {file}`` - write the buffer to the file (override with ``!``)
 * ``:w[rite][!]`` - write the buffer to the current file (with ``!`` in the read-only mode)
 * ``:xa[ll][!]`` - write all changed buffers and quit all windows and Vim (with ``!`` for read-only mode)
-* ``:x[it][!] {file}`` - write the buffer to the given file if changed and quit the window, may quit Vim (override with ``!``)
+* ``:x[it][!] {file}`` - write the buffer to the file if changed and quit the window, may quit Vim (override with ``!``)
 * ``:x[it][!]`` - write the buffer to the current file if changed and quit the window, may quit Vim (with ``!`` in the read-only mode)
 * ``ZQ`` - quit the window and discard changes, may quit Vim
 * ``ZZ`` - write the buffer to the current file if changed and quit the window, may quit Vim
@@ -728,7 +728,7 @@ Technicalities
 File Wildcards
 --------------
 
-* ``[{characters}]`` - match any one character from the given characters
+* ``[{characters}]`` - match any one character from the characters
 * ``?`` - match any one character
 * ``*`` - match any one or more characters or nothing
 * ``**`` - match any one or more characters or nothing, walk recursively directories
@@ -752,8 +752,8 @@ Ranges
 * ``-[number]`` - an offset backwards (default 1)
 * ``+[number]`` - an offset forwards (default 1)
 * ``{number}`` - a specific line (from 1 for most use cases, from 0 for searches)
-* ``?{pattern}?`` - a line containing the given pattern backwards
-* ``/{pattern}/`` - a line containing the given pattern forwards
+* ``?{pattern}?`` - a line containing the pattern backwards
+* ``/{pattern}/`` - a line containing the pattern forwards
 * ``.`` - the current line (default when no range set explicitly)
 
 Mark Types

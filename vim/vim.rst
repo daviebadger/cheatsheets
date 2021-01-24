@@ -565,7 +565,7 @@ Options List
 * ``clipboard``, ``cb`` - which register to use for the system clipboard, ``unnamedplus`` for Linux (string, global)
 * ``colorcolumn``, ``cc`` - which columns should be colored (string, default "", local to window)
 * ``directory``, ``dir`` - which directory to use for swap files (string, global)
-* ``expandtab``, ``et`` - whether to insert spaces when pressing TAB (boolean, default off, local to buffer)
+* ``expandtab``, ``et`` - whether to insert spaces while pressing TAB (boolean, default off, local to buffer)
 * ``filetype``, ``ft`` - set a file type if not detected to trigger autocommands (string, local to buffer)
 * ``history``, ``hi`` - how many Command-line commands should be remembered (number, default 50, global)
 * ``hlsearch``, ``hls`` - whether to highlight all search matches, not only one (boolean, default off)
@@ -593,6 +593,17 @@ Options List
 
   * ``exclusive`` - exclude a new line for single line
   * ``inclusive`` - include a new line for single line
+
+* ``shiftwidth``, ``sw`` - how many spaces to use for indenting in Normal or Visual mode (number, default 8, local to bufer)
+* ``smartcase``, ``scs`` - override the ignorecase option if upper case used in a search pattern (boolean, default off, global)
+* ``softtabstop``, ``sts`` - how many spaces to use for indenting in Insert mode (number, default 0, local to buffer)
+* ``splitbelow``, ``sb`` - whether to split a new window horizontally below or above (boolean, default off, global)
+* ``splitright``, ``spr`` - whether to split a new window vertically right or left (boolean, default off, global)
+* ``startofline``, ``sol`` - whether to move :wthe cursor to the first non-blank character for line motions (boolean, default on, global)
+* ``syntax``, ``syn`` - which syntax should be used for highlighting if not detected (string, local to buffer)
+* ``termguicolors``, ``tgc`` - whether to use 24-bit color depth (boolean, default off, global)
+* ``timeoutlen``, ``tm`` - time to wait in milliseconds for mappings (number, default 1000, global)
+* ``ttimeoutlen``, ``ttm`` - time to wait in milliseconds for key codes, e.g. ESC (number, default -1, global)
 
 Tabs
 ----

@@ -358,8 +358,10 @@ Command-Line Completion
 * ``CTRL + d`` - show possible completions
 * ``CTRL + g`` - jump to the next search while staying in Command-Line (incsearch is on)
 * ``CTRL + t`` - jump to the previous search while staying in Command-Line (incsearch is on)
+* ``DOWN`` - move into a parent directory (wildmenu is on)
 * ``SHIFT + TAB`` - complete the last match or choose the previous match (wildchar is TAB)
 * ``TAB`` - complete the first match or choose the next match (wildchar is TAB)
+* ``UP`` - move into a subdirectory (wildmenu is on)
 
 Command-Line Motions
 --------------------

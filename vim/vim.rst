@@ -604,6 +604,10 @@ Options List
 * ``termguicolors``, ``tgc`` - whether to use 24-bit color depth (boolean, default off, global)
 * ``timeoutlen``, ``tm`` - time to wait in milliseconds for mappings (number, default 1000, global)
 * ``ttimeoutlen``, ``ttm`` - time to wait in milliseconds for key codes, e.g. ESC (number, default -1, global)
+* ``wildignore``, ``wig`` - a list of file patterns to ignore when working with files and directories (string, global)
+* ``wildignorecase``, ``wic`` - whether to ignore case in file and directory completions (boolean, default off, global)
+* ``wildmenu``, ``wmnu`` - whether to show possible completions (boolean, default off, global)
+* ``wrap`` - whether to wrap lines longer than the window width (boolean, default on, local to window)
 
 Tabs
 ----

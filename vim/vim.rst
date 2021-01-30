@@ -809,7 +809,31 @@ Register Types
 Search Patterns
 ---------------
 
-TODO
+* ``$`` - end of a line
+* ``\?`` - 0 or 1
+* ``*`` - 0 or more
+* ``\+`` - 1 or more
+* ``\a`` - any alphabetic character
+* ``.`` - any single character
+* ``\C`` - do not ignore case sensitivity (ignore ignorecase option)
+* ``[{characters}]`` - any single character in the characters
+* ``[^{characters}]`` - any single character not in the characters
+* ``\{character}`` - the character literally
+* ``\c`` - ignore case sensitivity (ignore ignorecase option)
+* ``\d`` - any digit character
+* ``\>`` - end of a word
+* ``\f`` - a filename only
+* ``\l`` - any lowercase character
+* ``\n`` - the newline character
+* ``\{number,}`` - at least Nth times
+* ``\{number}`` - exactly Nth times
+* ``\{number,number}`` - at least Nth times, maximally Nth times
+* ``\s`` - any whitespace character
+* ``^`` - start of a line
+* ``\<`` - start of a word
+* ``\t`` - the TAB character
+* ``\u`` - any uppercase character
+* ``\w`` - any alphanumeric character
 
 Substitution Flags
 ------------------
@@ -826,7 +850,7 @@ Substitution Flags
 
 * ``e`` - do not show an error message when no match found
 * ``g`` - substitute all occurrences in a line
-* ``I`` - do not ignore case sensitivity (ignore Vim settings)
-* ``i`` - ignore case sensitivity (ignore Vim settings)
+* ``I`` - do not ignore case sensitivity (ignore ignorecase option)
+* ``i`` - ignore case sensitivity (ignore ignorecase option)
 * ``&`` - keep flags from the last substitution (must be the first flag in order)
 * ``n`` - show a report of potencial matches

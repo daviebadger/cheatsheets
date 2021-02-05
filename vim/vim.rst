@@ -543,7 +543,42 @@ Help
 Key Mappings
 ------------
 
-TODO
+* ``:cmapc[lear]`` - remove all Command-line mode mappings
+* ``:cm[ap] {key} {command}`` - map recursively the Command-line mode key to the command
+* ``:cm[ap] {key}`` - show Command-line mode mappings starting with the key
+* ``:cm[ap]`` - show all Command-line mode mappings
+* ``:cno[remap] {key} {command}`` - map non-recursively the Command-line mode key to the command
+* ``:cu[nmap] {key}`` - remove the Command-line mode mapping
+* ``:imapc[lear]`` - remove all Insert mode mappins
+* ``:im[ap] {key} {command}`` - map recursively the Insert mode key to the command
+* ``:im[ap] {key}`` - show Insert mode mappings starting with the key
+* ``:im[ap]`` - show all Insert mode mappings
+* ``:ino[remap] {key} {command}`` - map non-recursively the Insert mode key to the command
+* ``:iu[nmap] {key}`` - remove the Insert mode mapping
+* ``:mapc[lear]!`` - remove all Insert mode and Command-line mappings
+* ``:mapc[lear]`` - remove all Normal mode and Visual mode mappings
+* ``:map! {key} {command}`` - map recursively the Insert mode and Command-line mode key to the command
+* ``:map {key} {command}`` - map recursively the Normal mode and Visual mode key to the command
+* ``:map! {key}`` - show Insert mode and Command-line mode mappings starting with the key
+* ``:map {key}`` - show Normal mode and Visual mode mappings starting with the key
+* ``:map!`` - show all Insert mode and Command-line mode mappings
+* ``:map`` - show all Normal mode and Visual mode mappings
+* ``:nmapc[lear]`` - remove all Normal mode mappings
+* ``:nm[ap] {key} {command}`` - map recursively the Normal mode key to the command
+* ``:nm[ap] {key}`` - show Normal mode mappings starting with the key
+* ``:nm[ap]`` - show all Normal mode mappings
+* ``:nn[oremap] {key} {command}`` - map non-recursively the Normal mode key to the command
+* ``:no[remap]! {key}`` - map non-recursively the Insert mode and Command-line mode key to the command
+* ``:no[remap] {key}`` - map non-recursively the Normal mode and Visual mode key to the command
+* ``:nun[map] {key}`` - remove the Normal mode mapping
+* ``:unm[ap]! {key}`` - remove the Insert mode and Command-line mode mapping
+* ``:unm[ap] {key}`` - remove the Normal mode and Visual mode mapping
+* ``:xmapc[lear]`` - remove all Visual mode mappings
+* ``:xm[ap] {key} {command}`` - map recursively the Visual mode key to the command
+* ``:xm[ap] {key}`` - show Visual mode mappings starting with the key
+* ``:xm[ap]`` - show all Visual mode mappings
+* ``:xn[oremap] {key} {command}`` - map non-recursively the Visual mode key to the command
+* ``:xu[nmap] {key}`` - remove the Visual mode mapping
 
 Options
 -------

@@ -835,6 +835,7 @@ Register Types
 * ``"0`` - the last yank
 * ``"{1-9}`` - the last delete / change operations (single number, from recent to oldest)
 * ``"_`` - a black hole like ``/dev/null``
+* ``"=`` - a user-defined expression in Command-line mode for evaluation (nothing is stored)
 * ``"{A-Z}`` - appending text to ``"{a-z}`` registers
 * ``"{a-z}`` - user-defined registers (single letter)
 * ``""`` - text from the last ``c`` / ``d`` / ``s`` / ``x`` / ``y`` operation

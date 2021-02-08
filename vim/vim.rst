@@ -446,6 +446,11 @@ Visual Mode Text Objects
 Miscellaneous
 =============
 
+Abbreviations
+-------------
+
+TODO
+
 Buffers
 -------
 

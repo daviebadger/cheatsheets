@@ -4,6 +4,7 @@ My technical cheatsheets of software I have been using:
 
 * [reStructuredText](restructuredtext/restructuredtext.rst)
 * [TOML](toml/toml.rst)
+* [Vim](vim/vim.rst)
 * [YAML](yaml/yaml.rst)
 
 ## License

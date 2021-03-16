@@ -449,7 +449,21 @@ Miscellaneous
 Abbreviations
 -------------
 
-TODO
+* ``:ab[breviate] {abbreviation}`` - show all Insert mode and Command-line mod abbreviations starting with the abbreviation
+* ``:ab[breviate] {abbreviation} {text}`` - abbreviate the text to the abbreviation for Insert mode and Command-line mode
+* ``:ab[breviate]`` - show all Insert mode and Command-line mode abbreviations
+* ``:abc[lear]`` - remove all abbreviations
+* ``:ca[bbrev] {abbreviation}`` - show all Command-line mode abbreviations starting with the abbreviation
+* ``:ca[bbrev] {abbreviation} {text}`` - abbreviate the text to the abbreviation for Command-line mode
+* ``:ca[bbrev]`` - show all Command-line mode abbreviations
+* ``:cabc[clear]`` - remove all Command-line mode abbreviations
+* ``:cuna[bbrev] {abbreviation}`` - remove the abbreviation from Command-line mode
+* ``:ia[bbrev] {abbreviation}`` - show all Insert mode abbreviations starting with the abbreviation
+* ``:ia[bbrev] {abbreviation} {text}`` - abbreviate the text to the abbreviation for Insert mode
+* ``:ia[bbrev]`` - show all Insert mode abbreviations
+* ``:iabc[lear]`` - remove all Insert mode abbreviations
+* ``:iuna[bbrev] {abbreviation}`` - remove the abbreviation from Insert mode
+* ``:una[bbreviate] {abbreviation}`` - remove the abbreviation from Insert mode and Command-line mode
 
 Buffers
 -------
@@ -560,7 +574,7 @@ Key Mappings
 * ``:im[ap]`` - show all Insert mode mappings
 * ``:ino[remap] {key} {command}`` - map non-recursively the Insert mode key to the command
 * ``:iu[nmap] {key}`` - remove the Insert mode mapping
-* ``:mapc[lear]!`` - remove all Insert mode and Command-line mappings
+* ``:mapc[lear]!`` - remove all Insert mode and Command-line mode mappings
 * ``:mapc[lear]`` - remove all Normal mode and Visual mode mappings
 * ``:map! {key} {command}`` - map recursively the Insert mode and Command-line mode key to the command
 * ``:map {key} {command}`` - map recursively the Normal mode and Visual mode key to the command

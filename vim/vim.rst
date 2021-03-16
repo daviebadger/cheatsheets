@@ -327,6 +327,7 @@ Command-Line Commands
 * ``CTRL + r + CTRL + w`` - insert the "word" under the cursor
 * ``CTRL + r + {register}`` - insert a text from the register
 * ``CTRL + u`` - delete to the start of a line
+* ``CTRL + v + CTRL + v`` - disable Command-line abbreviations and key mappings when used somewhere in a word
 * ``CTRL + w`` - delete the current or a previous "word"
 * ``DOWN`` - recall older command in history
 * ``:his[tory] :`` - show command history

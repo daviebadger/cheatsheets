@@ -466,6 +466,11 @@ Abbreviations
 * ``:iuna[bbrev] {abbreviation}`` - remove the abbreviation from Insert mode
 * ``:una[bbreviate] {abbreviation}`` - remove the abbreviation from Insert mode and Command-line mode
 
+Automatic Commands
+------------------
+
+TODO
+
 Buffers
 -------
 

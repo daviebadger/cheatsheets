@@ -525,7 +525,15 @@ CLI Arguments/Options
 Diff
 ----
 
-TODO
+* ``]c`` - go to the next change
+* ``[c`` - go to the previous change
+* ``:diffo[ff]!`` - switch off the diff mode for all windows in the current tab
+* ``:diffo[ff]`` - switch off the diff mode for the current window
+* ``:diffs[plit] {file}`` - open the file horizontally and show diff
+* ``:difft[his]`` - switch on the diff mode for the current window
+* ``:dif[fupdate][!]`` - update diff highlighting and folds (reload files with ``!``)
+* ``:[range]diffg[et] [pattern]`` - change lines in the current buffer to match lines in the other buffer by the pattern
+* ``:[range]diffpu[t] [pattern]`` - change lines in the other buffer by the pattern to match lines in the current buffer
 
 Editing
 -------

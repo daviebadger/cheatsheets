@@ -469,7 +469,14 @@ Abbreviations
 Automatic Commands
 ------------------
 
-TODO
+* ``:aug[roup]`` - show a list of autocommand groups
+* ``:au[tocmd] {event}`` - show a list of autocommands by the event
+* ``:au[tocmd] {group} {event} {pattern}`` - show a list of autocommand by the group and the event and the pattern
+* ``:au[tocmd] {group} {event}`` - show a list of autocommands by the group and the event
+* ``:au[tocmd] {group} * {pattern}`` - show a list of autocommands by the group and the pattern
+* ``:au[tocmd] {group}`` - show a list of autocommands by the group
+* ``:au[tocmd] * {pattern}`` - show a list of autocommands by the pattern
+* ``:au[tocmd]`` - show a list of autocommands
 
 Buffers
 -------
